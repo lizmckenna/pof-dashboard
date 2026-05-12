@@ -441,6 +441,111 @@ def compute_deltas(curr, prev):
         deltas[k] = f"{sign}{diff}"
     return deltas
 
+def resample_to_sundays(history, today):
+    """Resample history to weekly-Sunday snapshots. For each Sunday between the
+    earliest snapshot and today, use the latest snapshot whose date ≤ that Sunday.
+    Append today's snapshot as a final point if it isn't already a Sunday."""
+    if not history: return []
+    from datetime import timedelta, date as date_cls
+    def parse(s): return date_cls.fromisoformat(s) if isinstance(s, str) else s
+    snap_dates = [(parse(h["date"]), h) for h in history]
+    snap_dates.sort(key=lambda x: x[0])
+    first = snap_dates[0][0]
+    # Find first Sunday on or after `first`
+    sunday = first + timedelta(days=(6 - first.weekday()) % 7)
+    points = []
+    while sunday <= today:
+        # Use latest snapshot with date <= sunday
+        usable = [(d, h) for d, h in snap_dates if d <= sunday]
+        if usable:
+            d, h = usable[-1]
+            points.append({**h, "label_date": sunday.isoformat()})
+        sunday += timedelta(days=7)
+    # Append today as final point if today != last Sunday
+    last_sunday = sunday - timedelta(days=7)
+    if last_sunday != today and snap_dates and snap_dates[-1][0] == today:
+        points.append({**snap_dates[-1][1], "label_date": today.isoformat()})
+    return points
+
+def find_week_ago_snapshot(history, today):
+    """Return the snapshot from ~7 days ago for week-over-week deltas."""
+    from datetime import timedelta, date as date_cls
+    if not history: return None
+    target = today - timedelta(days=7)
+    def parse(s): return date_cls.fromisoformat(s) if isinstance(s, str) else s
+    older = [h for h in history if parse(h["date"]) <= target]
+    return older[-1] if older else None
+
+NETWORK_LEAD_INS = {
+    "Chain referral": "the organizing flywheel is the dominant motion — most new prospects come through people the cohort has already met.",
+    "School / PTA": "the cohort is rooted in school communities — most prospects come from parents and teachers in the buildings fellows are working.",
+    "Advocacy / org": "the cohort is plugged into organized advocacy spaces — most prospects come through existing orgs and coalitions.",
+    "Online": "online channels lead — broad reach, less personal warmth. Watch chain referrals to see relationships deepen.",
+    "Event / forum": "events are the dominant entry point — single-shot moments that need follow-up to turn into relationships.",
+    "Friend / family / neighbor": "personal networks are the dominant source — strong starting trust, will need to expand beyond.",
+    "Friend / family": "personal networks are the dominant source — strong starting trust, will need to expand beyond.",
+    "Work": "work relationships lead the cohort's prospect base.",
+    "Church / faith": "faith communities are the dominant source.",
+    "Other": "sources are varied — no single channel dominates.",
+}
+
+def generate_reflection_questions(data, history, today):
+    """Generate dated, data-driven reflection questions."""
+    from datetime import timedelta, date as date_cls
+    # Monday of this week
+    monday = today - timedelta(days=today.weekday())
+    week_ago = find_week_ago_snapshot(history, today)
+    fellows = data["fellows"]
+
+    # Q2: gap-driven — fellows still at zero completed
+    zero_completed = sorted([v["name"] for v in fellows.values()
+                              if v["completed_count"] == 0])
+    # Q3: bright-spot — top performer by completed count this week
+    if week_ago:
+        # We don't have per-fellow last-week data; use current totals as proxy for "this week"
+        pass
+    top = max(fellows.values(), key=lambda v: v["completed_count"]) if fellows else None
+    top_quality = max(fellows.values(),
+                      key=lambda v: (v["notes_count"], v["si_count"])) if fellows else None
+    # Q for notes capture
+    no_notes = [v["name"] for v in fellows.values()
+                 if v["completed_count"] and v["notes_count"] < v["completed_count"]]
+
+    questions = []
+
+    # Q1: always thematic
+    questions.append(
+        "Look at someone whose self-interest you wrote down. What did the act of writing it down teach you about the conversation you actually had?")
+
+    # Q2: data-driven on coverage gap (or notes gap if everyone's started)
+    if zero_completed:
+        names = ", ".join(zero_completed[:3]) + ("…" if len(zero_completed) > 3 else "")
+        questions.append(
+            f"{len(zero_completed)} fellow{'s' if len(zero_completed)!=1 else ''} still at zero 1-on-1s ({names}). What's between you and your first conversation?")
+    elif no_notes:
+        questions.append(
+            f"{len(no_notes)} fellow{'s' if len(no_notes)!=1 else ''} have completed 1-on-1s without notes. What stops you from getting to the spreadsheet after the meeting?")
+    else:
+        questions.append(
+            "Every fellow has logged at least one 1-on-1 with notes. What's the next conversation you've been avoiding?")
+
+    # Q3: data-driven bright spot
+    if top and top["completed_count"] >= 3:
+        questions.append(
+            f"{top['name']} has logged {top['completed_count']} 1-on-1s. What did they figure out that we can borrow?")
+    else:
+        questions.append(
+            "Look at the names on your list. Which of them could you invite to take a specific action this week?")
+
+    # Q4: constant practice prompt
+    questions.append(
+        "What's one 1-on-1 you could do between now and next Monday? Name the person.")
+
+    return {
+        "week_of": monday.strftime("%B %-d, %Y"),
+        "questions": questions,
+    }
+
 def render(data, deltas, history):
     from jinja2 import Environment, FileSystemLoader, select_autoescape
     env = Environment(loader=FileSystemLoader(str(ROOT / "scripts")),
@@ -448,9 +553,25 @@ def render(data, deltas, history):
     env.filters["initial"] = initial
     tpl = env.get_template("template.html")
 
-    # Build chart-ready history series with normalized x/y for SVG.
-    chart_w, chart_h = 700, 200  # viewBox dimensions
-    margin_l, margin_r, margin_t, margin_b = 50, 40, 24, 32
+    # Week-over-week deltas
+    week_ago_snap = find_week_ago_snapshot(history, TODAY)
+    wow = {}
+    for k in ("fellows_with_data", "leaders", "prospects", "completed", "scheduled", "with_notes"):
+        curr_v = data["totals"].get(k, 0)
+        prev_v = (week_ago_snap or {}).get(k, 0)
+        diff = curr_v - prev_v
+        if prev_v == 0:
+            pct = None
+        else:
+            pct = int(round((diff / prev_v) * 100))
+        wow[k] = {"current": curr_v, "prev": prev_v, "diff": diff, "pct": pct}
+
+    # Resample history to weekly-Sunday points for the chart
+    weekly = resample_to_sundays(history, TODAY)
+
+    # Build chart panels from weekly snapshots
+    chart_w, chart_h = 700, 220
+    margin_l, margin_r, margin_t, margin_b = 36, 28, 28, 52  # more bottom for date labels
     plot_w = chart_w - margin_l - margin_r
     plot_h = chart_h - margin_t - margin_b
     series_meta = [
@@ -459,27 +580,30 @@ def render(data, deltas, history):
         ("leaders", "Leaders identified", "#5371ff"),
         ("fellows_with_data", "Fellows w/ data entry", "#f59e0b"),
     ]
-    # Each series gets its own panel for legibility (mini-multiples).
     panels = []
-    if history:
-        # Use date index as x (equal spacing); show date labels below
-        n = len(history)
+    if weekly:
+        n = len(weekly)
         x_step = plot_w / max(1, n - 1) if n > 1 else 0
         for key, label, color in series_meta:
-            vals = [int(h.get(key, 0) or 0) for h in history]
+            vals = [int(h.get(key, 0) or 0) for h in weekly]
             max_v = max(vals) if vals else 1
             if max_v == 0: max_v = 1
             points = []
             for i, v in enumerate(vals):
                 x = margin_l + (i * x_step if n > 1 else plot_w / 2)
                 y = margin_t + plot_h - (v / max_v) * plot_h
+                d = weekly[i]["label_date"]
+                # Format date as M/D
+                mo, dd = d.split("-")[1].lstrip("0"), d.split("-")[2].lstrip("0")
                 points.append({"x": round(x, 1), "y": round(y, 1),
-                               "value": v, "date": history[i]["date"]})
+                               "value": v, "date": d, "label": f"{mo}/{dd}"})
+            wow_diff = vals[-1] - (week_ago_snap or {}).get(key, 0) if week_ago_snap else None
             panels.append({
                 "key": key, "label": label, "color": color,
                 "points": points, "max": max_v,
                 "current": vals[-1], "start": vals[0],
                 "delta": vals[-1] - vals[0],
+                "wow_diff": wow_diff,
             })
 
     chart = {
@@ -488,6 +612,7 @@ def render(data, deltas, history):
         "plot_w": plot_w, "plot_h": plot_h,
         "panels": panels,
         "history": history,
+        "weekly": weekly,
     }
 
     # Sort fellows for grid: completed desc, prospects desc
@@ -524,6 +649,23 @@ def render(data, deltas, history):
     total_sources = sum(data["source_buckets"].values()) or 1
     buckets = sorted(data["source_buckets"].items(), key=lambda x: -x[1])
 
+    # Dynamic network-slide commentary: lead-in adapts to which bucket is on top
+    if buckets:
+        top_label, top_count = buckets[0]
+        top_pct = int(round(top_count / total_sources * 100))
+        lead_in = NETWORK_LEAD_INS.get(top_label, f"{top_label} leads as the dominant source.")
+        network_commentary = {
+            "top_label": top_label,
+            "top_pct": top_pct,
+            "top_count": top_count,
+            "lead_in": lead_in,
+        }
+    else:
+        network_commentary = {"top_label": "", "top_pct": 0, "top_count": 0, "lead_in": ""}
+
+    # Reflection questions (dynamic)
+    reflection = generate_reflection_questions(data, history, TODAY)
+
     return tpl.render(
         d=data,
         deltas=deltas,
@@ -541,6 +683,9 @@ def render(data, deltas, history):
         buckets=buckets,
         total_sources=total_sources,
         chart=chart,
+        wow=wow,
+        network_commentary=network_commentary,
+        reflection=reflection,
     )
 
 # ── MAIN ────────────────────────────────────────────────────────────────────

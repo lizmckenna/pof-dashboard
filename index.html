@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Parent Organizing Fellowship — 3-Week Check-In Dashboard</title>
+<title>Parent Organizing Fellowship — Spring 2026 Dashboard</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 :root {
@@ -28,7 +28,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   scroll-behavior: smooth;
 }
 
@@ -601,8 +601,8 @@ body {
       <line x1="28.35" y1="37.5" x2="15" y2="30" stroke="#5371ff" stroke-width="1" opacity="0.5"/>
       <line x1="28.35" y1="37.5" x2="18" y2="45" stroke="#5371ff" stroke-width="1" opacity="0.5"/>
     </svg>
-    <h1>Parent Organizing Fellowship<br><span>3-Week Check-In</span></h1>
-    <p class="subtitle">Live dashboard &middot; last refreshed May 12, 2026 at 10:04 AM from the cohort Google Sheet</p>
+    <h1>Parent Organizing Fellowship<br><span>Spring 2026</span></h1>
+    <p class="subtitle">Live dashboard &middot; last refreshed May 12, 2026 at 10:15 AM from the cohort Google Sheet</p>
     <div class="cover-stats">
       <div class="cover-stat">
         <div class="num">17</div>
@@ -632,282 +632,254 @@ body {
   <div class="slide-inner">
     <div class="section-badge">Growth Over Time</div>
     <h2 class="section-title">The cohort, building</h2>
-    <p class="section-sub">From 2026-04-30 to 2026-05-12.</p>
+    <p class="section-sub">Weekly snapshots from 2026-05-03 to 2026-05-12.</p>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem;margin-top:1.5rem;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.25rem;margin-top:1.5rem;">
       
-      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 0.5rem;">
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:0.25rem;">
-          <div style="font-weight:700;font-size:0.85rem;color:var(--text-secondary);">Completed 1-on-1s</div>
-          <div style="font-size:1.6rem;font-weight:800;color:#22c55e;">46</div>
+          <div style="font-weight:700;font-size:0.9rem;color:var(--text-secondary);">Completed 1-on-1s</div>
+          <div style="font-size:1.7rem;font-weight:800;color:#22c55e;">46</div>
         </div>
-        <div style="font-size:0.75rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
-          <span style="color:#22c55e;font-weight:600;">+36</span> from 10 at start
+        <div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
+          <span style="color:#22c55e;font-weight:600;">+36 since last week</span>
+          
         </div>
-        <svg viewBox="0 0 700 200" style="width:100%;height:auto;display:block;">
+        <svg viewBox="0 0 700 220" style="width:100%;height:auto;display:block;">
           <!-- baseline -->
-          <line x1="50" y1="168" x2="660" y2="168" stroke="var(--border)" stroke-width="1"/>
-          <!-- area under the line (subtle fill) -->
+          <line x1="36" y1="168" x2="672" y2="168" stroke="var(--border)" stroke-width="1"/>
           
-          <path d="M50.0,168 L50.0,136.7 L355.0,58.4 L660.0,24.0 L660.0,168 Z" fill="#22c55e" opacity="0.08"/>
-          <!-- main line -->
-          <polyline points="50.0,136.7 355.0,58.4 660.0,24.0 " fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M36.0,168 L36.0,137.6 L354.0,61.5 L672.0,28.0 L672.0,168 Z" fill="#22c55e" opacity="0.08"/>
+          <polyline points="36.0,137.6 354.0,61.5 672.0,28.0 " fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
           
-          <!-- snowflake node markers at each data point -->
+          <!-- snowflake nodes -->
           
-          <g transform="translate(50.0,136.7)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#22c55e" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#22c55e" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#22c55e" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#22c55e" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#22c55e"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#22c55e">10</text>
+          <g transform="translate(36.0,137.6)">
+            <circle r="12" fill="white" stroke="#22c55e" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#22c55e" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#22c55e" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#22c55e" stroke-width="1.3"/>
+            <circle r="3.2" fill="#22c55e"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#22c55e">10</text>
           </g>
           
-          <g transform="translate(355.0,58.4)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#22c55e" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#22c55e" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#22c55e" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#22c55e" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#22c55e"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#22c55e">35</text>
+          <g transform="translate(354.0,61.5)">
+            <circle r="12" fill="white" stroke="#22c55e" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#22c55e" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#22c55e" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#22c55e" stroke-width="1.3"/>
+            <circle r="3.2" fill="#22c55e"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#22c55e">35</text>
           </g>
           
-          <g transform="translate(660.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#22c55e" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#22c55e" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#22c55e" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#22c55e" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#22c55e"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#22c55e">46</text>
+          <g transform="translate(672.0,28.0)">
+            <circle r="12" fill="white" stroke="#22c55e" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#22c55e" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#22c55e" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#22c55e" stroke-width="1.3"/>
+            <circle r="3.2" fill="#22c55e"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#22c55e">46</text>
           </g>
           
-          <!-- date labels under each point -->
+          <!-- weekly date labels under each point — large, legible -->
           
-          <text x="50.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">04-30</text>
+          <text x="36.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/3</text>
+          <text x="36.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="355.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-07</text>
+          <text x="354.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/10</text>
+          <text x="354.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="660.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-12</text>
+          <text x="672.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/12</text>
+          <text x="672.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
         </svg>
       </div>
       
-      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 0.5rem;">
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:0.25rem;">
-          <div style="font-weight:700;font-size:0.85rem;color:var(--text-secondary);">Prospects logged</div>
-          <div style="font-size:1.6rem;font-weight:800;color:#8b5cf6;">177</div>
+          <div style="font-weight:700;font-size:0.9rem;color:var(--text-secondary);">Prospects logged</div>
+          <div style="font-size:1.7rem;font-weight:800;color:#8b5cf6;">177</div>
         </div>
-        <div style="font-size:0.75rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
-          <span style="color:#8b5cf6;font-weight:600;">+130</span> from 47 at start
+        <div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
+          <span style="color:#8b5cf6;font-weight:600;">+130 since last week</span>
+          
         </div>
-        <svg viewBox="0 0 700 200" style="width:100%;height:auto;display:block;">
+        <svg viewBox="0 0 700 220" style="width:100%;height:auto;display:block;">
           <!-- baseline -->
-          <line x1="50" y1="168" x2="660" y2="168" stroke="var(--border)" stroke-width="1"/>
-          <!-- area under the line (subtle fill) -->
+          <line x1="36" y1="168" x2="672" y2="168" stroke="var(--border)" stroke-width="1"/>
           
-          <path d="M50.0,168 L50.0,129.8 L355.0,24.0 L660.0,24.0 L660.0,168 Z" fill="#8b5cf6" opacity="0.08"/>
-          <!-- main line -->
-          <polyline points="50.0,129.8 355.0,24.0 660.0,24.0 " fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M36.0,168 L36.0,130.8 L354.0,28.0 L672.0,28.0 L672.0,168 Z" fill="#8b5cf6" opacity="0.08"/>
+          <polyline points="36.0,130.8 354.0,28.0 672.0,28.0 " fill="none" stroke="#8b5cf6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
           
-          <!-- snowflake node markers at each data point -->
+          <!-- snowflake nodes -->
           
-          <g transform="translate(50.0,129.8)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#8b5cf6" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#8b5cf6" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#8b5cf6" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#8b5cf6" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#8b5cf6"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#8b5cf6">47</text>
+          <g transform="translate(36.0,130.8)">
+            <circle r="12" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#8b5cf6" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#8b5cf6" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#8b5cf6" stroke-width="1.3"/>
+            <circle r="3.2" fill="#8b5cf6"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#8b5cf6">47</text>
           </g>
           
-          <g transform="translate(355.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#8b5cf6" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#8b5cf6" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#8b5cf6" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#8b5cf6" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#8b5cf6"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#8b5cf6">177</text>
+          <g transform="translate(354.0,28.0)">
+            <circle r="12" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#8b5cf6" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#8b5cf6" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#8b5cf6" stroke-width="1.3"/>
+            <circle r="3.2" fill="#8b5cf6"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#8b5cf6">177</text>
           </g>
           
-          <g transform="translate(660.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#8b5cf6" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#8b5cf6" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#8b5cf6" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#8b5cf6" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#8b5cf6"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#8b5cf6">177</text>
+          <g transform="translate(672.0,28.0)">
+            <circle r="12" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#8b5cf6" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#8b5cf6" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#8b5cf6" stroke-width="1.3"/>
+            <circle r="3.2" fill="#8b5cf6"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#8b5cf6">177</text>
           </g>
           
-          <!-- date labels under each point -->
+          <!-- weekly date labels under each point — large, legible -->
           
-          <text x="50.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">04-30</text>
+          <text x="36.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/3</text>
+          <text x="36.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="355.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-07</text>
+          <text x="354.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/10</text>
+          <text x="354.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="660.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-12</text>
+          <text x="672.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/12</text>
+          <text x="672.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
         </svg>
       </div>
       
-      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 0.5rem;">
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:0.25rem;">
-          <div style="font-weight:700;font-size:0.85rem;color:var(--text-secondary);">Leaders identified</div>
-          <div style="font-size:1.6rem;font-weight:800;color:#5371ff;">67</div>
+          <div style="font-weight:700;font-size:0.9rem;color:var(--text-secondary);">Leaders identified</div>
+          <div style="font-size:1.7rem;font-weight:800;color:#5371ff;">67</div>
         </div>
-        <div style="font-size:0.75rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
-          <span style="color:#5371ff;font-weight:600;">+58</span> from 9 at start
+        <div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
+          <span style="color:#5371ff;font-weight:600;">+58 since last week</span>
+          
         </div>
-        <svg viewBox="0 0 700 200" style="width:100%;height:auto;display:block;">
+        <svg viewBox="0 0 700 220" style="width:100%;height:auto;display:block;">
           <!-- baseline -->
-          <line x1="50" y1="168" x2="660" y2="168" stroke="var(--border)" stroke-width="1"/>
-          <!-- area under the line (subtle fill) -->
+          <line x1="36" y1="168" x2="672" y2="168" stroke="var(--border)" stroke-width="1"/>
           
-          <path d="M50.0,168 L50.0,148.7 L355.0,24.0 L660.0,24.0 L660.0,168 Z" fill="#5371ff" opacity="0.08"/>
-          <!-- main line -->
-          <polyline points="50.0,148.7 355.0,24.0 660.0,24.0 " fill="none" stroke="#5371ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M36.0,168 L36.0,149.2 L354.0,28.0 L672.0,28.0 L672.0,168 Z" fill="#5371ff" opacity="0.08"/>
+          <polyline points="36.0,149.2 354.0,28.0 672.0,28.0 " fill="none" stroke="#5371ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
           
-          <!-- snowflake node markers at each data point -->
+          <!-- snowflake nodes -->
           
-          <g transform="translate(50.0,148.7)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#5371ff" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#5371ff" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#5371ff" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#5371ff" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#5371ff"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#5371ff">9</text>
+          <g transform="translate(36.0,149.2)">
+            <circle r="12" fill="white" stroke="#5371ff" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#5371ff" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#5371ff" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#5371ff" stroke-width="1.3"/>
+            <circle r="3.2" fill="#5371ff"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#5371ff">9</text>
           </g>
           
-          <g transform="translate(355.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#5371ff" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#5371ff" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#5371ff" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#5371ff" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#5371ff"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#5371ff">67</text>
+          <g transform="translate(354.0,28.0)">
+            <circle r="12" fill="white" stroke="#5371ff" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#5371ff" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#5371ff" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#5371ff" stroke-width="1.3"/>
+            <circle r="3.2" fill="#5371ff"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#5371ff">67</text>
           </g>
           
-          <g transform="translate(660.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#5371ff" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#5371ff" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#5371ff" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#5371ff" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#5371ff"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#5371ff">67</text>
+          <g transform="translate(672.0,28.0)">
+            <circle r="12" fill="white" stroke="#5371ff" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#5371ff" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#5371ff" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#5371ff" stroke-width="1.3"/>
+            <circle r="3.2" fill="#5371ff"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#5371ff">67</text>
           </g>
           
-          <!-- date labels under each point -->
+          <!-- weekly date labels under each point — large, legible -->
           
-          <text x="50.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">04-30</text>
+          <text x="36.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/3</text>
+          <text x="36.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="355.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-07</text>
+          <text x="354.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/10</text>
+          <text x="354.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="660.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-12</text>
+          <text x="672.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/12</text>
+          <text x="672.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
         </svg>
       </div>
       
-      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 0.5rem;">
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;">
         <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:0.25rem;">
-          <div style="font-weight:700;font-size:0.85rem;color:var(--text-secondary);">Fellows w/ data entry</div>
-          <div style="font-size:1.6rem;font-weight:800;color:#f59e0b;">17</div>
+          <div style="font-weight:700;font-size:0.9rem;color:var(--text-secondary);">Fellows w/ data entry</div>
+          <div style="font-size:1.7rem;font-weight:800;color:#f59e0b;">17</div>
         </div>
-        <div style="font-size:0.75rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
-          <span style="color:#f59e0b;font-weight:600;">+9</span> from 8 at start
+        <div style="font-size:0.78rem;color:var(--text-tertiary);margin-bottom:0.5rem;">
+          <span style="color:#f59e0b;font-weight:600;">+9 since last week</span>
+          
         </div>
-        <svg viewBox="0 0 700 200" style="width:100%;height:auto;display:block;">
+        <svg viewBox="0 0 700 220" style="width:100%;height:auto;display:block;">
           <!-- baseline -->
-          <line x1="50" y1="168" x2="660" y2="168" stroke="var(--border)" stroke-width="1"/>
-          <!-- area under the line (subtle fill) -->
+          <line x1="36" y1="168" x2="672" y2="168" stroke="var(--border)" stroke-width="1"/>
           
-          <path d="M50.0,168 L50.0,100.2 L355.0,24.0 L660.0,24.0 L660.0,168 Z" fill="#f59e0b" opacity="0.08"/>
-          <!-- main line -->
-          <polyline points="50.0,100.2 355.0,24.0 660.0,24.0 " fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M36.0,168 L36.0,102.1 L354.0,28.0 L672.0,28.0 L672.0,168 Z" fill="#f59e0b" opacity="0.08"/>
+          <polyline points="36.0,102.1 354.0,28.0 672.0,28.0 " fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
           
-          <!-- snowflake node markers at each data point -->
+          <!-- snowflake nodes -->
           
-          <g transform="translate(50.0,100.2)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#f59e0b" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#f59e0b" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#f59e0b" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#f59e0b" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#f59e0b"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#f59e0b">8</text>
+          <g transform="translate(36.0,102.1)">
+            <circle r="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#f59e0b" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#f59e0b" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#f59e0b" stroke-width="1.3"/>
+            <circle r="3.2" fill="#f59e0b"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#f59e0b">8</text>
           </g>
           
-          <g transform="translate(355.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#f59e0b" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#f59e0b" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#f59e0b" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#f59e0b" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#f59e0b"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#f59e0b">17</text>
+          <g transform="translate(354.0,28.0)">
+            <circle r="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#f59e0b" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#f59e0b" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#f59e0b" stroke-width="1.3"/>
+            <circle r="3.2" fill="#f59e0b"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#f59e0b">17</text>
           </g>
           
-          <g transform="translate(660.0,24.0)">
-            <!-- subtle white halo for readability -->
-            <circle r="11" fill="white" stroke="#f59e0b" stroke-width="2"/>
-            <!-- 6-pointed snowflake spokes -->
-            <line x1="0" y1="-6" x2="0" y2="6" stroke="#f59e0b" stroke-width="1.2"/>
-            <line x1="-5.2" y1="-3" x2="5.2" y2="3" stroke="#f59e0b" stroke-width="1.2"/>
-            <line x1="-5.2" y1="3" x2="5.2" y2="-3" stroke="#f59e0b" stroke-width="1.2"/>
-            <!-- center dot -->
-            <circle r="3" fill="#f59e0b"/>
-            <!-- value label above -->
-            <text x="0" y="-16" text-anchor="middle" font-size="11" font-weight="700" fill="#f59e0b">17</text>
+          <g transform="translate(672.0,28.0)">
+            <circle r="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+            <line x1="0" y1="-7" x2="0" y2="7" stroke="#f59e0b" stroke-width="1.3"/>
+            <line x1="-6" y1="-3.5" x2="6" y2="3.5" stroke="#f59e0b" stroke-width="1.3"/>
+            <line x1="-6" y1="3.5" x2="6" y2="-3.5" stroke="#f59e0b" stroke-width="1.3"/>
+            <circle r="3.2" fill="#f59e0b"/>
+            <!-- value label above the node -->
+            <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="#f59e0b">17</text>
           </g>
           
-          <!-- date labels under each point -->
+          <!-- weekly date labels under each point — large, legible -->
           
-          <text x="50.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">04-30</text>
+          <text x="36.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/3</text>
+          <text x="36.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="355.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-07</text>
+          <text x="354.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/10</text>
+          <text x="354.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
-          <text x="660.0" y="190" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">05-12</text>
+          <text x="672.0" y="186" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">5/12</text>
+          <text x="672.0" y="201" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
           
         </svg>
       </div>
@@ -915,7 +887,7 @@ body {
     </div>
 
     <div style="margin-top:1.5rem;padding:1rem 1.25rem;background:var(--accent-muted);border:1px solid var(--accent-border);border-radius:12px;font-size:0.9rem;color:var(--text-secondary);line-height:1.55;">
-      <strong style="color:var(--text-primary);">How to read this.</strong> Each snowflake is one dashboard build — a snapshot of the cohort on that day. The line is the cohort, growing.
+      <strong style="color:var(--text-primary);">How to read this.</strong> Each snowflake is one Sunday's snapshot — the cohort's state at the close of that week. The chart fills in another point every Sunday night after fellows enter their data.
     </div>
   </div>
   <div class="slide-footer">GROUNDWORK &middot; PARENT ORGANIZING FELLOWSHIP</div>
@@ -927,24 +899,38 @@ body {
 <div class="slide" id="overview">
   <div class="slide-inner">
     <div class="section-badge">Cohort Snapshot</div>
-    <h2 class="section-title">Where we are after week three</h2>
-    <p class="section-sub">The practice of organizing starts with 1-on-1 conversations. Here's what the data shows about our cohort's first three weeks.</p>
+    <h2 class="section-title">Where the cohort is</h2>
+    <p class="section-sub">The practice of organizing starts with 1-on-1 conversations. Here's what the data shows.</p>
 
+    
     <div class="agg-grid">
       <div class="agg-card">
         <div class="num accent">17 <span style="font-size:1.2rem;color:var(--text-tertiary)">/ 17</span></div>
         <div class="lbl">Fellows entered data</div>
-        <div style="font-size:0.75rem;color:var(--success);font-weight:600;margin-top:0.4rem;">0 since last build</div>
+        
+      
+      <div style="font-size:0.75rem;color:var(--success);font-weight:600;margin-top:0.4rem;">+9 (112%) since last week</div>
+      
+    
       </div>
       <div class="agg-card">
         <div class="num success">46</div>
         <div class="lbl">1-on-1s completed</div>
-        <div style="font-size:0.75rem;color:var(--success);font-weight:600;margin-top:0.4rem;">0 &middot; 2 scheduled</div>
+        
+      
+      <div style="font-size:0.75rem;color:var(--success);font-weight:600;margin-top:0.4rem;">+36 (360%) since last week</div>
+      
+    
+        <div style="font-size:0.7rem;color:var(--text-tertiary);font-weight:500;margin-top:0.15rem;">2 scheduled</div>
       </div>
       <div class="agg-card">
         <div class="num accent">67</div>
         <div class="lbl">Leaders on leader lists</div>
-        <div style="font-size:0.75rem;color:var(--success);font-weight:600;margin-top:0.4rem;">0 since last build</div>
+        
+      
+      <div style="font-size:0.75rem;color:var(--success);font-weight:600;margin-top:0.4rem;">+58 (644%) since last week</div>
+      
+    
       </div>
     </div>
 
@@ -2491,7 +2477,7 @@ body {
 <div class="slide" id="approaches">
   <div class="slide-inner">
     <div style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.25rem;">
-      <div style="font-size:0.75rem;color:var(--text-tertiary);font-weight:500;">POF Fellowship &middot; 3-Week Check-In</div>
+      <div style="font-size:0.75rem;color:var(--text-tertiary);font-weight:500;">POF Fellowship &middot; Spring 2026</div>
       <div class="slide-counter">08 / 10</div>
     </div>
     <h2 class="section-title">Three fellows, three approaches</h2>
@@ -2534,7 +2520,7 @@ body {
   <div class="slide-inner">
     <div class="section-badge">Network patterns</div>
     <h2 class="section-title">How prospects become 1-on-1s</h2>
-    <p class="section-sub">133 referral sources logged. The organizing flywheel is starting — 18% of all prospects came from chain referrals (people the cohort already met).</p>
+    <p class="section-sub">133 referral sources logged. Top channel: <strong>Chain referral</strong> at 20% — the organizing flywheel is the dominant motion — most new prospects come through people the cohort has already met.</p>
 
     <!-- SOURCE BREAKDOWN -->
     <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-top:1.5rem;">
@@ -2775,27 +2761,32 @@ body {
 <!-- ════════════════════════════════════════════════ -->
 <div class="slide" id="reflection">
   <div class="slide-inner">
-    <div class="section-badge">Tonight's Reflection</div>
+    <div class="section-badge">Week of May 11, 2026</div>
     <h2 class="section-title">Questions for the room</h2>
-    <p class="section-sub">This data isn't about compliance. It's about building a practice you can see, coach, and grow.</p>
+    <p class="section-sub">Generated from the data as of May 12, 2026 at 10:15 AM. New questions every Monday after Sunday-night entry.</p>
 
     <ul class="reflection-list">
+      
       <li>
         <span class="q-num">01</span>
         Look at someone whose self-interest you wrote down. What did the act of writing it down teach you about the conversation you actually had?
       </li>
+      
       <li>
         <span class="q-num">02</span>
-        177 prospects listed, 37 done, 10 scheduled. What's the gap for you — calendar, courage, or unclear who counts?
+        3 fellows still at zero 1-on-1s (Ashley S, Brianna, Judy). What&#39;s between you and your first conversation?
       </li>
+      
       <li>
         <span class="q-num">03</span>
-        Look at the names on your list. Which of them could you invite to take a specific action this week?
+        David has logged 12 1-on-1s. What did they figure out that we can borrow?
       </li>
+      
       <li>
         <span class="q-num">04</span>
-        What's one 1-on-1 you could do between now and next week's session? Name the person.
+        What&#39;s one 1-on-1 you could do between now and next Monday? Name the person.
       </li>
+      
     </ul>
 
     <div style="margin-top:2.5rem;padding:1.5rem;background:var(--accent-muted);border:1px solid var(--accent-border);border-radius:12px;text-align:center;">
