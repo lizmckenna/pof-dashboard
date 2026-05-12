@@ -666,10 +666,14 @@ body {
             <text x="0" y="-18" text-anchor="middle" font-size="13" font-weight="800" fill="{{ p.color }}">{{ pt.value }}</text>
           </g>
           {% endfor %}
-          <!-- weekly date labels under each point — large, legible -->
+          <!-- tick marks below each point -->
           {% for pt in p.points %}
-          <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 18 }}" text-anchor="middle" font-size="13" font-weight="600" fill="var(--text-secondary)">{{ pt.label }}</text>
-          <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 33 }}" text-anchor="middle" font-size="10" fill="var(--text-tertiary)">Sun</text>
+          <line x1="{{ pt.x }}" y1="{{ chart.h - chart.margin.b }}" x2="{{ pt.x }}" y2="{{ chart.h - chart.margin.b + 6 }}" stroke="var(--border)" stroke-width="1"/>
+          {% endfor %}
+          <!-- weekly date labels: "Sun" line on top, "Apr 19" on bottom — bigger, legible -->
+          {% for pt in p.points %}
+          <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 22 }}" text-anchor="middle" font-size="11" font-weight="500" fill="var(--text-tertiary)">Sun</text>
+          <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 42 }}" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-secondary)">{{ pt.label }}</text>
           {% endfor %}
         </svg>
       </div>

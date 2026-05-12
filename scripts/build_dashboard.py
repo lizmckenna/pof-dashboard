@@ -441,30 +441,32 @@ def compute_deltas(curr, prev):
         deltas[k] = f"{sign}{diff}"
     return deltas
 
+COHORT_START = dt.date(2026, 4, 19)  # Sunday before fellowship data entry began
+
 def resample_to_sundays(history, today):
-    """Resample history to weekly-Sunday snapshots. For each Sunday between the
-    earliest snapshot and today, use the latest snapshot whose date ≤ that Sunday.
-    Append today's snapshot as a final point if it isn't already a Sunday."""
-    if not history: return []
-    from datetime import timedelta, date as date_cls
-    def parse(s): return date_cls.fromisoformat(s) if isinstance(s, str) else s
-    snap_dates = [(parse(h["date"]), h) for h in history]
-    snap_dates.sort(key=lambda x: x[0])
-    first = snap_dates[0][0]
-    # Find first Sunday on or after `first`
-    sunday = first + timedelta(days=(6 - first.weekday()) % 7)
+    """Return weekly-Sunday snapshots from COHORT_START through the most recent
+    Sunday on or before today. For each Sunday, use the latest snapshot whose
+    date ≤ that Sunday; if none exists yet, emit a zero baseline so growth from
+    zero is visible."""
+    from datetime import timedelta
+    def parse(s): return dt.date.fromisoformat(s) if isinstance(s, str) else s
+    snap_dates = sorted([(parse(h["date"]), h) for h in (history or [])],
+                         key=lambda x: x[0])
+    zero_template = {"fellows": 0, "fellows_with_data": 0, "fellows_with_completed": 0,
+                     "leaders": 0, "leaders_ranked": 0, "prospects": 0,
+                     "completed": 0, "scheduled": 0, "with_notes": 0, "with_si": 0}
     points = []
-    while sunday <= today:
-        # Use latest snapshot with date <= sunday
-        usable = [(d, h) for d, h in snap_dates if d <= sunday]
+    sunday = COHORT_START
+    # Most recent Sunday on or before today
+    last_sunday = today - timedelta(days=(today.weekday() + 1) % 7)
+    while sunday <= last_sunday:
+        usable = [h for d, h in snap_dates if d <= sunday]
         if usable:
-            d, h = usable[-1]
-            points.append({**h, "label_date": sunday.isoformat()})
+            points.append({**usable[-1], "label_date": sunday.isoformat()})
+        else:
+            points.append({**zero_template, "date": sunday.isoformat(),
+                           "label_date": sunday.isoformat()})
         sunday += timedelta(days=7)
-    # Append today as final point if today != last Sunday
-    last_sunday = sunday - timedelta(days=7)
-    if last_sunday != today and snap_dates and snap_dates[-1][0] == today:
-        points.append({**snap_dates[-1][1], "label_date": today.isoformat()})
     return points
 
 def find_week_ago_snapshot(history, today):
@@ -570,8 +572,8 @@ def render(data, deltas, history):
     weekly = resample_to_sundays(history, TODAY)
 
     # Build chart panels from weekly snapshots
-    chart_w, chart_h = 700, 220
-    margin_l, margin_r, margin_t, margin_b = 36, 28, 28, 52  # more bottom for date labels
+    chart_w, chart_h = 700, 260
+    margin_l, margin_r, margin_t, margin_b = 40, 36, 32, 76  # generous bottom for legible date labels
     plot_w = chart_w - margin_l - margin_r
     plot_h = chart_h - margin_t - margin_b
     series_meta = [
@@ -593,10 +595,10 @@ def render(data, deltas, history):
                 x = margin_l + (i * x_step if n > 1 else plot_w / 2)
                 y = margin_t + plot_h - (v / max_v) * plot_h
                 d = weekly[i]["label_date"]
-                # Format date as M/D
-                mo, dd = d.split("-")[1].lstrip("0"), d.split("-")[2].lstrip("0")
+                label_dt = dt.date.fromisoformat(d)
                 points.append({"x": round(x, 1), "y": round(y, 1),
-                               "value": v, "date": d, "label": f"{mo}/{dd}"})
+                               "value": v, "date": d,
+                               "label": label_dt.strftime("%b %-d")})
             wow_diff = vals[-1] - (week_ago_snap or {}).get(key, 0) if week_ago_snap else None
             panels.append({
                 "key": key, "label": label, "color": color,
