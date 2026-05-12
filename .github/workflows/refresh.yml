@@ -1,0 +1,40 @@
+name: Refresh dashboard
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch:  # manual button from Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build dashboard
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/build_dashboard.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "pof-dashboard-bot"
+          git config user.email "actions@github.com"
+          git add index.html data/
+          if ! git diff --cached --quiet; then
+            git commit -m "auto-refresh dashboard $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
