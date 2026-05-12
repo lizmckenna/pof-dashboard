@@ -45,18 +45,31 @@ body {
   width: 100vw;
   min-height: 100vh;
   min-height: 100dvh;
-  padding: clamp(2rem, 5vw, 5rem);
+  padding: clamp(1.5rem, 5vw, 5rem) clamp(1.25rem, 5vw, 5rem);
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow-x: hidden;  /* never allow horizontal scroll on a slide */
 }
 
 .slide-inner {
   max-width: 1100px;
   width: 100%;
+}
+
+/* ── CARD GRIDS — capped column width, centered ───────────────── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 380px));
+  gap: 1.25rem;
+  justify-content: center;
+  width: 100%;
+}
+.card-grid > * {
+  min-width: 0;  /* prevent grid items from forcing wider columns */
 }
 
 /* ── COVER ──────────────────────────────────────── */
@@ -503,6 +516,25 @@ body {
   .quality-table th, .quality-table td {
     padding: 0.4rem 0.5rem;
   }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+  /* Tables don't overflow */
+  table { font-size: 0.85rem; }
+}
+
+@media (max-width: 480px) {
+  .cover h1 { font-size: 1.8rem; }
+  .cover-stats { gap: 1rem; }
+  .cover-stat .num { font-size: 1.8rem; }
+  .agg-card .num { font-size: 1.6rem; }
+  .bar-label { width: 60px; font-size: 0.7rem; }
+  .approach-name { font-size: 1.3rem; }
+  /* Tighten any inline-styled cards' padding */
+  .card-grid > div { padding: 1.1rem !important; }
 }
 
 /* ── SCROLL NAV DOTS ────────────────────────────── */
@@ -602,7 +634,7 @@ body {
       <line x1="28.35" y1="37.5" x2="18" y2="45" stroke="#5371ff" stroke-width="1" opacity="0.5"/>
     </svg>
     <h1>Parent Organizing Fellowship<br><span>Spring 2026</span></h1>
-    <p class="subtitle">Live dashboard &middot; last refreshed May 12, 2026 at 10:21 AM from the cohort Google Sheet</p>
+    <p class="subtitle">Live dashboard &middot; last refreshed May 12, 2026 at 10:30 AM from the cohort Google Sheet</p>
     <div class="cover-stats">
       <div class="cover-stat">
         <div class="num">17</div>
@@ -1872,7 +1904,7 @@ body {
     <h2 class="section-title">Voices from the 46 completed 1-on-1s</h2>
     <p class="section-sub">What people actually want. 5 examples — names abbreviated since these are fellows' write-ups, not direct quotes.</p>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.25rem;">
+    <div class="card-grid">
       
       <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;display:flex;flex-direction:column;">
         <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.2rem;">
@@ -2292,7 +2324,7 @@ body {
       </div>
     </div>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;">
+    <div class="card-grid">
       
       <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;">
         <div style="font-weight:800;font-size:1.1rem;margin-bottom:0.25rem;">David</div>
@@ -2707,7 +2739,7 @@ body {
     <!-- WHERE CHAINS ARE FORMING -->
     <h3 style="font-size:1.1rem;font-weight:800;margin-top:2.25rem;margin-bottom:1rem;">Where chains are forming</h3>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:1rem;">
+    <div class="card-grid">
 
       
       
@@ -2855,7 +2887,7 @@ body {
   <div class="slide-inner">
     <div class="section-badge">Week of May 11, 2026</div>
     <h2 class="section-title">Questions for the room</h2>
-    <p class="section-sub">Generated from the data as of May 12, 2026 at 10:21 AM. New questions every Monday after Sunday-night entry.</p>
+    <p class="section-sub">Generated from the data as of May 12, 2026 at 10:30 AM. New questions every Monday after Sunday-night entry.</p>
 
     <ul class="reflection-list">
       
