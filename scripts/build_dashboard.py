@@ -441,12 +441,54 @@ def compute_deltas(curr, prev):
         deltas[k] = f"{sign}{diff}"
     return deltas
 
-def render(data, deltas):
+def render(data, deltas, history):
     from jinja2 import Environment, FileSystemLoader, select_autoescape
     env = Environment(loader=FileSystemLoader(str(ROOT / "scripts")),
                       autoescape=select_autoescape(["html"]))
     env.filters["initial"] = initial
     tpl = env.get_template("template.html")
+
+    # Build chart-ready history series with normalized x/y for SVG.
+    chart_w, chart_h = 700, 200  # viewBox dimensions
+    margin_l, margin_r, margin_t, margin_b = 50, 40, 24, 32
+    plot_w = chart_w - margin_l - margin_r
+    plot_h = chart_h - margin_t - margin_b
+    series_meta = [
+        ("completed", "Completed 1-on-1s", "#22c55e"),
+        ("prospects", "Prospects logged", "#8b5cf6"),
+        ("leaders", "Leaders identified", "#5371ff"),
+        ("fellows_with_data", "Fellows w/ data entry", "#f59e0b"),
+    ]
+    # Each series gets its own panel for legibility (mini-multiples).
+    panels = []
+    if history:
+        # Use date index as x (equal spacing); show date labels below
+        n = len(history)
+        x_step = plot_w / max(1, n - 1) if n > 1 else 0
+        for key, label, color in series_meta:
+            vals = [int(h.get(key, 0) or 0) for h in history]
+            max_v = max(vals) if vals else 1
+            if max_v == 0: max_v = 1
+            points = []
+            for i, v in enumerate(vals):
+                x = margin_l + (i * x_step if n > 1 else plot_w / 2)
+                y = margin_t + plot_h - (v / max_v) * plot_h
+                points.append({"x": round(x, 1), "y": round(y, 1),
+                               "value": v, "date": history[i]["date"]})
+            panels.append({
+                "key": key, "label": label, "color": color,
+                "points": points, "max": max_v,
+                "current": vals[-1], "start": vals[0],
+                "delta": vals[-1] - vals[0],
+            })
+
+    chart = {
+        "w": chart_w, "h": chart_h,
+        "margin": {"l": margin_l, "r": margin_r, "t": margin_t, "b": margin_b},
+        "plot_w": plot_w, "plot_h": plot_h,
+        "panels": panels,
+        "history": history,
+    }
 
     # Sort fellows for grid: completed desc, prospects desc
     fellows_sorted = sorted(data["fellows"].values(),
@@ -486,6 +528,7 @@ def render(data, deltas):
         d=data,
         deltas=deltas,
         today=TODAY,
+        built_at=dt.datetime.now().strftime("%b %-d, %Y at %-I:%M %p"),
         fellows_sorted=fellows_sorted,
         bar_fellows=bar_fellows,
         max_prospects=max_prospects,
@@ -497,9 +540,32 @@ def render(data, deltas):
         chain_cards=chain_cards,
         buckets=buckets,
         total_sources=total_sources,
+        chart=chart,
     )
 
 # ── MAIN ────────────────────────────────────────────────────────────────────
+
+def load_history():
+    """Return list of {date, fellows_with_data, completed, prospects, leaders, ...} snapshots."""
+    history_path = DATA_DIR / "history.jsonl"
+    if not history_path.exists(): return []
+    out = []
+    for line in history_path.read_text().splitlines():
+        if line.strip():
+            out.append(json.loads(line))
+    out.sort(key=lambda h: h.get("date", ""))
+    return out
+
+def save_history(data):
+    history_path = DATA_DIR / "history.jsonl"
+    history = load_history()
+    snapshot = {"date": TODAY.isoformat(), **data["totals"]}
+    history = [h for h in history if h.get("date") != snapshot["date"]]
+    history.append(snapshot)
+    history.sort(key=lambda h: h["date"])
+    history_path.write_text("\n".join(json.dumps(h) for h in history) + "\n")
+    print(f"→ Wrote {history_path} ({len(history)} snapshots)", file=sys.stderr)
+    return history
 
 def main():
     print(f"Building POF dashboard for {TODAY}", file=sys.stderr)
@@ -523,19 +589,19 @@ def main():
         prev = json.loads(prev_path.read_text())
     deltas = compute_deltas(data, prev)
 
-    # Render
-    html = render(data, deltas)
-    OUTPUT_HTML.write_text(html)
-    print(f"→ Wrote {OUTPUT_HTML}", file=sys.stderr)
-
-    # Persist
+    # Persist data + append snapshot to history BEFORE rendering so the chart includes today.
     DATA_DIR.mkdir(exist_ok=True)
     curr_path = DATA_DIR / "data.json"
-    # Promote current → previous on next run
     if curr_path.exists():
         prev_path.write_text(curr_path.read_text())
     curr_path.write_text(json.dumps(data, indent=2, default=str))
     print(f"→ Wrote {curr_path}", file=sys.stderr)
+    history = save_history(data)
+
+    # Render
+    html = render(data, deltas, history)
+    OUTPUT_HTML.write_text(html)
+    print(f"→ Wrote {OUTPUT_HTML}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
