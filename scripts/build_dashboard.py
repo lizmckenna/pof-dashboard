@@ -718,6 +718,13 @@ def main():
     print(f"Building POF dashboard for {TODAY}", file=sys.stderr)
     workbook = load_workbook_sheets()
     if workbook is None:
+        if os.environ.get("CI"):
+            # On GitHub Actions without the secret, skip rather than crash. The site
+            # stays at whatever it last looked like until the service account is set up.
+            print("→ No GOOGLE_SERVICE_ACCOUNT_JSON in CI environment — skipping build.",
+                  file=sys.stderr)
+            print("→ Follow scripts/SETUP.md to wire up live data.", file=sys.stderr)
+            return
         print("→ Using local xlsx (no GOOGLE_SERVICE_ACCOUNT_JSON set)", file=sys.stderr)
         workbook = load_workbook_local()
     else:
