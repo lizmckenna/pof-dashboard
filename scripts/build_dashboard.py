@@ -21,7 +21,15 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
-TODAY = dt.date.today()
+def _now_eastern():
+    """Current time in America/New_York. Falls back to UTC-4 if zoneinfo unavailable."""
+    try:
+        from zoneinfo import ZoneInfo
+        return dt.datetime.now(ZoneInfo("America/New_York"))
+    except Exception:
+        return dt.datetime.utcnow() - dt.timedelta(hours=4)
+
+TODAY = _now_eastern().date()
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 TEMPLATE = ROOT / "scripts" / "template.html"
@@ -514,11 +522,37 @@ def generate_reflection_questions(data, history, today):
     no_notes = [v["name"] for v in fellows.values()
                  if v["completed_count"] and v["notes_count"] < v["completed_count"]]
 
+    # Extra signals for data-driven prompts
+    totals = data.get("totals", {})
+    week_ago_completed = (week_ago or {}).get("completed", 0) if week_ago else None
+    week_ago_prospects = (week_ago or {}).get("prospects", 0) if week_ago else None
+    completed_now = totals.get("completed", 0)
+    prospects_now = totals.get("prospects", 0)
+    with_si = totals.get("with_si", 0)
+    si_pct = round((with_si / completed_now) * 100) if completed_now else 0
+    # Top chain-referral hub (organizing flywheel)
+    chain_leaders = sorted(
+        [v for v in fellows.values() if v.get("chains")],
+        key=lambda v: sum(len(refs) for _, refs in v["chains"]),
+        reverse=True,
+    )
+    top_chain = chain_leaders[0] if chain_leaders else None
+    top_chain_refs = sum(len(refs) for _, refs in top_chain["chains"]) if top_chain else 0
+    # Cohort-overlap signal: schools with 2+ fellows
+    overlap_schools = data.get("overlap_schools") or {}
+
     questions = []
 
-    # Q1: always thematic
-    questions.append(
-        "Look at someone whose self-interest you wrote down. What did the act of writing it down teach you about the conversation you actually had?")
+    # Q1: self-interest capture quality (data-driven, replaces former static thematic)
+    if completed_now and si_pct < 70:
+        questions.append(
+            f"Only {with_si} of {completed_now} completed 1-on-1s ({si_pct}%) have self-interest written down. What's getting in the way of capturing it?")
+    elif completed_now:
+        questions.append(
+            f"{with_si} of {completed_now} completed 1-on-1s ({si_pct}%) have self-interest captured. Look at one you wrote down — what did naming it teach you about the conversation?")
+    else:
+        questions.append(
+            "Before your first 1-on-1: what self-interest do you expect to hear, and what would surprise you?")
 
     # Q2: data-driven on coverage gap (or notes gap if everyone's started)
     if zero_completed:
@@ -532,17 +566,30 @@ def generate_reflection_questions(data, history, today):
         questions.append(
             "Every fellow has logged at least one 1-on-1 with notes. What's the next conversation you've been avoiding?")
 
-    # Q3: data-driven bright spot
-    if top and top["completed_count"] >= 3:
+    # Q3: data-driven bright spot — prefer chain-referral hub, fall back to volume
+    if top_chain and top_chain_refs >= 2:
+        questions.append(
+            f"{top_chain['name']}'s 1-on-1s have produced {top_chain_refs} chain referrals — the flywheel is turning. What's {top_chain['name'].split()[0]} doing that the rest of us could borrow?")
+    elif top and top["completed_count"] >= 3:
         questions.append(
             f"{top['name']} has logged {top['completed_count']} 1-on-1s. What did they figure out that we can borrow?")
     else:
         questions.append(
             "Look at the names on your list. Which of them could you invite to take a specific action this week?")
 
-    # Q4: constant practice prompt
-    questions.append(
-        "What's one 1-on-1 you could do between now and next Monday? Name the person.")
+    # Q4: forward-looking, data-driven on momentum + overlap
+    if week_ago_completed is not None and completed_now > week_ago_completed:
+        delta = completed_now - week_ago_completed
+        questions.append(
+            f"The cohort logged {delta} new 1-on-1{'s' if delta != 1 else ''} this week. What's one more you can land before next Monday — and who is it?")
+    elif overlap_schools:
+        first_school = next(iter(overlap_schools))
+        pair = " and ".join(overlap_schools[first_school][:2])
+        questions.append(
+            f"{len(overlap_schools)} schools have two or more fellows working the same building (e.g. {pair} at {first_school.title()}). Who could you pair with this week?")
+    else:
+        questions.append(
+            f"You have {prospects_now} prospects logged. Which one becomes a 1-on-1 before next Monday — name them now.")
 
     return {
         "week_of": monday.strftime("%B %-d, %Y"),
@@ -600,12 +647,15 @@ def render(data, deltas, history):
                 points.append({"x": round(x, 1), "y": round(y, 1),
                                "value": v, "date": d,
                                "label": label_dt.strftime("%b %-d")})
-            wow_diff = vals[-1] - (week_ago_snap or {}).get(key, 0) if week_ago_snap else None
+            # Big number = today's live value, not the last Sunday snapshot
+            # (the Sunday-aligned point can repeat last week's data and mask real change).
+            current_v = int(data["totals"].get(key, 0) or 0)
+            wow_diff = current_v - (week_ago_snap or {}).get(key, 0) if week_ago_snap else None
             panels.append({
                 "key": key, "label": label, "color": color,
                 "points": points, "max": max_v,
-                "current": vals[-1], "start": vals[0],
-                "delta": vals[-1] - vals[0],
+                "current": current_v, "start": vals[0],
+                "delta": current_v - vals[0],
                 "wow_diff": wow_diff,
             })
 
@@ -673,7 +723,7 @@ def render(data, deltas, history):
         d=data,
         deltas=deltas,
         today=TODAY,
-        built_at=dt.datetime.now().strftime("%b %-d, %Y at %-I:%M %p"),
+        built_at=_now_eastern().strftime("%b %-d, %Y at %-I:%M %p ET"),
         fellows_sorted=fellows_sorted,
         bar_fellows=bar_fellows,
         max_prospects=max_prospects,
