@@ -143,6 +143,9 @@ def load_workbook_sheets():
     gc = gspread.authorize(creds)
     return gc.open_by_key(SHEET_ID)
 
+# Fellows who have left the cohort — excluded from all dashboard sections.
+DROPPED_FELLOWS = {"Kendra"}
+
 def fellow_names(workbook):
     """Return sorted list of fellow names from tab names like 'David - Leader list'."""
     if hasattr(workbook, "sheetnames"):  # openpyxl
@@ -154,6 +157,7 @@ def fellow_names(workbook):
         if " - " not in s: continue
         name, kind = s.split(" - ", 1)
         if name == "TEMPLATE": continue
+        if name in DROPPED_FELLOWS: continue
         fellows.add(name)
     return sorted(fellows)
 
