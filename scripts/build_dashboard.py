@@ -578,11 +578,16 @@ def generate_reflection_questions(data, history, today):
         questions.append(
             "Before your first 1-on-1: what self-interest do you expect to hear, and what would surprise you?")
 
-    # Q2: data-driven on coverage gap (or notes gap if everyone's started)
+    # Q2: data-driven on coverage gap (or notes gap if everyone's started).
+    # We deliberately do NOT name fellows here — surfaces patterns, not pressure.
     if zero_completed:
-        names = ", ".join(zero_completed[:3]) + ("…" if len(zero_completed) > 3 else "")
-        questions.append(
-            f"{len(zero_completed)} fellow{'s' if len(zero_completed)!=1 else ''} still at zero 1-on-1s ({names}). What's between you and your first conversation?")
+        n = len(zero_completed)
+        if n == 1:
+            questions.append(
+                "One fellow hasn't logged a 1-on-1 yet. What's between you and your first conversation?")
+        else:
+            questions.append(
+                f"{n} fellows haven't logged a 1-on-1 yet. What's between you and your first conversation?")
     elif no_notes:
         questions.append(
             f"{len(no_notes)} fellow{'s' if len(no_notes)!=1 else ''} have completed 1-on-1s without notes. What stops you from getting to the spreadsheet after the meeting?")

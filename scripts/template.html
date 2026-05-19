@@ -1078,22 +1078,36 @@ body {
     <div class="card-grid">
 
       {% for v in chain_cards %}
-      {# Hub coordinates: 6 positions around a center node #}
-      {% set positions = [(160, 35, 17, 14), (245, 55, 19, 16), (280, 110, 20, 17),
-                          (245, 170, 17, 14), (75, 170, 17, 14), (40, 110, 17, 14)] %}
+      {# Hub coordinates: (hubx, huby, ring_r, hub_r, line_start_x, line_start_y, line_end_x, line_end_y).
+         Line endpoints are pre-trimmed so edges meet the central node and hub at their
+         circumferences instead of running over them. #}
+      {% set positions = [
+        (160, 35,  17, 14, 160, 88, 160, 49),
+        (245, 55,  19, 16, 179, 98, 232, 64),
+        (280, 110, 20, 17, 182, 110, 263, 110),
+        (245, 170, 17, 14, 178, 123, 234, 162),
+        (75,  170, 17, 14, 142, 123, 86,  162),
+        (40,  110, 17, 14, 138, 110, 54,  110)
+      ] %}
       {% set total_refs_real = v.chain_total %}
       <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;">
         <div style="font-weight:800;font-size:1.1rem;margin-bottom:0.25rem;">{{ v.name }}</div>
         <div style="font-size:0.8rem;color:var(--text-secondary);margin-bottom:1rem;">{{ total_refs_real }} of {{ v.prospect_count }} prospects came through {{ v.chains | length }} referral hub{{ "s" if v.chains|length != 1 else "" }}.</div>
 
         <svg viewBox="0 0 320 220" style="width:100%;height:auto;display:block;margin-bottom:0.75rem;">
+          {# Draw all edges first so the central node and hubs sit on top of them #}
+          {% for hub_name, refs in v.chains[:6] %}
+            {% set pos = positions[loop.index0] %}
+            {% set hubx, huby, ring_r, hub_r, sx, sy, ex, ey = pos %}
+            {% set ref_count = refs | length %}
+            <line x1="{{ sx }}" y1="{{ sy }}" x2="{{ ex }}" y2="{{ ey }}" stroke="#5371ff" stroke-width="2" opacity="{{ 0.6 if ref_count > 1 else 0.4 }}"/>
+          {% endfor %}
           <circle cx="160" cy="110" r="22" fill="#5371ff"/>
           <text x="160" y="114" text-anchor="middle" fill="white" font-size="11" font-weight="700">{{ v.name }}</text>
           {% for hub_name, refs in v.chains[:6] %}
             {% set pos = positions[loop.index0] %}
-            {% set hubx, huby, ring_r, hub_r = pos %}
+            {% set hubx, huby, ring_r, hub_r, sx, sy, ex, ey = pos %}
             {% set ref_count = refs | length %}
-            <line x1="160" y1="110" x2="{{ hubx }}" y2="{{ huby }}" stroke="#5371ff" stroke-width="2" opacity="{{ 0.6 if ref_count > 1 else 0.4 }}"/>
             <circle cx="{{ hubx }}" cy="{{ huby }}" r="{{ hub_r }}" fill="#8b5cf6"{% if ref_count <= 1 %} opacity="0.7"{% endif %}/>
             <text x="{{ hubx }}" y="{{ huby + 3 }}" text-anchor="middle" fill="white" font-size="{{ 11 if ref_count > 4 else 10 if ref_count > 2 else 9 }}" font-weight="700">{{ ref_count }}</text>
             <text x="{{ hubx }}" y="{{ huby - ring_r - 4 if huby < 110 else huby + ring_r + 12 }}" text-anchor="middle" fill="var(--text-secondary)" font-size="9" font-weight="600">{{ hub_name }}</text>
