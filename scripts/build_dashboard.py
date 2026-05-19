@@ -64,7 +64,8 @@ def build_header_map(ws):
     aliases_normed = {k: [norm(a) for a in v] for k, v in HEADER_ALIASES.items()}
     headers = {}
     for c in range(1, ws.max_column + 1):
-        v = ws.cell(row=1, column=c).value
+        cell = ws.cell(row=1, column=c)
+        v = getattr(cell, "value", cell)
         if not v: continue
         n = norm(v)
         for canonical, aliases in aliases_normed.items():
