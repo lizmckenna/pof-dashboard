@@ -279,8 +279,18 @@ def aggregate(workbook):
                         "inv_status": str(inv).strip(),
                     }
                     info["prospects"].append(entry)
-                    if d and d <= TODAY: info["completed"].append(entry)
-                    elif d and d > TODAY: info["scheduled"].append(entry)
+                    # Completion is determined by EITHER a past parseable date
+                    # OR an invitation-status marker — this keeps counts honest
+                    # even when a fellow's "Date of 1-1" column is renamed or
+                    # missing (e.g. David's tab). Status values like
+                    # "Completed" / "1:1 Completed" all count.
+                    inv_lower = entry["inv_status"].lower()
+                    status_completed = "completed" in inv_lower
+                    status_scheduled = inv_lower == "scheduled"
+                    if (d and d <= TODAY) or status_completed:
+                        info["completed"].append(entry)
+                    elif (d and d > TODAY) or status_scheduled:
+                        info["scheduled"].append(entry)
                     if entry["school"]:
                         out["schools_to_fellows"][entry["school"].lower()].append(f)
                     if entry["inv_status"]: info["inv_statuses"][entry["inv_status"]] += 1
