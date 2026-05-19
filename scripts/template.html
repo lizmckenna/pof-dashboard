@@ -704,7 +704,7 @@ body {
           {% endfor %}
           <!-- weekly date labels: "Sun" line on top, "Apr 19" on bottom — bigger, legible -->
           {% for pt in p.points %}
-          <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 22 }}" text-anchor="middle" font-size="11" font-weight="500" fill="var(--text-tertiary)">Sun</text>
+          <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 22 }}" text-anchor="middle" font-size="11" font-weight="500" fill="var(--text-tertiary)">{{ pt.label_top or "Sun" }}</text>
           <text x="{{ pt.x }}" y="{{ chart.h - chart.margin.b + 42 }}" text-anchor="middle" font-size="15" font-weight="700" fill="var(--text-secondary)">{{ pt.label }}</text>
           {% endfor %}
         </svg>
@@ -713,7 +713,7 @@ body {
     </div>
 
     <div style="margin-top:1.5rem;padding:1rem 1.25rem;background:var(--accent-muted);border:1px solid var(--accent-border);border-radius:12px;font-size:0.9rem;color:var(--text-secondary);line-height:1.55;">
-      <strong style="color:var(--text-primary);">How to read this.</strong> Each point is one Sunday's snapshot — the cohort's state at the close of that week. The chart fills in another point every Sunday night after fellows enter their data.
+      <strong style="color:var(--text-primary);">How to read this.</strong> Each Sun point is that week's closing snapshot. The final point ("Today") is the live value at last refresh, so mid-week growth is visible — the line and the headline number always match.
     </div>
   </div>
   <div class="slide-footer">GROUNDWORK &middot; PARENT ORGANIZING FELLOWSHIP</div>

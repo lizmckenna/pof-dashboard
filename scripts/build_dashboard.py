@@ -452,11 +452,16 @@ def compute_deltas(curr, prev):
 
 COHORT_START = dt.date(2026, 4, 19)  # Sunday before fellowship data entry began
 
-def resample_to_sundays(history, today):
+def resample_to_sundays(history, today, current_totals=None):
     """Return weekly-Sunday snapshots from COHORT_START through the most recent
     Sunday on or before today. For each Sunday, use the latest snapshot whose
     date ≤ that Sunday; if none exists yet, emit a zero baseline so growth from
-    zero is visible."""
+    zero is visible.
+
+    If ``today`` is past the most recent Sunday and ``current_totals`` is
+    provided, append a final point representing today's live values so the
+    chart line actually reflects mid-week growth (otherwise the line stops at
+    the prior Sunday's value and looks flat while the headline number jumps)."""
     from datetime import timedelta
     def parse(s): return dt.date.fromisoformat(s) if isinstance(s, str) else s
     snap_dates = sorted([(parse(h["date"]), h) for h in (history or [])],
@@ -476,6 +481,11 @@ def resample_to_sundays(history, today):
             points.append({**zero_template, "date": sunday.isoformat(),
                            "label_date": sunday.isoformat()})
         sunday += timedelta(days=7)
+    # If we're mid-week, append today's live totals so the line tracks reality.
+    if current_totals and today > last_sunday:
+        points.append({**zero_template, **current_totals,
+                       "date": today.isoformat(),
+                       "label_date": today.isoformat()})
     return points
 
 def find_week_ago_snapshot(history, today):
@@ -616,8 +626,13 @@ def render(data, deltas, history):
             pct = int(round((diff / prev_v) * 100))
         wow[k] = {"current": curr_v, "prev": prev_v, "diff": diff, "pct": pct}
 
-    # Resample history to weekly-Sunday points for the chart
-    weekly = resample_to_sundays(history, TODAY)
+    # Resample history to weekly-Sunday points for the chart.
+    # CRITICAL: pass current totals so the chart line includes today's live
+    # value. Otherwise the latest Sunday point reuses last week's snapshot
+    # (because history hasn't recorded a new Sunday yet) and the line looks
+    # flat even when the headline number jumped. See the assertion below —
+    # the last chart point and the headline must agree, period.
+    weekly = resample_to_sundays(history, TODAY, current_totals=data["totals"])
 
     # Build chart panels from weekly snapshots
     chart_w, chart_h = 700, 260
@@ -644,12 +659,24 @@ def render(data, deltas, history):
                 y = margin_t + plot_h - (v / max_v) * plot_h
                 d = weekly[i]["label_date"]
                 label_dt = dt.date.fromisoformat(d)
+                # Label the weekday honestly. Today's mid-week point shouldn't
+                # be labelled "Sun" just because every other point is.
+                is_today_point = (i == len(vals) - 1) and (label_dt == TODAY) and label_dt.weekday() != 6
+                weekday_top = "Today" if is_today_point else label_dt.strftime("%a")
                 points.append({"x": round(x, 1), "y": round(y, 1),
                                "value": v, "date": d,
-                               "label": label_dt.strftime("%b %-d")})
-            # Big number = today's live value, not the last Sunday snapshot
-            # (the Sunday-aligned point can repeat last week's data and mask real change).
+                               "label": label_dt.strftime("%b %-d"),
+                               "label_top": weekday_top})
+            # Big number = today's live value, not the last Sunday snapshot.
             current_v = int(data["totals"].get(key, 0) or 0)
+            # GUARD: chart line's final point MUST equal the headline number.
+            # If this ever fails, resample_to_sundays() is dropping today's
+            # live totals and the chart is lying about the trend.
+            if vals and vals[-1] != current_v:
+                raise AssertionError(
+                    f"chart line for {key!r} ends at {vals[-1]} but headline "
+                    f"shows {current_v}. The line and the number must match — "
+                    f"check resample_to_sundays(current_totals=...).")
             wow_diff = current_v - (week_ago_snap or {}).get(key, 0) if week_ago_snap else None
             panels.append({
                 "key": key, "label": label, "color": color,
