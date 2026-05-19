@@ -643,7 +643,6 @@ def render(data, deltas, history):
         ("completed", "Completed 1-on-1s", "#22c55e"),
         ("prospects", "Prospects logged", "#8b5cf6"),
         ("leaders", "Leaders identified", "#5371ff"),
-        ("fellows_with_data", "Fellows w/ data entry", "#f59e0b"),
     ]
     panels = []
     if weekly:
