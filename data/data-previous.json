@@ -6101,7 +6101,7 @@
           "self_interest_text": "Has a son with severe autism. Has had to do a lot of advocating on his behalf to get him the help he needs at school.",
           "next_step_text": "",
           "source": "Met through Blue Springs Dems.",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Declined"
         },
         {
           "name": "Nicki F.",
@@ -6154,6 +6154,19 @@
           "next_step_text": "She is working with me on putting together a park play date where we can talk with parents about the\u2026",
           "source": "BS art commission",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Katie F.",
+          "full_name_lower": "katie freeman",
+          "school": "",
+          "date": "2026-05-26",
+          "raw_date": "5-26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Reach out to me though Amber Simmons",
+          "inv_status": "Scheduled"
         }
       ],
       "completed": [
@@ -6210,7 +6223,21 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [],
+      "scheduled": [
+        {
+          "name": "Katie F.",
+          "full_name_lower": "katie freeman",
+          "school": "",
+          "date": "2026-05-26",
+          "raw_date": "5-26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Reach out to me though Amber Simmons",
+          "inv_status": "Scheduled"
+        }
+      ],
       "districts": [
         "BS Dems"
       ],
@@ -6224,23 +6251,31 @@
       },
       "inv_statuses": {
         "Completed": 4,
-        "Left Message - Waiting": 1,
-        "Declined": 1,
-        "Follow Up Needed": 1
+        "Declined": 2,
+        "Follow Up Needed": 1,
+        "Scheduled": 1
       },
       "source_buckets": {
         "Event / forum": 2,
         "Online": 1,
         "Other": 3,
-        "Friend / family": 1
+        "Friend / family": 1,
+        "Chain referral": 1
       },
-      "chains": [],
-      "chain_total": 0,
+      "chains": [
+        [
+          "Amber S.",
+          [
+            "Katie F."
+          ]
+        ]
+      ],
+      "chain_total": 1,
       "leader_count": 4,
       "ranked_leader_count": 4,
-      "prospect_count": 7,
+      "prospect_count": 8,
       "completed_count": 4,
-      "scheduled_count": 0,
+      "scheduled_count": 1,
       "notes_count": 4,
       "si_count": 4,
       "status": "active"
@@ -6688,9 +6723,9 @@
     "fellows_with_completed": 14,
     "leaders": 119,
     "leaders_ranked": 87,
-    "prospects": 287,
+    "prospects": 288,
     "completed": 82,
-    "scheduled": 11,
+    "scheduled": 12,
     "with_notes": 59,
     "with_si": 61
   },
@@ -7068,7 +7103,7 @@
     "Other": 27,
     "Friend / family": 21,
     "School / PTA": 34,
-    "Chain referral": 46,
+    "Chain referral": 47,
     "Online": 13,
     "Work": 5,
     "Church / faith": 7
