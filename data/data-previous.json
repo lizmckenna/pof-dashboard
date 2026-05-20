@@ -866,7 +866,7 @@
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Continue to follow up about a 1:1",
           "source": "Garfield Parents meeting.",
           "inv_status": "Left Message - Waiting"
         },
@@ -934,6 +934,32 @@
           "next_step_text": "",
           "source": "Garfield Parents meeting.",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Emelie W.",
+          "full_name_lower": "emelie wisnieski",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Gina",
+          "full_name_lower": "gina",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Ann B.",
@@ -1333,8 +1359,8 @@
       },
       "inv_statuses": {
         "Completed": 9,
-        "Left Message - Waiting": 2,
-        "Follow Up Needed": 4,
+        "Left Message - Waiting": 3,
+        "Follow Up Needed": 5,
         "Scheduled": 2,
         "Not Contacted": 1
       },
@@ -1367,7 +1393,7 @@
       "chain_total": 8,
       "leader_count": 9,
       "ranked_leader_count": 9,
-      "prospect_count": 26,
+      "prospect_count": 28,
       "completed_count": 9,
       "scheduled_count": 2,
       "notes_count": 1,
@@ -1617,6 +1643,14 @@
           "school": "Hale Cook",
           "level": "Leader - Organize others",
           "self_interest": "Her son Princeton who is in 3rd grade at Hale Cook, and the resources he gets in the classroom for his behavioral needs. Her lifelong\u2026",
+          "next_step": ""
+        },
+        {
+          "name": "Carly K.",
+          "district": "",
+          "school": "Hale Cook",
+          "level": "Leader - Organize others",
+          "self_interest": "Her two children, Gwen and Scott, who will be in Kindergarten and 2nd grade at Hale Cook next year. Their experience of the school as\u2026",
           "next_step": ""
         }
       ],
@@ -2134,12 +2168,12 @@
           "school": "Hale Cook",
           "date": null,
           "raw_date": "May 19, 2026",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her two children, Gwen and Scott, who will be in Kindergarten and 2nd grade at Hale Cook next year. Their experience of the school as a supportive, diverse learning environment.\u2026",
           "next_step_text": "",
           "source": "Jill Goodheart",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Susan S.",
@@ -2586,6 +2620,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Carly K.",
+          "full_name_lower": "carly koppen",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "May 19, 2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her two children, Gwen and Scott, who will be in Kindergarten and 2nd grade at Hale Cook next year. Their experience of the school as a supportive, diverse learning environment.\u2026",
+          "next_step_text": "",
+          "source": "Jill Goodheart",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Jessica M.",
           "full_name_lower": "jessica meisenheimer",
           "school": "Hale Cook",
@@ -2600,19 +2647,6 @@
         }
       ],
       "scheduled": [
-        {
-          "name": "Carly K.",
-          "full_name_lower": "carly koppen",
-          "school": "Hale Cook",
-          "date": null,
-          "raw_date": "May 19, 2026",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Jill Goodheart",
-          "inv_status": "Scheduled"
-        },
         {
           "name": "Danielle D.",
           "full_name_lower": "danielle dispenza",
@@ -2636,16 +2670,16 @@
       "leader_levels": {
         "Core leader - Organize a team": 4,
         "Volunteer - Support / show up": 9,
-        "Leader - Organize others": 8,
+        "Leader - Organize others": 9,
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
         "Follow Up Needed": 5,
-        "Completed": 18,
+        "Completed": 19,
         "Left Message - Waiting": 16,
         "Not Contacted": 15,
         "Declined": 1,
-        "Scheduled": 2
+        "Scheduled": 1
       },
       "source_buckets": {
         "School / PTA": 12,
@@ -2716,13 +2750,13 @@
         ]
       ],
       "chain_total": 30,
-      "leader_count": 22,
-      "ranked_leader_count": 22,
+      "leader_count": 23,
+      "ranked_leader_count": 23,
       "prospect_count": 57,
-      "completed_count": 18,
-      "scheduled_count": 2,
-      "notes_count": 18,
-      "si_count": 18,
+      "completed_count": 19,
+      "scheduled_count": 1,
+      "notes_count": 19,
+      "si_count": 19,
       "status": "active"
     },
     "Ellen S": {
@@ -4294,7 +4328,7 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Need to follow up after school is over on 5/22",
           "source": "Referred by Ronda Scott",
           "inv_status": "Follow Up Needed"
         },
@@ -4320,7 +4354,7 @@
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Need to follow up after school is over on 5/22",
           "source": "HS Principal",
           "inv_status": "Follow Up Needed"
         },
@@ -4333,7 +4367,7 @@
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Need to follow up after school is over on 5/22",
           "source": "School Dance",
           "inv_status": "Follow Up Needed"
         },
@@ -4393,14 +4427,14 @@
           "name": "Rebecca M.",
           "full_name_lower": "rebecca mace",
           "school": "Independence Academy",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-13",
+          "raw_date": "5/13",
           "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "Need to schedule after 5/22 when school ends",
+          "has_si": true,
+          "self_interest_text": "Her kids and her students",
+          "next_step_text": "",
           "source": "Neighbor",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Completed"
         },
         {
           "name": "Andi H.",
@@ -4520,6 +4554,19 @@
           "next_step_text": "Follow up for updates on the transition period for the program. Highlight ways to speak to the school board about\u2026",
           "source": "Facebook Group",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Rebecca M.",
+          "full_name_lower": "rebecca mace",
+          "school": "Independence Academy",
+          "date": "2026-05-13",
+          "raw_date": "5/13",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her kids and her students",
+          "next_step_text": "",
+          "source": "Neighbor",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -4533,8 +4580,8 @@
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
-        "Completed": 1,
-        "Follow Up Needed": 7,
+        "Completed": 2,
+        "Follow Up Needed": 6,
         "Left Message - Waiting": 1,
         "Not Contacted": 8,
         "Declined": 2
@@ -4558,10 +4605,10 @@
       "leader_count": 1,
       "ranked_leader_count": 1,
       "prospect_count": 19,
-      "completed_count": 1,
+      "completed_count": 2,
       "scheduled_count": 0,
       "notes_count": 1,
-      "si_count": 1,
+      "si_count": 2,
       "status": "active"
     },
     "LaNee": {
@@ -6721,13 +6768,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 14,
-    "leaders": 119,
-    "leaders_ranked": 87,
-    "prospects": 288,
-    "completed": 82,
-    "scheduled": 12,
-    "with_notes": 59,
-    "with_si": 61
+    "leaders": 120,
+    "leaders_ranked": 88,
+    "prospects": 290,
+    "completed": 84,
+    "scheduled": 11,
+    "with_notes": 60,
+    "with_si": 63
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -6757,6 +6804,7 @@
     "hale cook": [
       "Ashley S",
       "Ashley S",
+      "David",
       "David",
       "David",
       "David",
