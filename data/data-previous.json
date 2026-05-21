@@ -777,7 +777,7 @@
           "name": "Sharon S.",
           "district": "",
           "school": "Garfield",
-          "level": "Volunteer - Support / show up",
+          "level": "Unsure - Need to test/assess",
           "self_interest": "Food",
           "next_step": "Schedule 1:1"
         },
@@ -786,8 +786,8 @@
           "district": "",
           "school": "",
           "level": "Core leader - Organize a team",
-          "self_interest": "",
-          "next_step": "Schedule 1:1"
+          "self_interest": "Somali community",
+          "next_step": "Follow up on 1:1, send invites to 6/2 and power camp"
         },
         {
           "name": "Ann B.",
@@ -928,12 +928,12 @@
           "school": "Garfield Parent",
           "date": "2026-05-20",
           "raw_date": "5.20.2026",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "email invite for 6/2 research meeting and power camp",
           "source": "Garfield Parents meeting.",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Emelie W.",
@@ -1229,12 +1229,12 @@
           "school": "Garfield Parent",
           "date": "2026-05-20",
           "raw_date": "5.20.2026",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "email invite for 6/2 research meeting and power camp",
           "source": "Garfield Parents meeting.",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Ann B.",
@@ -1353,15 +1353,15 @@
       ],
       "leader_levels": {
         "Core leader - Organize a team": 3,
-        "Volunteer - Support / show up": 3,
-        "Leader - Organize others": 2,
-        "Unsure - Need to test/assess": 1
+        "Volunteer - Support / show up": 2,
+        "Unsure - Need to test/assess": 2,
+        "Leader - Organize others": 2
       },
       "inv_statuses": {
-        "Completed": 9,
+        "Completed": 10,
         "Left Message - Waiting": 3,
         "Follow Up Needed": 5,
-        "Scheduled": 2,
+        "Scheduled": 1,
         "Not Contacted": 1
       },
       "source_buckets": {
@@ -1396,7 +1396,7 @@
       "prospect_count": 28,
       "completed_count": 10,
       "scheduled_count": 1,
-      "notes_count": 1,
+      "notes_count": 2,
       "si_count": 5,
       "status": "active"
     },
@@ -4424,18 +4424,18 @@
           "self_interest_text": "",
           "next_step_text": "Need to follow up after school is over on 5/22",
           "source": "School Dance",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Completed"
         },
         {
           "name": "Elissa A.",
           "full_name_lower": "elissa aldrich",
           "school": "Truman High School",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-04-24",
+          "raw_date": "4/24",
           "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "Her students in her class",
+          "next_step_text": "Follow up after school year",
           "source": "Friend",
           "inv_status": "Follow Up Needed"
         },
@@ -4576,9 +4576,9 @@
           "date": null,
           "raw_date": "",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "Her kids.",
+          "next_step_text": "Continue to share income tax information",
           "source": "Facebook Group",
           "inv_status": "Declined"
         },
@@ -4611,6 +4611,32 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Leigha Z.",
+          "full_name_lower": "leigha zank",
+          "school": "Pioneer Middle School",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Need to follow up after school is over on 5/22",
+          "source": "School Dance",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Elissa A.",
+          "full_name_lower": "elissa aldrich",
+          "school": "Truman High School",
+          "date": "2026-04-24",
+          "raw_date": "4/24",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her students in her class",
+          "next_step_text": "Follow up after school year",
+          "source": "Friend",
+          "inv_status": "Follow Up Needed"
+        },
+        {
           "name": "Rebecca M.",
           "full_name_lower": "rebecca mace",
           "school": "Independence Academy",
@@ -4635,8 +4661,8 @@
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
-        "Completed": 2,
-        "Follow Up Needed": 6,
+        "Completed": 3,
+        "Follow Up Needed": 5,
         "Left Message - Waiting": 1,
         "Not Contacted": 8,
         "Declined": 2
@@ -4660,10 +4686,10 @@
       "leader_count": 1,
       "ranked_leader_count": 1,
       "prospect_count": 19,
-      "completed_count": 2,
+      "completed_count": 4,
       "scheduled_count": 0,
-      "notes_count": 1,
-      "si_count": 2,
+      "notes_count": 2,
+      "si_count": 3,
       "status": "active"
     },
     "LaNee": {
@@ -7373,10 +7399,10 @@
     "leaders": 122,
     "leaders_ranked": 90,
     "prospects": 319,
-    "completed": 100,
+    "completed": 102,
     "scheduled": 10,
-    "with_notes": 74,
-    "with_si": 75
+    "with_notes": 76,
+    "with_si": 76
   },
   "all_completed": [],
   "schools_to_fellows": {
