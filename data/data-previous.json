@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-24",
+  "as_of": "2026-05-25",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -509,7 +509,7 @@
           "name": "LaNee B.",
           "district": "KCPS",
           "school": "Lincoln High",
-          "level": "",
+          "level": "Core leader - Organize a team",
           "self_interest": "",
           "next_step": ""
         },
@@ -541,12 +541,20 @@
           "name": "Sylvia G.",
           "district": "KCPS",
           "school": "Lincoln Middle",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Two daughters in public schools. Invested in the success of schools and wants to contribute to political action in ways that don't conflict with her\u2026",
+          "next_step": "Cannot be involved in \"advocacy related to education\" due to her work, but is committed to help with connecting parents to the Lincoln mIddle pipeline."
+        },
+        {
+          "name": "Bill E.",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "",
           "self_interest": "",
           "next_step": ""
         },
         {
-          "name": "Bill E.",
+          "name": "Jasmin M.",
           "district": "KCPS",
           "school": "Lincoln Middle",
           "level": "",
@@ -621,9 +629,9 @@
           "name": "Aviva D.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
-          "self_interest": "",
-          "next_step": ""
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Son entering 6th grade at LM. Daughter at Lincoln High. Kids have learning and health challenges that she is concerned about. Passionate about public schools.\u2026",
+          "next_step": "Invite to Parent Power Camp. Ask if she has other parents I should talk to."
         },
         {
           "name": "Local (.",
@@ -752,6 +760,14 @@
           "level": "",
           "self_interest": "",
           "next_step": ""
+        },
+        {
+          "name": "Kathryn E.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -772,27 +788,27 @@
           "name": "Ashley J.",
           "full_name_lower": "ashley johnson",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-28",
+          "raw_date": "5/28",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Sylvia G.",
           "full_name_lower": "sylvia marie gross",
           "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "date": "2026-05-18",
+          "raw_date": "5/18",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Political concerns about kids future and lose of resources to their education.",
+          "next_step_text": "Sylvia will send a list of parents for reaching out to for 1 on 1s. Will connect me to parents\u2026",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Carolyn S.",
@@ -811,6 +827,45 @@
           "name": "Aviva D.",
           "full_name_lower": "aviva delancey",
           "school": "",
+          "date": "2026-05-21",
+          "raw_date": "5/21",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Samantha S.",
+          "full_name_lower": "samantha sullenthrup",
+          "school": "Lincoln Middle",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Connected via SAC around techonology concerns",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Kathryn E.",
+          "full_name_lower": "kathryn evans",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Charisse A.",
+          "full_name_lower": "charisse alexander",
+          "school": "",
           "date": null,
           "raw_date": "",
           "has_notes": false,
@@ -819,6 +874,71 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Sarah S.",
+          "full_name_lower": "sarah sikich",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Jasmin M.",
+          "full_name_lower": "jasmin moore",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Jill G.",
+          "full_name_lower": "jill goodheart",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Bill E.",
+          "full_name_lower": "bill elder",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Claire T.",
+          "full_name_lower": "claire terrebonne",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
         }
       ],
       "completed": [
@@ -834,15 +954,69 @@
           "next_step_text": "",
           "source": "Already knew, fellowship",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Sylvia G.",
+          "full_name_lower": "sylvia marie gross",
+          "school": "",
+          "date": "2026-05-18",
+          "raw_date": "5/18",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Political concerns about kids future and lose of resources to their education.",
+          "next_step_text": "Sylvia will send a list of parents for reaching out to for 1 on 1s. Will connect me to parents\u2026",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Aviva D.",
+          "full_name_lower": "aviva delancey",
+          "school": "",
+          "date": "2026-05-21",
+          "raw_date": "5/21",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
         }
       ],
-      "scheduled": [],
+      "scheduled": [
+        {
+          "name": "Ashley J.",
+          "full_name_lower": "ashley johnson",
+          "school": "",
+          "date": "2026-05-28",
+          "raw_date": "5/28",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Kathryn E.",
+          "full_name_lower": "kathryn evans",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
+        }
+      ],
       "districts": [
         "Blue Springs",
         "KCPS",
         "Lees Summit"
       ],
       "schools": [
+        "Border Star",
         "FLA",
         "Hale Cook",
         "Lees Summit",
@@ -850,24 +1024,28 @@
         "Lincoln Middle"
       ],
       "leader_levels": {
-        "Core leader - Organize a team": 2
+        "Core leader - Organize a team": 4,
+        "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
-        "Completed": 1,
-        "Left Message - Waiting": 4
+        "Completed": 3,
+        "Scheduled": 2,
+        "Left Message - Waiting": 5,
+        "Follow Up Needed": 3
       },
       "source_buckets": {
-        "Advocacy / org": 1
+        "Advocacy / org": 1,
+        "Other": 1
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 34,
-      "ranked_leader_count": 2,
-      "prospect_count": 5,
-      "completed_count": 1,
-      "scheduled_count": 0,
-      "notes_count": 1,
-      "si_count": 0,
+      "leader_count": 36,
+      "ranked_leader_count": 6,
+      "prospect_count": 13,
+      "completed_count": 3,
+      "scheduled_count": 2,
+      "notes_count": 2,
+      "si_count": 1,
       "status": "active"
     },
     "Benjamin": {
@@ -2905,44 +3083,20 @@
       "name": "Ellen S",
       "leaders": [
         {
-          "name": "Kathryn E.",
-          "district": "KCPS",
-          "school": "Border Star",
-          "level": "Core leader - Organize a team",
-          "self_interest": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
-          "next_step": ""
-        },
-        {
-          "name": "Natalie M.",
-          "district": "KCPS",
-          "school": "Border Star",
-          "level": "Core leader - Organize a team",
-          "self_interest": "Someone has to hold the line; schools are the front lines and MO needs to do better",
-          "next_step": "I think she's attended PPC? But I will ask."
-        },
-        {
           "name": "Billy M.",
           "district": "KCPS",
           "school": "Border Star",
           "level": "Core leader - Organize a team",
           "self_interest": "Building community that cares for its people",
-          "next_step": "I might ask him about PPC but not going to push this time. Bring in to a Border Star Advocacy night"
+          "next_step": "June 2, PPC"
         },
         {
-          "name": "Kate B.",
+          "name": "Meghan W.",
           "district": "KCPS",
           "school": "Border Star",
-          "level": "Core leader - Organize a team",
+          "level": "Leader - Organize others",
           "self_interest": "",
-          "next_step": ""
-        },
-        {
-          "name": "Lesley H.",
-          "district": "KCPS",
-          "school": "Border Star",
-          "level": "Core leader - Organize a team",
-          "self_interest": "",
-          "next_step": ""
+          "next_step": "June 2, PPC"
         },
         {
           "name": "Jes H.",
@@ -2953,20 +3107,20 @@
           "next_step": "I'm wavering on whether Jes should be challenged into stepping up as a Core Leader. Maybe when income tax toolkit is ready I book another\u2026"
         },
         {
-          "name": "Beeta K.",
-          "district": "KCPS",
-          "school": "Border Star",
-          "level": "Leader - Organize others",
-          "self_interest": "Wants to stay in her community but that needs good schools and people to support them (and politicians to fund them)",
-          "next_step": ""
-        },
-        {
           "name": "Jessica J.",
           "district": "KCPS",
           "school": "Border Star",
           "level": "Leader - Organize others",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "June 2, PPC"
+        },
+        {
+          "name": "Ellie C.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Leader - Organize others",
+          "self_interest": "",
+          "next_step": "June 2, PPC"
         },
         {
           "name": "Hannah Z.",
@@ -2974,7 +3128,47 @@
           "school": "Border Star",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "June 2"
+        },
+        {
+          "name": "Lesley H.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": "June 2, PPC"
+        },
+        {
+          "name": "Kate B.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": "June 2, PPC"
+        },
+        {
+          "name": "Kathryn E.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
+          "next_step": "June 2"
+        },
+        {
+          "name": "Natalie M.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Someone has to hold the line; schools are the front lines and MO needs to do better",
+          "next_step": "June 2"
+        },
+        {
+          "name": "Beeta K.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Leader - Organize others",
+          "self_interest": "Wants to stay in her community but that needs good schools and people to support them (and politicians to fund them)",
+          "next_step": "June 2"
         },
         {
           "name": "Amanda Q.",
@@ -2982,7 +3176,7 @@
           "school": "Border Star",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "June 2"
         },
         {
           "name": "Lisa M.",
@@ -2990,7 +3184,7 @@
           "school": "Border Star",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "June 2"
         },
         {
           "name": "Nathaniel Q.",
@@ -2998,230 +3192,74 @@
           "school": "Border Star",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "June 2"
         }
       ],
       "prospects": [
         {
-          "name": "Kathryn E.",
-          "full_name_lower": "kathryn evans",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Fri Apr 24",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Beeta K.",
-          "full_name_lower": "beeta kashani",
+          "name": "Elizabeth H.",
+          "full_name_lower": "elizabeth howard",
           "school": "",
           "date": null,
-          "raw_date": "Mon May 11",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Building a diverse and supportive community for her kids in a walkable/bikeable neighborhood",
-          "next_step_text": "Follow-up specifically next week w/ how she's feeling.",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Lesley H.",
-          "full_name_lower": "lesley hunt",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Tue Apr 28",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Elsa R.",
-          "full_name_lower": "elsa rainey",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Wed May 6",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Get more people to stay at Border Star!",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Natalie M.",
-          "full_name_lower": "natalie millard",
-          "school": "",
-          "date": null,
-          "raw_date": "Fri May 8",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Works in government \"for a reason\" - there needs to be someone holding the line against bad actors.",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Nathaniel Q.",
-          "full_name_lower": "nathaniel quance",
-          "school": "",
-          "date": null,
-          "raw_date": "Wed May 6",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Border Star \"is a perfect fit\" for his kids",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Amanda Q.",
-          "full_name_lower": "amanda quance",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "May 5",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "elevating Border Star / cheerleading",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Lisa M.",
-          "full_name_lower": "lisa meinen-doerkensen",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "May 11",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Lives in MO and wants to make it a better place",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Jes H.",
-          "full_name_lower": "jes hutton",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Tues May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Every kid should have access to a good school",
-          "next_step_text": "Follow-up next week 5/17 via text about Summer park playdate, & who has she talked to. Especially if we have\u2026",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Hannah Z.",
-          "full_name_lower": "hannah zimmerman",
-          "school": "",
-          "date": null,
-          "raw_date": "Tues May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Need to dig in better, but: Fairness between public and charter (pointed to Citizens getting handouts that aren't needed for their student population). Doing what she can where she is.",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Jessica E.",
-          "full_name_lower": "jessica elrod",
-          "school": "",
-          "date": null,
-          "raw_date": "Tues May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Building community, being able to stay in her urban home without worrying about her kids' education (and moving for it)",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Billy M.",
-          "full_name_lower": "billy mccroy",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Thu May 14",
+          "raw_date": "",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": ""
         },
         {
-          "name": "Tori H.",
-          "full_name_lower": "tori helber",
+          "name": "Sara A.",
+          "full_name_lower": "sara asmussen",
           "school": "",
           "date": null,
-          "raw_date": "Tue May 19",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Kate B.",
-          "full_name_lower": "kate bayer",
-          "school": "",
-          "date": null,
-          "raw_date": "Tue May 19",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Meghan W.",
-          "full_name_lower": "meghan wendland",
-          "school": "",
-          "date": null,
-          "raw_date": "Wed May 20",
+          "raw_date": "",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": ""
         },
         {
-          "name": "Ellie C.",
-          "full_name_lower": "ellie cooper",
+          "name": "Chris H.",
+          "full_name_lower": "chris howard",
           "school": "",
           "date": null,
-          "raw_date": "Wed May 20",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Scheduled"
-        },
-        {
-          "name": "Gina P.",
-          "full_name_lower": "gina posladek",
-          "school": "",
-          "date": null,
-          "raw_date": "Thu May 21",
+          "raw_date": "scheduling",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
           "inv_status": "Contacted"
+        },
+        {
+          "name": "Jessica H.",
+          "full_name_lower": "jessica herman",
+          "school": "",
+          "date": null,
+          "raw_date": "our schedules are wild",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Ask to attend June 2; still scheduling 1:1",
+          "source": "",
+          "inv_status": "Contacted"
+        },
+        {
+          "name": "Molly L.",
+          "full_name_lower": "molly landes",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
         },
         {
           "name": "Tyler L.",
@@ -3237,8 +3275,8 @@
           "inv_status": "Contacted"
         },
         {
-          "name": "Jessica H.",
-          "full_name_lower": "jessica herman",
+          "name": "Brenna S.",
+          "full_name_lower": "brenna sandefur-farrar",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -3247,24 +3285,232 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Contacted"
+          "inv_status": ""
+        },
+        {
+          "name": "Gina P.",
+          "full_name_lower": "gina posladek",
+          "school": "",
+          "date": "2026-05-21",
+          "raw_date": "5/21/2026",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Meghan W.",
+          "full_name_lower": "meghan wendland",
+          "school": "",
+          "date": "2026-05-20",
+          "raw_date": "5/20/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Being part of the solution; one kid for a reason and can provide but doen't want to be part of a broken process/system/community",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Ellie C.",
+          "full_name_lower": "ellie cooper",
+          "school": "",
+          "date": "2026-05-20",
+          "raw_date": "5/20/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Staying in a public school system and community; being part of the solution",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Tori H.",
+          "full_name_lower": "tori helber",
+          "school": "",
+          "date": "2026-05-19",
+          "raw_date": "5/19/2026",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Kate B.",
+          "full_name_lower": "kate bayer",
+          "school": "",
+          "date": "2026-05-19",
+          "raw_date": "5/19/2026",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Billy M.",
+          "full_name_lower": "billy mccroy",
+          "school": "Border Star",
+          "date": "2026-05-14",
+          "raw_date": "5/14/2026",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Building community that cares for its people",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Jes H.",
+          "full_name_lower": "jes hutton",
+          "school": "Border Star",
+          "date": "2026-05-12",
+          "raw_date": "5/12/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Every kid should have access to a good school",
+          "next_step_text": "Follow-up next week 5/17 via text about Summer park playdate, & who has she talked to. Especially if we have\u2026",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Hannah Z.",
+          "full_name_lower": "hannah zimmerman",
+          "school": "",
+          "date": "2026-05-12",
+          "raw_date": "5/12/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Need to dig in better, but: Fairness between public and charter (pointed to Citizens getting handouts that aren't needed for their student population). Doing what she can where she is.",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Jessica E.",
+          "full_name_lower": "jessica elrod",
+          "school": "",
+          "date": "2026-05-12",
+          "raw_date": "5/12/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Building community, being able to stay in her urban home without worrying about her kids' education (and moving for it)",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Beeta K.",
+          "full_name_lower": "beeta kashani",
+          "school": "",
+          "date": "2026-05-11",
+          "raw_date": "5/11/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Building a diverse and supportive community for her kids in a walkable/bikeable neighborhood",
+          "next_step_text": "Follow-up specifically next week w/ how she's feeling.",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Lisa M.",
+          "full_name_lower": "lisa meinen-doerkensen",
+          "school": "Border Star",
+          "date": "2026-05-11",
+          "raw_date": "5/11/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Lives in MO and wants to make it a better place",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Natalie M.",
+          "full_name_lower": "natalie millard",
+          "school": "",
+          "date": "2026-05-08",
+          "raw_date": "5/8/2026",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Works in government \"for a reason\" - there needs to be someone holding the line against bad actors.",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Elsa R.",
+          "full_name_lower": "elsa rainey",
+          "school": "Border Star",
+          "date": "2026-05-06",
+          "raw_date": "5/6/2026",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Get more people to stay at Border Star!",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Nathaniel Q.",
+          "full_name_lower": "nathaniel quance",
+          "school": "",
+          "date": "2026-05-06",
+          "raw_date": "5/6/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Border Star \"is a perfect fit\" for his kids",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Amanda Q.",
+          "full_name_lower": "amanda quance",
+          "school": "Border Star",
+          "date": "2026-05-05",
+          "raw_date": "5/5/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "elevating Border Star / cheerleading",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Lesley H.",
+          "full_name_lower": "lesley hunt",
+          "school": "Border Star",
+          "date": "2026-04-28",
+          "raw_date": "4/28/2026",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Kathryn E.",
+          "full_name_lower": "kathryn evans",
+          "school": "Border Star",
+          "date": "2026-04-24",
+          "raw_date": "4/24/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
         },
         {
           "name": "Courtney L.",
           "full_name_lower": "courtney lewis",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Chris H.",
-          "full_name_lower": "chris howard",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -3291,6 +3537,19 @@
         {
           "name": "Rhonda M.",
           "full_name_lower": "rhonda mays",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
+        },
+        {
+          "name": "Julie C.",
+          "full_name_lower": "julie cowley",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -3408,37 +3667,11 @@
       ],
       "completed": [
         {
-          "name": "Kathryn E.",
-          "full_name_lower": "kathryn evans",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Fri Apr 24",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Beeta K.",
-          "full_name_lower": "beeta kashani",
+          "name": "Gina P.",
+          "full_name_lower": "gina posladek",
           "school": "",
-          "date": null,
-          "raw_date": "Mon May 11",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Building a diverse and supportive community for her kids in a walkable/bikeable neighborhood",
-          "next_step_text": "Follow-up specifically next week w/ how she's feeling.",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Lesley H.",
-          "full_name_lower": "lesley hunt",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Tue Apr 28",
+          "date": "2026-05-21",
+          "raw_date": "5/21/2026",
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
@@ -3447,118 +3680,27 @@
           "inv_status": "1:1 Completed"
         },
         {
-          "name": "Elsa R.",
-          "full_name_lower": "elsa rainey",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Wed May 6",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Get more people to stay at Border Star!",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Natalie M.",
-          "full_name_lower": "natalie millard",
+          "name": "Meghan W.",
+          "full_name_lower": "meghan wendland",
           "school": "",
-          "date": null,
-          "raw_date": "Fri May 8",
-          "has_notes": false,
+          "date": "2026-05-20",
+          "raw_date": "5/20/2026",
+          "has_notes": true,
           "has_si": true,
-          "self_interest_text": "Works in government \"for a reason\" - there needs to be someone holding the line against bad actors.",
+          "self_interest_text": "Being part of the solution; one kid for a reason and can provide but doen't want to be part of a broken process/system/community",
           "next_step_text": "",
           "source": "",
           "inv_status": "1:1 Completed"
         },
         {
-          "name": "Nathaniel Q.",
-          "full_name_lower": "nathaniel quance",
+          "name": "Ellie C.",
+          "full_name_lower": "ellie cooper",
           "school": "",
-          "date": null,
-          "raw_date": "Wed May 6",
+          "date": "2026-05-20",
+          "raw_date": "5/20/2026",
           "has_notes": true,
           "has_si": true,
-          "self_interest_text": "Border Star \"is a perfect fit\" for his kids",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Amanda Q.",
-          "full_name_lower": "amanda quance",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "May 5",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "elevating Border Star / cheerleading",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Lisa M.",
-          "full_name_lower": "lisa meinen-doerkensen",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "May 11",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Lives in MO and wants to make it a better place",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Jes H.",
-          "full_name_lower": "jes hutton",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Tues May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Every kid should have access to a good school",
-          "next_step_text": "Follow-up next week 5/17 via text about Summer park playdate, & who has she talked to. Especially if we have\u2026",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Hannah Z.",
-          "full_name_lower": "hannah zimmerman",
-          "school": "",
-          "date": null,
-          "raw_date": "Tues May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Need to dig in better, but: Fairness between public and charter (pointed to Citizens getting handouts that aren't needed for their student population). Doing what she can where she is.",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Jessica E.",
-          "full_name_lower": "jessica elrod",
-          "school": "",
-          "date": null,
-          "raw_date": "Tues May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Building community, being able to stay in her urban home without worrying about her kids' education (and moving for it)",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Billy M.",
-          "full_name_lower": "billy mccroy",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Thu May 14",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "self_interest_text": "Staying in a public school system and community; being part of the solution",
           "next_step_text": "",
           "source": "",
           "inv_status": "1:1 Completed"
@@ -3567,8 +3709,8 @@
           "name": "Tori H.",
           "full_name_lower": "tori helber",
           "school": "",
-          "date": null,
-          "raw_date": "Tue May 19",
+          "date": "2026-05-19",
+          "raw_date": "5/19/2026",
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
@@ -3580,44 +3722,173 @@
           "name": "Kate B.",
           "full_name_lower": "kate bayer",
           "school": "",
-          "date": null,
-          "raw_date": "Tue May 19",
+          "date": "2026-05-19",
+          "raw_date": "5/19/2026",
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
           "inv_status": "1:1 Completed"
-        }
-      ],
-      "scheduled": [
-        {
-          "name": "Meghan W.",
-          "full_name_lower": "meghan wendland",
-          "school": "",
-          "date": null,
-          "raw_date": "Wed May 20",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Scheduled"
         },
         {
-          "name": "Ellie C.",
-          "full_name_lower": "ellie cooper",
-          "school": "",
-          "date": null,
-          "raw_date": "Wed May 20",
+          "name": "Billy M.",
+          "full_name_lower": "billy mccroy",
+          "school": "Border Star",
+          "date": "2026-05-14",
+          "raw_date": "5/14/2026",
           "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Building community that cares for its people",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Jes H.",
+          "full_name_lower": "jes hutton",
+          "school": "Border Star",
+          "date": "2026-05-12",
+          "raw_date": "5/12/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Every kid should have access to a good school",
+          "next_step_text": "Follow-up next week 5/17 via text about Summer park playdate, & who has she talked to. Especially if we have\u2026",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Hannah Z.",
+          "full_name_lower": "hannah zimmerman",
+          "school": "",
+          "date": "2026-05-12",
+          "raw_date": "5/12/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Need to dig in better, but: Fairness between public and charter (pointed to Citizens getting handouts that aren't needed for their student population). Doing what she can where she is.",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Jessica E.",
+          "full_name_lower": "jessica elrod",
+          "school": "",
+          "date": "2026-05-12",
+          "raw_date": "5/12/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Building community, being able to stay in her urban home without worrying about her kids' education (and moving for it)",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Beeta K.",
+          "full_name_lower": "beeta kashani",
+          "school": "",
+          "date": "2026-05-11",
+          "raw_date": "5/11/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Building a diverse and supportive community for her kids in a walkable/bikeable neighborhood",
+          "next_step_text": "Follow-up specifically next week w/ how she's feeling.",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Lisa M.",
+          "full_name_lower": "lisa meinen-doerkensen",
+          "school": "Border Star",
+          "date": "2026-05-11",
+          "raw_date": "5/11/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Lives in MO and wants to make it a better place",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Natalie M.",
+          "full_name_lower": "natalie millard",
+          "school": "",
+          "date": "2026-05-08",
+          "raw_date": "5/8/2026",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Works in government \"for a reason\" - there needs to be someone holding the line against bad actors.",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Elsa R.",
+          "full_name_lower": "elsa rainey",
+          "school": "Border Star",
+          "date": "2026-05-06",
+          "raw_date": "5/6/2026",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Get more people to stay at Border Star!",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Nathaniel Q.",
+          "full_name_lower": "nathaniel quance",
+          "school": "",
+          "date": "2026-05-06",
+          "raw_date": "5/6/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Border Star \"is a perfect fit\" for his kids",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Amanda Q.",
+          "full_name_lower": "amanda quance",
+          "school": "Border Star",
+          "date": "2026-05-05",
+          "raw_date": "5/5/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "elevating Border Star / cheerleading",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Lesley H.",
+          "full_name_lower": "lesley hunt",
+          "school": "Border Star",
+          "date": "2026-04-28",
+          "raw_date": "4/28/2026",
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Kathryn E.",
+          "full_name_lower": "kathryn evans",
+          "school": "Border Star",
+          "date": "2026-04-24",
+          "raw_date": "4/24/2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "1:1 Completed"
         }
       ],
+      "scheduled": [],
       "districts": [
         "KCPS"
       ],
@@ -3626,24 +3897,23 @@
       ],
       "leader_levels": {
         "Core leader - Organize a team": 5,
-        "Leader - Organize others": 3,
+        "Leader - Organize others": 5,
         "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
-        "1:1 Completed": 14,
-        "Scheduled": 2,
-        "Contacted": 6
+        "Contacted": 5,
+        "1:1 Completed": 17
       },
       "source_buckets": {},
       "chains": [],
       "chain_total": 0,
-      "leader_count": 12,
-      "ranked_leader_count": 12,
-      "prospect_count": 31,
-      "completed_count": 14,
-      "scheduled_count": 2,
-      "notes_count": 11,
-      "si_count": 10,
+      "leader_count": 14,
+      "ranked_leader_count": 14,
+      "prospect_count": 36,
+      "completed_count": 17,
+      "scheduled_count": 0,
+      "notes_count": 14,
+      "si_count": 13,
       "status": "active"
     },
     "Jamie": {
@@ -3777,7 +4047,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "e is interested in equity matters for our school district, healing division, and and even playing field in power with the local NEA. He could be a powerful partner in\u2026",
-          "next_step_text": "",
+          "next_step_text": "Invited to Parent Power Camp and emergency Meeting",
           "source": "FHSD School Board Pres",
           "inv_status": "Completed, Follow Up Needed"
         },
@@ -3790,7 +4060,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "She is interested in unseating an extreme coucnilman in my district and could use support in terms of campaign awareness, strategy, and volunteer recruitment.",
-          "next_step_text": "",
+          "next_step_text": "Invited to Parent Power Camp and emergency Meeting",
           "source": "county council candidate",
           "inv_status": "Completed, Follow Up Needed"
         },
@@ -3829,7 +4099,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Her interests are really with work and family right now.",
-          "next_step_text": "",
+          "next_step_text": "Emergency Meeting",
           "source": "Former sup, member of SCCFFPS",
           "inv_status": "Completed"
         },
@@ -3868,7 +4138,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Karen is interested in progressive policiy initiatives. She is concerned about amendments 4 nd 5 and the actions of conservtive legislators.",
-          "next_step_text": "",
+          "next_step_text": "Invited to Emergency meeting nd power camp",
           "source": "Through our school board circle",
           "inv_status": "Completed, Follow Up Needed"
         },
@@ -4351,7 +4621,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "e is interested in equity matters for our school district, healing division, and and even playing field in power with the local NEA. He could be a powerful partner in\u2026",
-          "next_step_text": "",
+          "next_step_text": "Invited to Parent Power Camp and emergency Meeting",
           "source": "FHSD School Board Pres",
           "inv_status": "Completed, Follow Up Needed"
         },
@@ -4364,7 +4634,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "She is interested in unseating an extreme coucnilman in my district and could use support in terms of campaign awareness, strategy, and volunteer recruitment.",
-          "next_step_text": "",
+          "next_step_text": "Invited to Parent Power Camp and emergency Meeting",
           "source": "county council candidate",
           "inv_status": "Completed, Follow Up Needed"
         },
@@ -4403,7 +4673,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Her interests are really with work and family right now.",
-          "next_step_text": "",
+          "next_step_text": "Emergency Meeting",
           "source": "Former sup, member of SCCFFPS",
           "inv_status": "Completed"
         },
@@ -4416,7 +4686,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Karen is interested in progressive policiy initiatives. She is concerned about amendments 4 nd 5 and the actions of conservtive legislators.",
-          "next_step_text": "",
+          "next_step_text": "Invited to Emergency meeting nd power camp",
           "source": "Through our school board circle",
           "inv_status": "Completed, Follow Up Needed"
         },
@@ -8100,13 +8370,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 123,
-    "leaders_ranked": 91,
-    "prospects": 359,
-    "completed": 110,
+    "leaders": 127,
+    "leaders_ranked": 97,
+    "prospects": 372,
+    "completed": 115,
     "scheduled": 14,
-    "with_notes": 88,
-    "with_si": 88
+    "with_notes": 92,
+    "with_si": 92
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -8233,7 +8503,37 @@
       "Ashley S",
       "Ashley S",
       "Ashley S",
+      "Ashley S",
+      "Ashley S",
       "Nina"
+    ],
+    "border star": [
+      "Ashley S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S"
     ],
     "garfield": [
       "Benjamin",
@@ -8291,31 +8591,6 @@
     ],
     "showmekc schools": [
       "David"
-    ],
-    "border star": [
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S"
     ],
     "kingston heights": [
       "Ellen S"
@@ -8504,7 +8779,7 @@
   "source_buckets": {
     "Advocacy / org": 21,
     "Event / forum": 25,
-    "Other": 32,
+    "Other": 33,
     "Friend / family": 28,
     "School / PTA": 38,
     "Chain referral": 49,
@@ -8525,6 +8800,10 @@
     "lincoln middle": [
       "Ashley S",
       "Nina"
+    ],
+    "border star": [
+      "Ashley S",
+      "Ellen S"
     ]
   },
   "voices": [
@@ -8534,6 +8813,20 @@
       "school": "",
       "self_interest": "building youth leadership within the KCT space",
       "next_step": "collabaration between orgs"
+    },
+    {
+      "fellow": "Ellen S",
+      "name": "Meghan W.",
+      "school": "",
+      "self_interest": "Being part of the solution; one kid for a reason and can provide but doen't want to be part of a broken process/system/community",
+      "next_step": ""
+    },
+    {
+      "fellow": "Ashley S",
+      "name": "Sylvia G.",
+      "school": "",
+      "self_interest": "Political concerns about kids future and lose of resources to their education.",
+      "next_step": "Sylvia will send a list of parents for reaching out to for 1 on 1s. Will connect me to parents\u2026"
     },
     {
       "fellow": "Jamie",
@@ -8548,20 +8841,6 @@
       "school": "Blue Springs",
       "self_interest": "She stated that we all do better when the most vulnerable among us are taken care of. She also expressed a deep desire to get more people engaged in political\u2026",
       "next_step": "Invited her to PPC, House training, and an emergency meeting (date TBD). If she has scheduling conflicts, I will invite\u2026"
-    },
-    {
-      "fellow": "Stephanie",
-      "name": "Elena G.",
-      "school": "FHN",
-      "self_interest": "Strong public schools and communities",
-      "next_step": "invite to PPC and emergency meeting on 5/26/26"
-    },
-    {
-      "fellow": "Sierra",
-      "name": "Colin F.",
-      "school": "No school yet",
-      "self_interest": "Wife and daughter",
-      "next_step": "Remind to vote when time comes"
     }
   ],
   "approaches": {
