@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-25",
+  "as_of": "2026-05-26",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -7047,9 +7047,7 @@
           "next_step_text": "She is working with me on putting together a park play date where we can talk with parents about the\u2026",
           "source": "BS art commission",
           "inv_status": "Completed"
-        }
-      ],
-      "scheduled": [
+        },
         {
           "name": "Katie F.",
           "full_name_lower": "katie freeman",
@@ -7064,6 +7062,7 @@
           "inv_status": "Scheduled"
         }
       ],
+      "scheduled": [],
       "districts": [
         "BS Dems"
       ],
@@ -7100,8 +7099,8 @@
       "leader_count": 4,
       "ranked_leader_count": 4,
       "prospect_count": 8,
-      "completed_count": 4,
-      "scheduled_count": 1,
+      "completed_count": 5,
+      "scheduled_count": 0,
       "notes_count": 4,
       "si_count": 4,
       "status": "active"
@@ -8529,8 +8528,8 @@
     "leaders": 127,
     "leaders_ranked": 97,
     "prospects": 384,
-    "completed": 113,
-    "scheduled": 16,
+    "completed": 114,
+    "scheduled": 15,
     "with_notes": 92,
     "with_si": 92
   },

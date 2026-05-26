@@ -1199,7 +1199,7 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Drop off blackberry vine",
           "source": "Back to school night",
           "inv_status": "Left Message - Waiting"
         },
@@ -4283,7 +4283,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Karen S.",
@@ -4335,7 +4335,7 @@
           "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
           "next_step_text": "Ask for her daughter's contact info.",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Harry H.",
@@ -4478,7 +4478,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Not Contacted"
+          "inv_status": "Not Contacted, Left Message - Waiting"
         },
         {
           "name": "Harry L.",
@@ -4834,6 +4834,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Marla T.",
+          "full_name_lower": "marla tacket",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Karen S.",
           "full_name_lower": "karen sieve",
           "school": "",
@@ -4845,6 +4858,19 @@
           "next_step_text": "Invited to Emergency meeting nd power camp",
           "source": "Through our school board circle",
           "inv_status": "Completed, Follow Up Needed"
+        },
+        {
+          "name": "Kathy S.",
+          "full_name_lower": "kathy stroud",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
+          "next_step_text": "Ask for her daughter's contact info.",
+          "source": "",
+          "inv_status": "Completed"
         },
         {
           "name": "Don L.",
@@ -4951,34 +4977,7 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Marla T.",
-          "full_name_lower": "marla tacket",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Scheduled"
-        },
-        {
-          "name": "Kathy S.",
-          "full_name_lower": "kathy stroud",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
-          "next_step_text": "Ask for her daughter's contact info.",
-          "source": "",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "?",
         "Fox C-6",
@@ -4992,12 +4991,12 @@
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
-        "Completed": 9,
+        "Completed": 11,
         "Completed, Follow Up Needed": 6,
         "Referred/Delegated, Follow Up Needed": 2,
-        "Scheduled": 2,
         "Left Message - Waiting": 6,
-        "Not Contacted": 17,
+        "Not Contacted": 16,
+        "Not Contacted, Left Message - Waiting": 1,
         "Referred/Delegated": 2
       },
       "source_buckets": {
@@ -5028,10 +5027,10 @@
       "leader_count": 13,
       "ranked_leader_count": 13,
       "prospect_count": 44,
-      "completed_count": 15,
-      "scheduled_count": 2,
-      "notes_count": 15,
-      "si_count": 14,
+      "completed_count": 17,
+      "scheduled_count": 0,
+      "notes_count": 17,
+      "si_count": 15,
       "status": "active"
     },
     "Judy": {
@@ -7923,7 +7922,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Becky R.",
@@ -7949,7 +7948,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Emily B.",
@@ -8483,8 +8482,8 @@
       "inv_statuses": {
         "Completed": 12,
         "Scheduled": 3,
-        "Left Message - Waiting": 35,
-        "Follow Up Needed": 7,
+        "Left Message - Waiting": 33,
+        "Follow Up Needed": 9,
         "Declined": 1
       },
       "source_buckets": {
@@ -8528,10 +8527,10 @@
     "leaders": 127,
     "leaders_ranked": 97,
     "prospects": 384,
-    "completed": 114,
-    "scheduled": 15,
-    "with_notes": 92,
-    "with_si": 92
+    "completed": 116,
+    "scheduled": 13,
+    "with_notes": 94,
+    "with_si": 93
   },
   "all_completed": [],
   "schools_to_fellows": {
