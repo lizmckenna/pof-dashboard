@@ -4130,11 +4130,11 @@
           "date": null,
           "raw_date": "",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "Harry is considering a future run for school board/possibl leadership with MOEEP; He is anchored in racial equity but also committed to LGBTQ and socioeconomic equity.",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Meghan G.",
@@ -4659,6 +4659,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Harry H.",
+          "full_name_lower": "harry harris",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Harry is considering a future run for school board/possibl leadership with MOEEP; He is anchored in racial equity but also committed to LGBTQ and socioeconomic equity.",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Don L.",
           "full_name_lower": "don looney",
           "school": "n/a",
@@ -4777,10 +4790,10 @@
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
-        "Completed": 11,
+        "Completed": 12,
         "Completed, Follow Up Needed": 6,
         "Referred/Delegated, Follow Up Needed": 2,
-        "Left Message - Waiting": 6,
+        "Left Message - Waiting": 5,
         "Not Contacted": 16,
         "Not Contacted, Left Message - Waiting": 1,
         "Referred/Delegated": 2
@@ -4813,10 +4826,10 @@
       "leader_count": 13,
       "ranked_leader_count": 13,
       "prospect_count": 44,
-      "completed_count": 17,
+      "completed_count": 18,
       "scheduled_count": 0,
-      "notes_count": 17,
-      "si_count": 15,
+      "notes_count": 18,
+      "si_count": 16,
       "status": "active"
     },
     "Judy": {
@@ -8339,10 +8352,10 @@
     "leaders": 127,
     "leaders_ranked": 97,
     "prospects": 375,
-    "completed": 112,
+    "completed": 113,
     "scheduled": 12,
-    "with_notes": 94,
-    "with_si": 90
+    "with_notes": 95,
+    "with_si": 91
   },
   "all_completed": [],
   "schools_to_fellows": {
