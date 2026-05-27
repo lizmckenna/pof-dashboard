@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-26",
+  "as_of": "2026-05-27",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -5776,8 +5776,8 @@
           "date": null,
           "raw_date": "Waiting on response",
           "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "Better ed and more resources available",
           "next_step_text": "Agreed to 1 on 1. Waiting on response to schedule",
           "source": "Childhood Friend",
           "inv_status": "Left Message - Waiting"
@@ -5793,7 +5793,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "PTA president",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "karalyn p.",
@@ -5806,7 +5806,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "PTA member",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Brianna B.",
@@ -5924,6 +5924,32 @@
           "next_step_text": "",
           "source": "car drop off line 5/14",
           "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Katrina R.",
+          "full_name_lower": "katrina ross",
+          "school": "Liberty",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Emma",
+          "full_name_lower": "emma",
+          "school": "Greenway",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PTA",
+          "inv_status": ""
         }
       ],
       "completed": [
@@ -5968,12 +5994,12 @@
       "inv_statuses": {
         "Follow Up Needed": 1,
         "Scheduled": 1,
-        "Not Contacted": 4,
-        "Left Message - Waiting": 11
+        "Not Contacted": 2,
+        "Left Message - Waiting": 14
       },
       "source_buckets": {
         "Friend / family": 2,
-        "School / PTA": 4,
+        "School / PTA": 5,
         "Chain referral": 2,
         "Other": 9
       },
@@ -5989,7 +6015,7 @@
       "chain_total": 2,
       "leader_count": 2,
       "ranked_leader_count": 2,
-      "prospect_count": 17,
+      "prospect_count": 19,
       "completed_count": 2,
       "scheduled_count": 0,
       "notes_count": 1,
@@ -8312,7 +8338,7 @@
     "fellows_with_completed": 15,
     "leaders": 127,
     "leaders_ranked": 97,
-    "prospects": 373,
+    "prospects": 375,
     "completed": 112,
     "scheduled": 12,
     "with_notes": 94,
@@ -8607,9 +8633,13 @@
       "Latrice",
       "Latrice",
       "Latrice",
+      "Latrice",
       "Latrice"
     ],
     "plaza/ park hill high": [
+      "Latrice"
+    ],
+    "liberty": [
       "Latrice"
     ],
     "robinson": [
@@ -8721,7 +8751,7 @@
     "Event / forum": 25,
     "Other": 32,
     "Friend / family": 27,
-    "School / PTA": 38,
+    "School / PTA": 39,
     "Chain referral": 49,
     "Online": 20,
     "Work": 5,
