@@ -4081,6 +4081,14 @@
           "level": "Core leader - Organize a team",
           "self_interest": "Teacher and MNEA lead for district",
           "next_step": ""
+        },
+        {
+          "name": "Keren S.",
+          "district": "Francis Howell",
+          "school": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Grandparent and Fwd Leader",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -4107,7 +4115,7 @@
           "has_si": true,
           "self_interest_text": "He is interested in equity matters for our school district, healing division, and and even playing field in power with the local NEA. He could be a powerful partner in\u2026",
           "next_step_text": "Invited to Parent Power Camp and emergency Meeting",
-          "source": "FHSD School Board Pres",
+          "source": "FHSD School Board Pres/ndorsed Fwd candidate",
           "inv_status": "Completed, Follow Up Needed"
         },
         {
@@ -4139,7 +4147,7 @@
         {
           "name": "Heather F.",
           "full_name_lower": "heather fleming",
-          "school": "",
+          "school": "Francis Howell North",
           "date": "2026-05-18",
           "raw_date": "5.18",
           "has_notes": true,
@@ -4172,7 +4180,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Long time forward volunteer as a moderator through Marissa",
           "inv_status": "Referred/Delegated, Follow Up Needed"
         },
         {
@@ -4182,10 +4190,10 @@
           "date": null,
           "raw_date": "",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "Marla found community and purpose with Forward; she is eager to fight for progressive causes.",
           "next_step_text": "",
-          "source": "",
+          "source": "Online engagement w Fwd, now volunteer",
           "inv_status": "Completed"
         },
         {
@@ -4211,7 +4219,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "Send specific times",
-          "source": "Online",
+          "source": "Online enggaement in FHSD.",
           "inv_status": "Left Message - Waiting"
         },
         {
@@ -4224,7 +4232,7 @@
           "has_si": true,
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
           "next_step_text": "",
-          "source": "",
+          "source": "BOE meetings-longtime Forward volunteer",
           "inv_status": "Left Message - Waiting"
         },
         {
@@ -4237,7 +4245,7 @@
           "has_si": true,
           "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
           "next_step_text": "Ask for her daughter's contact info.",
-          "source": "",
+          "source": "Online? Longtime Fwd volunteer",
           "inv_status": "Completed"
         },
         {
@@ -4250,7 +4258,7 @@
           "has_si": true,
           "self_interest_text": "Harry is considering a future run for school board/possibl leadership with MOEEP; He is anchored in racial equity but also committed to LGBTQ and socioeconomic equity.",
           "next_step_text": "",
-          "source": "",
+          "source": "BOE mtgs/former endorsed candidate of Forward",
           "inv_status": "Completed"
         },
         {
@@ -4263,7 +4271,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Online engagement FHSD",
           "inv_status": "Referred/Delegated, Follow Up Needed"
         },
         {
@@ -4272,12 +4280,12 @@
           "school": "",
           "date": null,
           "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Not Contacted"
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
+          "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
+          "source": "Candiate herself and canvasser for Fwd 2023",
+          "inv_status": "Scheduled"
         },
         {
           "name": "Annie H.",
@@ -4285,11 +4293,11 @@
           "school": "",
           "date": null,
           "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Annie cares deeeply bout the environement and has kiddos in our schools.",
+          "next_step_text": "Invite to parent camp.",
+          "source": "Through Lisa Pigg",
           "inv_status": "Referred/Delegated, Follow Up Needed"
         },
         {
@@ -4298,11 +4306,11 @@
           "school": "",
           "date": null,
           "raw_date": "",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Through Karin Robinette",
           "inv_status": "Left Message - Waiting"
         },
         {
@@ -4325,10 +4333,23 @@
           "date": null,
           "raw_date": "",
           "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Chad is a union man. Labor, edcuation are his passions.",
+          "next_step_text": "",
+          "source": "Former school board member; well connected to labor orgs",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Any G.",
+          "full_name_lower": "any student students for francis howell group",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "Former school board member; well connected to labor orgs",
+          "source": "",
           "inv_status": "Not Contacted"
         },
         {
@@ -4406,7 +4427,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "MOEEP",
           "inv_status": "Left Message - Waiting"
         },
         {
@@ -4419,7 +4440,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Case study research/online engagement Rockwood",
           "inv_status": "Left Message - Waiting"
         },
         {
@@ -4432,8 +4453,21 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Case study research/online engagement Rockwood",
           "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Rachel P.",
+          "full_name_lower": "rachel parrera",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Case study research/through Aimee Robertson",
+          "inv_status": "Not Contacted"
         },
         {
           "name": "Amy W.",
@@ -4445,7 +4479,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Case study research/online engagement Rockwood",
           "inv_status": "Not Contacted"
         },
         {
@@ -4471,7 +4505,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Jarett Pillsbury/church",
           "inv_status": "Not Contacted"
         },
         {
@@ -4510,7 +4544,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Wife of school board member/ndorsed candidate of FHForward",
           "inv_status": "Not Contacted"
         },
         {
@@ -4523,7 +4557,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "FHSD cadmic advisory committee",
           "inv_status": "Not Contacted"
         },
         {
@@ -4536,7 +4570,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "School board member/ndorsed candidate of FHForward",
           "inv_status": "Not Contacted"
         },
         {
@@ -4549,7 +4583,7 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Harry Harris connection",
           "inv_status": "Not Contacted"
         },
         {
@@ -4562,86 +4596,8 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "colleague-UMSL",
           "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Spencer T.",
-          "full_name_lower": "spencer toder",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Met through Courtney Kamp; used his platform for text banking the first campaign",
-          "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Lorna F.",
-          "full_name_lower": "lorna frahm",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Renee S.",
-          "full_name_lower": "renee schuester",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Bruce S.",
-          "full_name_lower": "bruce sawatski",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Brittani W.",
-          "full_name_lower": "brittani wade",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Not Contacted"
-        },
-        {
-          "name": "David V.",
-          "full_name_lower": "david veneziano",
-          "school": "",
-          "date": "2026-05-08",
-          "raw_date": "5.8",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Ken R.",
@@ -4680,7 +4636,20 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Former coworker; may have some Kirkwood contacts",
-          "inv_status": "Referred/Delegated"
+          "inv_status": "Referred/Delegated, Follow Up Needed"
+        },
+        {
+          "name": "Sarah L.",
+          "full_name_lower": "sarah laub",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Sarah is intersted in comms/candidte support in her area.",
+          "next_step_text": "",
+          "source": "Fellowship",
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Ellen S.",
@@ -4696,17 +4665,147 @@
           "inv_status": "Completed"
         },
         {
-          "name": "Sarah L.",
-          "full_name_lower": "sarah laub",
+          "name": "David V.",
+          "full_name_lower": "david veneziano",
+          "school": "",
+          "date": "2026-05-08",
+          "raw_date": "5.8",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Candidate for County Council/Sips",
+          "inv_status": "Completed, Follow Up Needed"
+        },
+        {
+          "name": "Spencer T.",
+          "full_name_lower": "spencer toder",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Met through Courtney Kamp; used his platform for text banking the first campaign",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Lorna F.",
+          "full_name_lower": "lorna frahm",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "through Ted Hosue",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Renee S.",
+          "full_name_lower": "renee schuester",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Through Karen Sieve",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Bruce S.",
+          "full_name_lower": "bruce sawatski",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Through Karen Sieve",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Brittani W.",
+          "full_name_lower": "brittani wade",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "colleague/client-school site",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Kristine H.",
+          "full_name_lower": "kristine haglund",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "MWEG",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Selena F.",
+          "full_name_lower": "selena forsythe",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "MWEG",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Daughter I.",
+          "full_name_lower": "daughter isom",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "church",
+          "inv_status": ""
+        },
+        {
+          "name": "Anthony I.",
+          "full_name_lower": "anthony isom",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "church",
+          "inv_status": ""
+        },
+        {
+          "name": "Dana K.",
+          "full_name_lower": "dana king",
           "school": "",
           "date": null,
           "raw_date": "",
           "has_notes": true,
           "has_si": true,
-          "self_interest_text": "Sarah is intersted in comms/candidte support in her area.",
+          "self_interest_text": "Racial Justice",
           "next_step_text": "",
-          "source": "",
-          "inv_status": "Left Message - Waiting"
+          "source": "MWEG",
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -4733,7 +4832,7 @@
           "has_si": true,
           "self_interest_text": "He is interested in equity matters for our school district, healing division, and and even playing field in power with the local NEA. He could be a powerful partner in\u2026",
           "next_step_text": "Invited to Parent Power Camp and emergency Meeting",
-          "source": "FHSD School Board Pres",
+          "source": "FHSD School Board Pres/ndorsed Fwd candidate",
           "inv_status": "Completed, Follow Up Needed"
         },
         {
@@ -4765,7 +4864,7 @@
         {
           "name": "Heather F.",
           "full_name_lower": "heather fleming",
-          "school": "",
+          "school": "Francis Howell North",
           "date": "2026-05-18",
           "raw_date": "5.18",
           "has_notes": true,
@@ -4795,10 +4894,10 @@
           "date": null,
           "raw_date": "",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "Marla found community and purpose with Forward; she is eager to fight for progressive causes.",
           "next_step_text": "",
-          "source": "",
+          "source": "Online engagement w Fwd, now volunteer",
           "inv_status": "Completed"
         },
         {
@@ -4824,7 +4923,7 @@
           "has_si": true,
           "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
           "next_step_text": "Ask for her daughter's contact info.",
-          "source": "",
+          "source": "Online? Longtime Fwd volunteer",
           "inv_status": "Completed"
         },
         {
@@ -4837,7 +4936,7 @@
           "has_si": true,
           "self_interest_text": "Harry is considering a future run for school board/possibl leadership with MOEEP; He is anchored in racial equity but also committed to LGBTQ and socioeconomic equity.",
           "next_step_text": "",
-          "source": "",
+          "source": "BOE mtgs/former endorsed candidate of Forward",
           "inv_status": "Completed"
         },
         {
@@ -4919,19 +5018,6 @@
           "inv_status": "Completed, Follow Up Needed"
         },
         {
-          "name": "David V.",
-          "full_name_lower": "david veneziano",
-          "school": "",
-          "date": "2026-05-08",
-          "raw_date": "5.8",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Completed, Follow Up Needed"
-        },
-        {
           "name": "Ellen S.",
           "full_name_lower": "ellen schwartze",
           "school": "",
@@ -4943,9 +5029,36 @@
           "next_step_text": "Spend some time building out the sheet format we discussed and circle back with Ellen for feedback.",
           "source": "Fellowship",
           "inv_status": "Completed"
+        },
+        {
+          "name": "David V.",
+          "full_name_lower": "david veneziano",
+          "school": "",
+          "date": "2026-05-08",
+          "raw_date": "5.8",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Candidate for County Council/Sips",
+          "inv_status": "Completed, Follow Up Needed"
         }
       ],
-      "scheduled": [],
+      "scheduled": [
+        {
+          "name": "Tara M.",
+          "full_name_lower": "tara murray",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
+          "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
+          "source": "Candiate herself and canvasser for Fwd 2023",
+          "inv_status": "Scheduled"
+        }
+      ],
       "districts": [
         "?",
         "Fox C-6",
@@ -4954,33 +5067,49 @@
       ],
       "schools": [],
       "leader_levels": {
-        "Core leader - Organize a team": 7,
+        "Core leader - Organize a team": 8,
         "Leader - Organize others": 5,
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
         "Completed": 12,
         "Completed, Follow Up Needed": 6,
-        "Referred/Delegated, Follow Up Needed": 3,
+        "Referred/Delegated, Follow Up Needed": 4,
         "Left Message - Waiting": 7,
-        "Not Contacted": 18,
-        "Referred/Delegated": 2
+        "Scheduled": 1,
+        "Not Contacted": 22,
+        "Referred/Delegated": 1
       },
       "source_buckets": {
-        "Advocacy / org": 7,
-        "Other": 4,
+        "Advocacy / org": 11,
+        "Other": 14,
         "Friend / family": 4,
-        "Online": 1,
-        "Chain referral": 3,
+        "Chain referral": 9,
+        "Online": 7,
         "Event / forum": 1,
-        "Work": 3
+        "Church / faith": 3,
+        "Work": 5
       },
       "chains": [
         [
           "Ted H.",
           [
             "Chad L.",
-            "Aaliyah B."
+            "Aaliyah B.",
+            "Lorna F."
+          ]
+        ],
+        [
+          "Karen S.",
+          [
+            "Renee S.",
+            "Bruce S."
+          ]
+        ],
+        [
+          "Marissa P.",
+          [
+            "Caroline D."
           ]
         ],
         [
@@ -4988,16 +5117,28 @@
           [
             "Bekah M."
           ]
+        ],
+        [
+          "Aimee R.",
+          [
+            "Rachel P."
+          ]
+        ],
+        [
+          "Harry L.",
+          [
+            "Amber M."
+          ]
         ]
       ],
-      "chain_total": 3,
-      "leader_count": 13,
-      "ranked_leader_count": 13,
-      "prospect_count": 48,
+      "chain_total": 9,
+      "leader_count": 14,
+      "ranked_leader_count": 14,
+      "prospect_count": 55,
       "completed_count": 18,
-      "scheduled_count": 0,
+      "scheduled_count": 1,
       "notes_count": 18,
-      "si_count": 16,
+      "si_count": 17,
       "status": "active"
     },
     "Judy": {
@@ -8504,13 +8645,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 127,
-    "leaders_ranked": 98,
-    "prospects": 385,
+    "leaders": 128,
+    "leaders_ranked": 99,
+    "prospects": 392,
     "completed": 116,
-    "scheduled": 11,
+    "scheduled": 12,
     "with_notes": 96,
-    "with_si": 92
+    "with_si": 93
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -8732,6 +8873,9 @@
     "bryan + fhcentral": [
       "Jamie"
     ],
+    "francis howell north": [
+      "Jamie"
+    ],
     "n/a": [
       "Jamie",
       "Jamie"
@@ -8914,15 +9058,15 @@
     ]
   },
   "source_buckets": {
-    "Advocacy / org": 21,
+    "Advocacy / org": 25,
     "Event / forum": 25,
-    "Other": 32,
+    "Other": 42,
     "Friend / family": 27,
     "School / PTA": 38,
-    "Chain referral": 49,
-    "Online": 20,
-    "Work": 5,
-    "Church / faith": 8
+    "Chain referral": 55,
+    "Online": 26,
+    "Church / faith": 11,
+    "Work": 7
   },
   "warnings": [],
   "overlap_schools": {
@@ -8961,7 +9105,7 @@
     {
       "fellow": "Jamie",
       "name": "Heather F.",
-      "school": "",
+      "school": "Francis Howell North",
       "self_interest": "Heather is interested in shoring up the structure of her organization and improving systems. Her district captain leadership program is perfectly aligned for mobilizing parents and school leaders across the\u2026",
       "next_step": "Continue to meet for collb/strategy"
     },
