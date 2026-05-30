@@ -1769,6 +1769,14 @@
           "level": "Leader - Organize others",
           "self_interest": "Her two children, Gwen and Scott, who will be in Kindergarten and 2nd grade at Hale Cook next year. Their experience of the school as\u2026",
           "next_step": ""
+        },
+        {
+          "name": "Danielle D.",
+          "district": "KCPS",
+          "school": "LIncoln Middle/Prep",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Her two teenage children, one at lincoln middle and one at lincoln high, and their grounding in the real world, their experience of school, both\u2026",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -2389,12 +2397,12 @@
           "school": "ShowMeKC Schools",
           "date": null,
           "raw_date": "May 28, 2026",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her two teenage children, one at lincoln middle and one at lincoln high, and their grounding in the real world, their experience of school, both social and academic, and their\u2026",
           "next_step_text": "",
           "source": "Jill Goodheart",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Tamisha C.",
@@ -2750,6 +2758,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Danielle D.",
+          "full_name_lower": "danielle dispenza",
+          "school": "ShowMeKC Schools",
+          "date": null,
+          "raw_date": "May 28, 2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her two teenage children, one at lincoln middle and one at lincoln high, and their grounding in the real world, their experience of school, both social and academic, and their\u2026",
+          "next_step_text": "",
+          "source": "Jill Goodheart",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Jessica M.",
           "full_name_lower": "jessica meisenheimer",
           "school": "Hale Cook",
@@ -2763,40 +2784,26 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Danielle D.",
-          "full_name_lower": "danielle dispenza",
-          "school": "ShowMeKC Schools",
-          "date": null,
-          "raw_date": "May 28, 2026",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Jill Goodheart",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "KCPS"
       ],
       "schools": [
-        "Hale Cook"
+        "Hale Cook",
+        "LIncoln Middle/Prep"
       ],
       "leader_levels": {
         "Core leader - Organize a team": 4,
-        "Volunteer - Support / show up": 9,
+        "Volunteer - Support / show up": 10,
         "Leader - Organize others": 9,
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
         "Follow Up Needed": 5,
-        "Completed": 19,
+        "Completed": 20,
         "Left Message - Waiting": 16,
         "Not Contacted": 15,
-        "Declined": 1,
-        "Scheduled": 1
+        "Declined": 1
       },
       "source_buckets": {
         "School / PTA": 12,
@@ -2867,13 +2874,13 @@
         ]
       ],
       "chain_total": 30,
-      "leader_count": 23,
-      "ranked_leader_count": 23,
+      "leader_count": 24,
+      "ranked_leader_count": 24,
       "prospect_count": 57,
-      "completed_count": 19,
-      "scheduled_count": 1,
-      "notes_count": 19,
-      "si_count": 19,
+      "completed_count": 20,
+      "scheduled_count": 0,
+      "notes_count": 20,
+      "si_count": 20,
       "status": "active"
     },
     "Ellen S": {
@@ -3007,6 +3014,19 @@
           "inv_status": "Scheduled"
         },
         {
+          "name": "Tiffany R.",
+          "full_name_lower": "tiffany roberts",
+          "school": "",
+          "date": null,
+          "raw_date": "June 10",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 2 Meeting",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
           "name": "Chris H.",
           "full_name_lower": "chris howard",
           "school": "",
@@ -3074,19 +3094,6 @@
         {
           "name": "Chrystal F.",
           "full_name_lower": "chrystal ferguson",
-          "school": "",
-          "date": null,
-          "raw_date": "no reply yet",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Tiffany R.",
-          "full_name_lower": "tiffany roberts",
           "school": "",
           "date": null,
           "raw_date": "no reply yet",
@@ -3945,6 +3952,19 @@
           "next_step_text": "June 2 Meeting 1:1 on June 9",
           "source": "",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Tiffany R.",
+          "full_name_lower": "tiffany roberts",
+          "school": "",
+          "date": null,
+          "raw_date": "June 10",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 2 Meeting",
+          "source": "",
+          "inv_status": "Scheduled"
         }
       ],
       "districts": [
@@ -3959,8 +3979,8 @@
         "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
-        "Scheduled": 1,
-        "Contacted": 11,
+        "Scheduled": 2,
+        "Contacted": 10,
         "1:1 Completed": 17
       },
       "source_buckets": {},
@@ -3970,7 +3990,7 @@
       "ranked_leader_count": 14,
       "prospect_count": 55,
       "completed_count": 17,
-      "scheduled_count": 1,
+      "scheduled_count": 2,
       "notes_count": 14,
       "si_count": 14,
       "status": "active"
@@ -8645,13 +8665,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 128,
-    "leaders_ranked": 99,
+    "leaders": 129,
+    "leaders_ranked": 100,
     "prospects": 392,
-    "completed": 116,
+    "completed": 117,
     "scheduled": 12,
-    "with_notes": 96,
-    "with_si": 93
+    "with_notes": 97,
+    "with_si": 94
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -8851,6 +8871,9 @@
     ],
     "kcps board of edu": [
       "Brianna"
+    ],
+    "lincoln middle/prep": [
+      "David"
     ],
     "hale cook (2026)": [
       "David"
