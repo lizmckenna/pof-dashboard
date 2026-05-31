@@ -5435,11 +5435,11 @@
           "date": null,
           "raw_date": "",
           "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "Her son Ace who is being forced to move schools",
+          "next_step_text": "Working to schedule in person 1:1.",
           "source": "Friend",
-          "inv_status": "Not Contacted"
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Rebecca M.",
@@ -5530,7 +5530,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Referred by Ronda Scott",
-          "inv_status": "Not Contacted"
+          "inv_status": "Declined"
         },
         {
           "name": "Angie H.",
@@ -5557,6 +5557,19 @@
           "next_step_text": "",
           "source": "Friend",
           "inv_status": "Declined"
+        },
+        {
+          "name": "Margaret C.",
+          "full_name_lower": "margaret cook",
+          "school": "Van Horn",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her grandson",
+          "next_step_text": "Follow up for more info on school switch",
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
         }
       ],
       "completed": [
@@ -5612,13 +5625,13 @@
       },
       "inv_statuses": {
         "Completed": 3,
-        "Follow Up Needed": 5,
+        "Follow Up Needed": 7,
         "Left Message - Waiting": 1,
-        "Not Contacted": 7,
-        "Declined": 2
+        "Not Contacted": 5,
+        "Declined": 3
       },
       "source_buckets": {
-        "Online": 9,
+        "Online": 10,
         "Chain referral": 2,
         "School / PTA": 3,
         "Friend / family": 4
@@ -5635,7 +5648,7 @@
       "chain_total": 2,
       "leader_count": 1,
       "ranked_leader_count": 1,
-      "prospect_count": 18,
+      "prospect_count": 19,
       "completed_count": 3,
       "scheduled_count": 0,
       "notes_count": 2,
@@ -8817,7 +8830,7 @@
     "fellows_with_completed": 15,
     "leaders": 129,
     "leaders_ranked": 100,
-    "prospects": 400,
+    "prospects": 401,
     "completed": 118,
     "scheduled": 14,
     "with_notes": 98,
@@ -9093,6 +9106,9 @@
     "chrisman high school": [
       "Judy"
     ],
+    "van horn": [
+      "Judy"
+    ],
     "lincoln college prep / lincoln middle": [
       "LaNee",
       "LaNee"
@@ -9240,7 +9256,7 @@
     "Friend / family": 28,
     "School / PTA": 38,
     "Chain referral": 57,
-    "Online": 26,
+    "Online": 27,
     "Church / faith": 11,
     "Work": 7
   },
