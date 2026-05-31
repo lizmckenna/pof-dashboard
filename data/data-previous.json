@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-30",
+  "as_of": "2026-05-31",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -4160,7 +4160,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "He is interested in supporting the campaigns for Joel Kelly and Cat for districts 105 and 106.",
-          "next_step_text": "Construct message for donor outreach; ask two volunteers to mke calls",
+          "next_step_text": "Construct message for donor outreach; ask two volunteers to make calls",
           "source": "Coalition leader for Saint Charles County Families for Public Schools (SCCFFPS)",
           "inv_status": "Completed"
         },
@@ -4199,7 +4199,7 @@
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Request assistance with treasury.",
           "source": "Long time forward volunteer as a moderator through Marissa",
           "inv_status": "Referred/Delegated, Follow Up Needed"
         },
@@ -4207,12 +4207,12 @@
           "name": "Marla T.",
           "full_name_lower": "marla tacket",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-24",
+          "raw_date": "5.24",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Marla found community and purpose with Forward; she is eager to fight for progressive causes.",
-          "next_step_text": "",
+          "next_step_text": "PPC registered!",
           "source": "Online engagement w Fwd, now volunteer",
           "inv_status": "Completed"
         },
@@ -4220,8 +4220,8 @@
           "name": "Karen S.",
           "full_name_lower": "karen sieve",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-25",
+          "raw_date": "5.25",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Karen is interested in progressive policiy initiatives. She is concerned about amendments 4 nd 5 and the actions of conservtive legislators.",
@@ -4246,8 +4246,8 @@
           "name": "Carrie Z.",
           "full_name_lower": "carrie zilkowski",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-07-02",
+          "raw_date": "7.2",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
@@ -4259,8 +4259,8 @@
           "name": "Kathy S.",
           "full_name_lower": "kathy stroud",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-25",
+          "raw_date": "5.25",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
@@ -4272,14 +4272,40 @@
           "name": "Harry H.",
           "full_name_lower": "harry harris",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-26",
+          "raw_date": "5.26",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Harry is considering a future run for school board/possibl leadership with MOEEP; He is anchored in racial equity but also committed to LGBTQ and socioeconomic equity.",
           "next_step_text": "",
           "source": "BOE mtgs/former endorsed candidate of Forward",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Carolie O.",
+          "full_name_lower": "carolie owens",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Ask to do a House Meeting",
+          "source": "BOE mmber and endorsed cndidate of Fwd; met through Ted House",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Harry H.",
+          "full_name_lower": "harry harris",
+          "school": "",
+          "date": "2026-05-29",
+          "raw_date": "5.29",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Black voices and equity in education",
+          "next_step_text": "Talk to Molly re: regional organizing",
+          "source": "BOE mtgs/former endorsed candidate of Forward",
+          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Meghan G.",
@@ -4290,7 +4316,7 @@
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Discuss social media sluthing",
           "source": "Online engagement FHSD",
           "inv_status": "Referred/Delegated, Follow Up Needed"
         },
@@ -4298,8 +4324,8 @@
           "name": "Tara M.",
           "full_name_lower": "tara murray",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-09",
+          "raw_date": "6.9",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
@@ -4324,8 +4350,8 @@
           "name": "Amy L.",
           "full_name_lower": "amy latta",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-05",
+          "raw_date": "6.5",
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
@@ -4399,19 +4425,6 @@
           "inv_status": "Not Contacted"
         },
         {
-          "name": "Carolie O.",
-          "full_name_lower": "carolie owens",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Not Contacted"
-        },
-        {
           "name": "Courtney K.",
           "full_name_lower": "courtney kamp",
           "school": "",
@@ -4423,6 +4436,19 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Retired C.",
+          "full_name_lower": "retired crew",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
         },
         {
           "name": "Any G.",
@@ -4864,7 +4890,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "church",
-          "inv_status": ""
+          "inv_status": "Not Contacted"
         },
         {
           "name": "Anthony I.",
@@ -4877,7 +4903,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "church",
-          "inv_status": ""
+          "inv_status": "Not Contacted"
         },
         {
           "name": "Dana K.",
@@ -4890,6 +4916,19 @@
           "self_interest_text": "Racial Justice",
           "next_step_text": "",
           "source": "MWEG",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Pat H.",
+          "full_name_lower": "pat hogan",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Kthy S's sister",
           "inv_status": "Not Contacted"
         }
       ],
@@ -4942,7 +4981,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "He is interested in supporting the campaigns for Joel Kelly and Cat for districts 105 and 106.",
-          "next_step_text": "Construct message for donor outreach; ask two volunteers to mke calls",
+          "next_step_text": "Construct message for donor outreach; ask two volunteers to make calls",
           "source": "Coalition leader for Saint Charles County Families for Public Schools (SCCFFPS)",
           "inv_status": "Completed"
         },
@@ -4976,12 +5015,12 @@
           "name": "Marla T.",
           "full_name_lower": "marla tacket",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-24",
+          "raw_date": "5.24",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Marla found community and purpose with Forward; she is eager to fight for progressive causes.",
-          "next_step_text": "",
+          "next_step_text": "PPC registered!",
           "source": "Online engagement w Fwd, now volunteer",
           "inv_status": "Completed"
         },
@@ -4989,8 +5028,8 @@
           "name": "Karen S.",
           "full_name_lower": "karen sieve",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-25",
+          "raw_date": "5.25",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Karen is interested in progressive policiy initiatives. She is concerned about amendments 4 nd 5 and the actions of conservtive legislators.",
@@ -5002,8 +5041,8 @@
           "name": "Kathy S.",
           "full_name_lower": "kathy stroud",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-25",
+          "raw_date": "5.25",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Kathy is dedicated to causes for public education; she is worried abt school funding.",
@@ -5015,14 +5054,27 @@
           "name": "Harry H.",
           "full_name_lower": "harry harris",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-26",
+          "raw_date": "5.26",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Harry is considering a future run for school board/possibl leadership with MOEEP; He is anchored in racial equity but also committed to LGBTQ and socioeconomic equity.",
           "next_step_text": "",
           "source": "BOE mtgs/former endorsed candidate of Forward",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Harry H.",
+          "full_name_lower": "harry harris",
+          "school": "",
+          "date": "2026-05-29",
+          "raw_date": "5.29",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Black voices and equity in education",
+          "next_step_text": "Talk to Molly re: regional organizing",
+          "source": "BOE mtgs/former endorsed candidate of Forward",
+          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Don L.",
@@ -5131,17 +5183,43 @@
       ],
       "scheduled": [
         {
+          "name": "Carrie Z.",
+          "full_name_lower": "carrie zilkowski",
+          "school": "",
+          "date": "2026-07-02",
+          "raw_date": "7.2",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "***Ask re: contacts in Hazelwood!",
+          "next_step_text": "",
+          "source": "BOE meetings-longtime Forward volunteer",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
           "name": "Tara M.",
           "full_name_lower": "tara murray",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-09",
+          "raw_date": "6.9",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
           "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
           "source": "Candiate herself and canvasser for Fwd 2023",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Amy L.",
+          "full_name_lower": "amy latta",
+          "school": "",
+          "date": "2026-06-05",
+          "raw_date": "6.5",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Through Karin Robinette",
+          "inv_status": "Left Message - Waiting"
         }
       ],
       "districts": [
@@ -5158,18 +5236,18 @@
       },
       "inv_statuses": {
         "Completed": 12,
-        "Completed, Follow Up Needed": 6,
+        "Completed, Follow Up Needed": 7,
         "Referred/Delegated, Follow Up Needed": 4,
-        "Left Message - Waiting": 7,
+        "Left Message - Waiting": 8,
         "Scheduled": 1,
-        "Not Contacted": 27,
+        "Not Contacted": 29,
         "Referred/Delegated": 1
       },
       "source_buckets": {
         "Advocacy / org": 11,
-        "Other": 13,
-        "Friend / family": 4,
-        "Chain referral": 10,
+        "Other": 14,
+        "Friend / family": 5,
+        "Chain referral": 11,
         "Online": 7,
         "Event / forum": 1,
         "Church / faith": 3,
@@ -5179,6 +5257,7 @@
         [
           "Ted H.",
           [
+            "Carolie O.",
             "Chad L.",
             "Aaliyah B.",
             "Lorna F."
@@ -5222,14 +5301,14 @@
           ]
         ]
       ],
-      "chain_total": 10,
+      "chain_total": 11,
       "leader_count": 14,
       "ranked_leader_count": 14,
-      "prospect_count": 60,
-      "completed_count": 18,
-      "scheduled_count": 1,
-      "notes_count": 18,
-      "si_count": 17,
+      "prospect_count": 63,
+      "completed_count": 19,
+      "scheduled_count": 3,
+      "notes_count": 19,
+      "si_count": 18,
       "status": "active"
     },
     "Judy": {
@@ -8738,11 +8817,11 @@
     "fellows_with_completed": 15,
     "leaders": 129,
     "leaders_ranked": 100,
-    "prospects": 397,
-    "completed": 117,
-    "scheduled": 12,
-    "with_notes": 97,
-    "with_si": 94
+    "prospects": 400,
+    "completed": 118,
+    "scheduled": 14,
+    "with_notes": 98,
+    "with_si": 95
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9157,10 +9236,10 @@
   "source_buckets": {
     "Advocacy / org": 25,
     "Event / forum": 25,
-    "Other": 41,
-    "Friend / family": 27,
+    "Other": 42,
+    "Friend / family": 28,
     "School / PTA": 38,
-    "Chain referral": 56,
+    "Chain referral": 57,
     "Online": 26,
     "Church / faith": 11,
     "Work": 7
@@ -9186,6 +9265,13 @@
   },
   "voices": [
     {
+      "fellow": "Jamie",
+      "name": "Harry H.",
+      "school": "",
+      "self_interest": "Black voices and equity in education",
+      "next_step": "Talk to Molly re: regional organizing"
+    },
+    {
       "fellow": "AJ",
       "name": "Dajanae M.",
       "school": "",
@@ -9198,13 +9284,6 @@
       "school": "",
       "self_interest": "Political concerns about kids future and lose of resources to their education.",
       "next_step": "Sylvia will send a list of parents for reaching out to for 1 on 1s. Will connect me to parents\u2026"
-    },
-    {
-      "fellow": "Jamie",
-      "name": "Heather F.",
-      "school": "Francis Howell North",
-      "self_interest": "Heather is interested in shoring up the structure of her organization and improving systems. Her district captain leadership program is perfectly aligned for mobilizing parents and school leaders across the\u2026",
-      "next_step": "Continue to meet for collb/strategy"
     },
     {
       "fellow": "Sarah",
