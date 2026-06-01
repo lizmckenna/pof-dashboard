@@ -1253,7 +1253,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "February Garfield Parents meeting",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Gina",
@@ -1466,7 +1466,21 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [],
+      "scheduled": [
+        {
+          "name": "Emelie W.",
+          "full_name_lower": "emelie wisnieski",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "February Garfield Parents meeting",
+          "inv_status": "Scheduled"
+        }
+      ],
       "districts": [
         "KCPS",
         "LINC",
@@ -1483,8 +1497,9 @@
       },
       "inv_statuses": {
         "Completed": 7,
-        "Left Message - Waiting": 3,
+        "Left Message - Waiting": 2,
         "Follow Up Needed": 4,
+        "Scheduled": 1,
         "Not Contacted": 1
       },
       "source_buckets": {
@@ -1512,7 +1527,7 @@
       "ranked_leader_count": 9,
       "prospect_count": 18,
       "completed_count": 7,
-      "scheduled_count": 0,
+      "scheduled_count": 1,
       "notes_count": 2,
       "si_count": 2,
       "status": "active"
@@ -7262,14 +7277,14 @@
           "name": "Mike M.",
           "full_name_lower": "mike minter",
           "school": "Raytown",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-05",
+          "raw_date": "6-5",
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Connected through a friend",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Valorie M.",
@@ -7288,9 +7303,9 @@
           "name": "Katie F.",
           "full_name_lower": "katie freeman",
           "school": "",
-          "date": "2026-05-26",
-          "raw_date": "5-26",
-          "has_notes": false,
+          "date": "2026-06-05",
+          "raw_date": "6-5",
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
@@ -7350,14 +7365,29 @@
           "next_step_text": "She is working with me on putting together a park play date where we can talk with parents about the\u2026",
           "source": "BS art commission",
           "inv_status": "Completed"
+        }
+      ],
+      "scheduled": [
+        {
+          "name": "Mike M.",
+          "full_name_lower": "mike minter",
+          "school": "Raytown",
+          "date": "2026-06-05",
+          "raw_date": "6-5",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Connected through a friend",
+          "inv_status": "Scheduled"
         },
         {
           "name": "Katie F.",
           "full_name_lower": "katie freeman",
           "school": "",
-          "date": "2026-05-26",
-          "raw_date": "5-26",
-          "has_notes": false,
+          "date": "2026-06-05",
+          "raw_date": "6-5",
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
@@ -7365,7 +7395,6 @@
           "inv_status": "Scheduled"
         }
       ],
-      "scheduled": [],
       "districts": [
         "BS Dems"
       ],
@@ -7380,8 +7409,7 @@
       "inv_statuses": {
         "Completed": 4,
         "Declined": 2,
-        "Follow Up Needed": 1,
-        "Scheduled": 1
+        "Scheduled": 2
       },
       "source_buckets": {
         "Event / forum": 2,
@@ -7402,8 +7430,8 @@
       "leader_count": 4,
       "ranked_leader_count": 4,
       "prospect_count": 8,
-      "completed_count": 5,
-      "scheduled_count": 0,
+      "completed_count": 4,
+      "scheduled_count": 2,
       "notes_count": 4,
       "si_count": 4,
       "status": "active"
@@ -8831,8 +8859,8 @@
     "leaders": 129,
     "leaders_ranked": 100,
     "prospects": 401,
-    "completed": 118,
-    "scheduled": 14,
+    "completed": 117,
+    "scheduled": 17,
     "with_notes": 98,
     "with_si": 95
   },

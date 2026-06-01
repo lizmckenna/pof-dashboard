@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-31",
+  "as_of": "2026-06-01",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -6777,6 +6777,19 @@
           "next_step_text": "Getting bond issue org contact list to me so I can add to prospects",
           "source": "Neighbor",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Mary L.",
+          "full_name_lower": "mary lodewyck",
+          "school": "",
+          "date": "2026-06-01",
+          "raw_date": "6/1/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Parent of kid's friend",
+          "inv_status": "Scheduled"
         }
       ],
       "scheduled": [
@@ -6791,19 +6804,6 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Jamie Martin Contact",
-          "inv_status": "Scheduled"
-        },
-        {
-          "name": "Mary L.",
-          "full_name_lower": "mary lodewyck",
-          "school": "",
-          "date": "2026-06-01",
-          "raw_date": "6/1/26",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Parent of kid's friend",
           "inv_status": "Scheduled"
         },
         {
@@ -6851,8 +6851,8 @@
       "leader_count": 1,
       "ranked_leader_count": 1,
       "prospect_count": 16,
-      "completed_count": 2,
-      "scheduled_count": 3,
+      "completed_count": 3,
+      "scheduled_count": 2,
       "notes_count": 2,
       "si_count": 2,
       "status": "active"
@@ -8859,8 +8859,8 @@
     "leaders": 129,
     "leaders_ranked": 100,
     "prospects": 401,
-    "completed": 117,
-    "scheduled": 17,
+    "completed": 118,
+    "scheduled": 16,
     "with_notes": 98,
     "with_si": 95
   },
