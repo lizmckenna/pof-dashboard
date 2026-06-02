@@ -1669,7 +1669,7 @@
           "name": "Kat R.",
           "district": "KCPS",
           "school": "Hale Cook",
-          "level": "Unsure - Need to test/assess",
+          "level": "Volunteer - Support / show up",
           "self_interest": "Simon and Ezra. Her own upbringing in public school. Where she lives is an important part of her identity.",
           "next_step": ""
         },
@@ -1798,7 +1798,23 @@
           "district": "KCPS",
           "school": "Hale Cook",
           "level": "Leader - Organize others",
-          "self_interest": "Tecaher in the school district, kids at Hale Cook",
+          "self_interest": "Teacher in the school district, kids at Hale Cook",
+          "next_step": ""
+        },
+        {
+          "name": "Kate M.",
+          "district": "KCPS",
+          "school": "Hale Cook",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Two kids at Hale Cook, involved in other organization and wants to get more involved with PFKCK",
+          "next_step": ""
+        },
+        {
+          "name": "Kevin R.",
+          "district": "KCPS",
+          "school": "Hale Cook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Two kids Simon and Ezra at Hale Cook. Desire for them to have a different educational environment than he had in his private catholic school\u2026",
           "next_step": ""
         }
       ],
@@ -2816,10 +2832,9 @@
         "LIncoln Middle/Prep"
       ],
       "leader_levels": {
-        "Core leader - Organize a team": 4,
-        "Volunteer - Support / show up": 10,
-        "Leader - Organize others": 10,
-        "Unsure - Need to test/assess": 1
+        "Core leader - Organize a team": 5,
+        "Volunteer - Support / show up": 12,
+        "Leader - Organize others": 10
       },
       "inv_statuses": {
         "Follow Up Needed": 5,
@@ -2897,8 +2912,8 @@
         ]
       ],
       "chain_total": 30,
-      "leader_count": 25,
-      "ranked_leader_count": 25,
+      "leader_count": 27,
+      "ranked_leader_count": 27,
       "prospect_count": 57,
       "completed_count": 20,
       "scheduled_count": 0,
@@ -8889,8 +8904,8 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 130,
-    "leaders_ranked": 101,
+    "leaders": 132,
+    "leaders_ranked": 103,
     "prospects": 403,
     "completed": 119,
     "scheduled": 15,
@@ -8925,6 +8940,8 @@
     "hale cook": [
       "Ashley S",
       "Ashley S",
+      "David",
+      "David",
       "David",
       "David",
       "David",
