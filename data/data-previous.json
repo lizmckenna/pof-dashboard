@@ -2936,7 +2936,7 @@
           "name": "Billy M.",
           "district": "KCPS",
           "school": "Border Star",
-          "level": "Core leader - Organize a team",
+          "level": "Leader - Organize others",
           "self_interest": "Building community that cares for its people",
           "next_step": "June 2, PPC"
         },
@@ -2984,7 +2984,7 @@
           "name": "Lesley H.",
           "district": "KCPS",
           "school": "Border Star",
-          "level": "Core leader - Organize a team",
+          "level": "Leader - Organize others",
           "self_interest": "",
           "next_step": "June 2, PPC"
         },
@@ -2992,7 +2992,7 @@
           "name": "Kate B.",
           "district": "KCPS",
           "school": "Border Star",
-          "level": "Core leader - Organize a team",
+          "level": "Leader - Organize others",
           "self_interest": "",
           "next_step": "June 2, PPC"
         },
@@ -3024,7 +3024,7 @@
           "name": "Amanda Q.",
           "district": "KCPS",
           "school": "Border Star",
-          "level": "Volunteer - Support / show up",
+          "level": "Leader - Organize others",
           "self_interest": "",
           "next_step": "June 2"
         },
@@ -3032,7 +3032,7 @@
           "name": "Lisa M.",
           "district": "KCPS",
           "school": "Border Star",
-          "level": "Volunteer - Support / show up",
+          "level": "Leader - Organize others",
           "self_interest": "",
           "next_step": "June 2"
         },
@@ -3043,6 +3043,30 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": "June 2"
+        },
+        {
+          "name": "Gina P.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Leader - Organize others",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Mark W.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Leader - Organize others",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Jes H.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Leader - Organize others",
+          "self_interest": "",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -3055,7 +3079,7 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting 1:1 on June 9",
+          "next_step_text": "Follow-up from June 2 1:1 on June 9",
           "source": "",
           "inv_status": "Scheduled"
         },
@@ -3064,11 +3088,37 @@
           "full_name_lower": "tiffany roberts",
           "school": "",
           "date": null,
-          "raw_date": "June 10",
+          "raw_date": "Wed Jun 10",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Alice C.",
+          "full_name_lower": "alice chamberlain",
+          "school": "",
+          "date": null,
+          "raw_date": "Fri Jun 12",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 meeting",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Mark W.",
+          "full_name_lower": "mark wood",
+          "school": "",
+          "date": null,
+          "raw_date": "scheduling",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
           "inv_status": "Scheduled"
         },
@@ -3090,37 +3140,11 @@
           "full_name_lower": "tyler landes",
           "school": "",
           "date": null,
-          "raw_date": "is traveling thru weekend for work, but intends to reply",
+          "raw_date": "bumped; no reply",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 meeting",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Alice C.",
-          "full_name_lower": "alice chamberlain",
-          "school": "",
-          "date": null,
-          "raw_date": "scheduling",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "book 1:1",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Mark W.",
-          "full_name_lower": "mark wood",
-          "school": "",
-          "date": null,
-          "raw_date": "no reply yet",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Contacted"
         },
@@ -3128,12 +3152,25 @@
           "name": "Dori B.",
           "full_name_lower": "dori barr",
           "school": "",
-          "date": null,
-          "raw_date": "no reply yet",
+          "date": "2026-06-02",
+          "raw_date": "Follow-up after 6/2 meeting",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
+          "source": "",
+          "inv_status": "Contacted"
+        },
+        {
+          "name": "Bob P.",
+          "full_name_lower": "bob pulliam",
+          "school": "",
+          "date": "2026-06-02",
+          "raw_date": "Follow-up after 6/2 meeting",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Contacted"
         },
@@ -3142,11 +3179,11 @@
           "full_name_lower": "chrystal ferguson",
           "school": "",
           "date": null,
-          "raw_date": "no reply yet",
+          "raw_date": "bumped; no reply",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Contacted"
         },
@@ -3155,37 +3192,37 @@
           "full_name_lower": "jeff smith",
           "school": "",
           "date": null,
-          "raw_date": "no reply yet",
+          "raw_date": "bumped; no reply",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Contacted"
         },
         {
-          "name": "Bob P.",
-          "full_name_lower": "bob pulliam",
-          "school": "",
-          "date": null,
-          "raw_date": "no reply yet",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Shantee",
-          "full_name_lower": "shantee",
+          "name": "Sara A.",
+          "full_name_lower": "sara asmussen",
           "school": "",
           "date": null,
           "raw_date": "",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "BSM > Lincoln Connect",
+          "next_step_text": "June 2 Meeting Book 1:1",
+          "source": "",
+          "inv_status": ""
+        },
+        {
+          "name": "Angie M.",
+          "full_name_lower": "angie & michelle",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
           "source": "",
           "inv_status": ""
         },
@@ -3203,15 +3240,28 @@
           "inv_status": ""
         },
         {
-          "name": "Colleen S.",
-          "full_name_lower": "colleen simon",
+          "name": "Julie C.",
+          "full_name_lower": "julie cowley",
           "school": "",
           "date": null,
           "raw_date": "",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting Book follow-up 1:1",
+          "next_step_text": "June 2 meeting",
+          "source": "",
+          "inv_status": ""
+        },
+        {
+          "name": "Colleen S.",
+          "full_name_lower": "colleen simon",
+          "school": "",
+          "date": "2026-06-02",
+          "raw_date": "Follow-up after 6/2 meeting",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 Meeting Book follow-up 1:1",
           "source": "",
           "inv_status": ""
         },
@@ -3229,47 +3279,8 @@
           "inv_status": ""
         },
         {
-          "name": "Rhonda M.",
-          "full_name_lower": "rhonda mays",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 2 meeting",
-          "source": "",
-          "inv_status": ""
-        },
-        {
-          "name": "Sara A.",
-          "full_name_lower": "sara asmussen",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 2 Meeting Book 1:1",
-          "source": "",
-          "inv_status": ""
-        },
-        {
           "name": "Molly L.",
           "full_name_lower": "molly landes",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 2 meeting",
-          "source": "",
-          "inv_status": ""
-        },
-        {
-          "name": "Julie C.",
-          "full_name_lower": "julie cowley",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -3424,15 +3435,15 @@
           "inv_status": "Contacted"
         },
         {
-          "name": "Angie M.",
-          "full_name_lower": "angie & michelle",
+          "name": "Rhonda M.",
+          "full_name_lower": "rhonda mays",
           "school": "",
           "date": null,
           "raw_date": "",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "June 2 meeting",
           "source": "",
           "inv_status": ""
         },
@@ -3445,9 +3456,9 @@
           "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Leader"
         },
         {
           "name": "Meghan W.",
@@ -3458,9 +3469,9 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Being part of the solution; one kid for a reason and can provide but doen't want to be part of a broken process/system/community",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Leader"
         },
         {
           "name": "Ellie C.",
@@ -3523,9 +3534,9 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Every kid should have access to a good school",
-          "next_step_text": "Follow-up next week 5/17 via text about Summer park playdate, & who has she talked to. Especially if we have\u2026",
+          "next_step_text": "Follow-up from June 2 Especially if we have any materials to share. Jes can donate $$$ to a fund if\u2026",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Leader"
         },
         {
           "name": "Hannah Z.",
@@ -3575,9 +3586,9 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Lives in MO and wants to make it a better place",
-          "next_step_text": "June 2 Meeting?",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Leader"
         },
         {
           "name": "Natalie M.",
@@ -3588,9 +3599,9 @@
           "has_notes": false,
           "has_si": true,
           "self_interest_text": "Works in government \"for a reason\" - there needs to be someone holding the line against bad actors.",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Leader"
         },
         {
           "name": "Elsa R.",
@@ -3627,7 +3638,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "elevating Border Star / cheerleading",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
           "inv_status": "1:1 Completed"
         },
@@ -3653,9 +3664,9 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Leader"
         },
         {
           "name": "TIER S.",
@@ -3733,7 +3744,7 @@
           "self_interest_text": "",
           "next_step_text": "House Meeting",
           "source": "",
-          "inv_status": "Contacted"
+          "inv_status": ""
         },
         {
           "name": "Ms. (.",
@@ -3760,34 +3771,60 @@
           "next_step_text": "",
           "source": "",
           "inv_status": ""
+        },
+        {
+          "name": "Shantee",
+          "full_name_lower": "shantee",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "BSM > Lincoln Connect",
+          "source": "",
+          "inv_status": ""
         }
       ],
       "completed": [
         {
-          "name": "Gina P.",
-          "full_name_lower": "gina posladek",
+          "name": "Dori B.",
+          "full_name_lower": "dori barr",
           "school": "",
-          "date": null,
-          "raw_date": "Thu May 21",
-          "has_notes": true,
+          "date": "2026-06-02",
+          "raw_date": "Follow-up after 6/2 meeting",
+          "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Contacted"
         },
         {
-          "name": "Meghan W.",
-          "full_name_lower": "meghan wendland",
+          "name": "Bob P.",
+          "full_name_lower": "bob pulliam",
           "school": "",
-          "date": null,
-          "raw_date": "Wed May 20",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Being part of the solution; one kid for a reason and can provide but doen't want to be part of a broken process/system/community",
-          "next_step_text": "June 2 Meeting",
+          "date": "2026-06-02",
+          "raw_date": "Follow-up after 6/2 meeting",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 meeting",
           "source": "",
-          "inv_status": "1:1 Completed"
+          "inv_status": "Contacted"
+        },
+        {
+          "name": "Colleen S.",
+          "full_name_lower": "colleen simon",
+          "school": "",
+          "date": "2026-06-02",
+          "raw_date": "Follow-up after 6/2 meeting",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 Meeting Book follow-up 1:1",
+          "source": "",
+          "inv_status": ""
         },
         {
           "name": "Ellie C.",
@@ -3842,19 +3879,6 @@
           "inv_status": "1:1 Completed"
         },
         {
-          "name": "Jes H.",
-          "full_name_lower": "jes hutton",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Tue May 12",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Every kid should have access to a good school",
-          "next_step_text": "Follow-up next week 5/17 via text about Summer park playdate, & who has she talked to. Especially if we have\u2026",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
           "name": "Hannah Z.",
           "full_name_lower": "hannah zimmerman",
           "school": "",
@@ -3894,32 +3918,6 @@
           "inv_status": "1:1 Completed"
         },
         {
-          "name": "Lisa M.",
-          "full_name_lower": "lisa meinen-doerkensen",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Mon May 11",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Lives in MO and wants to make it a better place",
-          "next_step_text": "June 2 Meeting?",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Natalie M.",
-          "full_name_lower": "natalie millard",
-          "school": "",
-          "date": null,
-          "raw_date": "Fri May 8",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Works in government \"for a reason\" - there needs to be someone holding the line against bad actors.",
-          "next_step_text": "June 2 Meeting",
-          "source": "",
-          "inv_status": "1:1 Completed"
-        },
-        {
           "name": "Elsa R.",
           "full_name_lower": "elsa rainey",
           "school": "Border Star",
@@ -3954,7 +3952,7 @@
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "elevating Border Star / cheerleading",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
           "inv_status": "1:1 Completed"
         },
@@ -3970,19 +3968,6 @@
           "next_step_text": "June 2 Meeting",
           "source": "",
           "inv_status": "1:1 Completed"
-        },
-        {
-          "name": "Kathryn E.",
-          "full_name_lower": "kathryn evans",
-          "school": "Border Star",
-          "date": null,
-          "raw_date": "Fri Apr 24",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
-          "next_step_text": "June 2 Meeting",
-          "source": "",
-          "inv_status": "1:1 Completed"
         }
       ],
       "scheduled": [
@@ -3995,7 +3980,7 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting 1:1 on June 9",
+          "next_step_text": "Follow-up from June 2 1:1 on June 9",
           "source": "",
           "inv_status": "Scheduled"
         },
@@ -4004,11 +3989,37 @@
           "full_name_lower": "tiffany roberts",
           "school": "",
           "date": null,
-          "raw_date": "June 10",
+          "raw_date": "Wed Jun 10",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 2 Meeting",
+          "next_step_text": "June 15 meeting",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Alice C.",
+          "full_name_lower": "alice chamberlain",
+          "school": "",
+          "date": null,
+          "raw_date": "Fri Jun 12",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 meeting",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Mark W.",
+          "full_name_lower": "mark wood",
+          "school": "",
+          "date": null,
+          "raw_date": "scheduling",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Follow-up from June 2",
           "source": "",
           "inv_status": "Scheduled"
         }
@@ -4020,25 +4031,26 @@
         "Border Star"
       ],
       "leader_levels": {
-        "Core leader - Organize a team": 5,
-        "Leader - Organize others": 5,
-        "Volunteer - Support / show up": 4
+        "Leader - Organize others": 13,
+        "Volunteer - Support / show up": 2,
+        "Core leader - Organize a team": 2
       },
       "inv_statuses": {
-        "Scheduled": 2,
-        "Contacted": 10,
-        "1:1 Completed": 17
+        "Scheduled": 4,
+        "Contacted": 7,
+        "Leader": 6,
+        "1:1 Completed": 11
       },
       "source_buckets": {},
       "chains": [],
       "chain_total": 0,
-      "leader_count": 14,
-      "ranked_leader_count": 14,
+      "leader_count": 17,
+      "ranked_leader_count": 17,
       "prospect_count": 55,
-      "completed_count": 17,
-      "scheduled_count": 2,
-      "notes_count": 14,
-      "si_count": 14,
+      "completed_count": 14,
+      "scheduled_count": 4,
+      "notes_count": 9,
+      "si_count": 9,
       "status": "active"
     },
     "Jamie": {
@@ -8938,13 +8950,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 133,
-    "leaders_ranked": 104,
+    "leaders": 136,
+    "leaders_ranked": 107,
     "prospects": 404,
-    "completed": 120,
-    "scheduled": 15,
-    "with_notes": 101,
-    "with_si": 99
+    "completed": 117,
+    "scheduled": 17,
+    "with_notes": 96,
+    "with_si": 94
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9080,6 +9092,9 @@
     ],
     "border star": [
       "Ashley S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
       "Ellen S",
       "Ellen S",
       "Ellen S",
