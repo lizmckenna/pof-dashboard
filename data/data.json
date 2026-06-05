@@ -7503,6 +7503,14 @@
           "level": "Unsure - Need to test/assess",
           "self_interest": "Care deeply about equality",
           "next_step": "Get her to an event and then get her to work with me on an in-person event or project."
+        },
+        {
+          "name": "Mike M.",
+          "district": "",
+          "school": "Raytown ",
+          "level": "Leader - Organize others",
+          "self_interest": "Teaches in Raytown",
+          "next_step": "Help him organize his house meeting"
         }
       ],
       "prospects": [
@@ -7578,11 +7586,11 @@
           "date": "2026-06-05",
           "raw_date": "6-5",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "He is a school teacher who cares deeply about education and equality.",
+          "next_step_text": "Help him set up his house meeting",
           "source": "Connected through a friend",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Valorie M.",
@@ -7658,11 +7666,11 @@
           "date": "2026-06-05",
           "raw_date": "6-5",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "He is a school teacher who cares deeply about education and equality.",
+          "next_step_text": "Help him set up his house meeting",
           "source": "Connected through a friend",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Valorie M.",
@@ -7697,16 +7705,18 @@
       ],
       "schools": [
         "Blue Springs",
-        "Grain Valley"
+        "Grain Valley",
+        "Raytown"
       ],
       "leader_levels": {
         "Volunteer - Support / show up": 3,
-        "Unsure - Need to test/assess": 1
+        "Unsure - Need to test/assess": 1,
+        "Leader - Organize others": 1
       },
       "inv_statuses": {
-        "Completed": 4,
+        "Completed": 5,
         "Declined": 2,
-        "Scheduled": 2
+        "Scheduled": 1
       },
       "source_buckets": {
         "Event / forum": 2,
@@ -7724,13 +7734,13 @@
         ]
       ],
       "chain_total": 1,
-      "leader_count": 4,
-      "ranked_leader_count": 4,
+      "leader_count": 5,
+      "ranked_leader_count": 5,
       "prospect_count": 8,
       "completed_count": 6,
       "scheduled_count": 0,
       "notes_count": 6,
-      "si_count": 4,
+      "si_count": 5,
       "status": "active"
     },
     "Sierra": {
@@ -9178,13 +9188,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 138,
-    "leaders_ranked": 109,
+    "leaders": 139,
+    "leaders_ranked": 110,
     "prospects": 412,
     "completed": 126,
     "scheduled": 15,
     "with_notes": 103,
-    "with_si": 97
+    "with_si": 98
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9563,6 +9573,7 @@
       "Sarah"
     ],
     "raytown": [
+      "Sarah",
       "Sarah"
     ],
     "bell prairie": [
@@ -9650,6 +9661,13 @@
   },
   "voices": [
     {
+      "fellow": "Sarah",
+      "name": "Mike M.",
+      "school": "Raytown",
+      "self_interest": "He is a school teacher who cares deeply about education and equality.",
+      "next_step": "Help him set up his house meeting"
+    },
+    {
       "fellow": "Melissa",
       "name": "Mary L.",
       "school": "Nipher / North Glendale",
@@ -9676,13 +9694,6 @@
       "school": "",
       "self_interest": "Interested in building student led canvass in impacted areas",
       "next_step": ""
-    },
-    {
-      "fellow": "Ashley S",
-      "name": "Sylvia G.",
-      "school": "",
-      "self_interest": "Political concerns about kids future and lose of resources to their education.",
-      "next_step": "Sylvia will send a list of parents for reaching out to for 1 on 1s. Will connect me to parents\u2026"
     }
   ],
   "approaches": {
