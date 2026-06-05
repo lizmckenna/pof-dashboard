@@ -19,6 +19,22 @@
           "level": "Unsure - Need to test/assess",
           "self_interest": "building thier own leadership",
           "next_step": "Parent Power Camp"
+        },
+        {
+          "name": "Kenneth W.",
+          "district": "4",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "building student leadership",
+          "next_step": "Parent Power Camp"
+        },
+        {
+          "name": "Maima L.",
+          "district": "Kansas",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "building thier own leadership",
+          "next_step": "Parent Power Camp"
         }
       ],
       "prospects": [
@@ -65,14 +81,14 @@
           "name": "Damiyahn S.",
           "full_name_lower": "damiyahn smith",
           "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
+          "date": "2026-05-28",
+          "raw_date": "5/28",
+          "has_notes": true,
           "has_si": true,
           "self_interest_text": "Interested in building student led canvass in impacted areas",
           "next_step_text": "",
           "source": "DKC/ Saftey Hub Academy",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Michela C.",
@@ -104,18 +120,31 @@
           "name": "Maima L.",
           "full_name_lower": "maima lewis",
           "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Scheduled"
+          "date": "2026-05-27",
+          "raw_date": "5/27",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "building student leadership",
+          "next_step_text": "Invite to the Parent Power Camp, see if they can engage and invite 5 folks to the Camp.",
+          "source": "KCTP",
+          "inv_status": "Completed"
         },
         {
           "name": "Ashley S.",
           "full_name_lower": "ashley sadowski",
+          "school": "Hale Cook/ Lincoln Prep",
+          "date": "2026-05-28",
+          "raw_date": "5/28",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Building Parent/Caregiver leadership in KCPS-33",
+          "next_step_text": "",
+          "source": "PFKCK/Fellowship",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Cambria C.",
+          "full_name_lower": "cambria ( cam)",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -124,7 +153,59 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Joy M.",
+          "full_name_lower": "joy mccann",
+          "school": "",
+          "date": "2026-06-05",
+          "raw_date": "6/5",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Rhodes C.",
+          "full_name_lower": "rhodes conover",
+          "school": "",
+          "date": "2026-05-30",
+          "raw_date": "5/30",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Max F.",
+          "full_name_lower": "max franco",
+          "school": "SEHS",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "building student/teacher organizing",
+          "next_step_text": "",
+          "source": "eldest former teacher, would like to learn more about organizing",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Michael",
+          "full_name_lower": "michael",
+          "school": "NEHS",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "building student/teacher organizing",
+          "next_step_text": "",
+          "source": "Rev Ed meeting, teacher wanting to learn more about organizing",
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -155,6 +236,19 @@
           "inv_status": "Follow Up Needed"
         },
         {
+          "name": "Damiyahn S.",
+          "full_name_lower": "damiyahn smith",
+          "school": "",
+          "date": "2026-05-28",
+          "raw_date": "5/28",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Interested in building student led canvass in impacted areas",
+          "next_step_text": "",
+          "source": "DKC/ Saftey Hub Academy",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Michela C.",
           "full_name_lower": "michela crawford",
           "school": "",
@@ -179,28 +273,54 @@
           "next_step_text": "collabaration between orgs",
           "source": "KCT/KCTP",
           "inv_status": "Completed"
-        }
-      ],
-      "scheduled": [
+        },
         {
           "name": "Maima L.",
           "full_name_lower": "maima lewis",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-27",
+          "raw_date": "5/27",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "building student leadership",
+          "next_step_text": "Invite to the Parent Power Camp, see if they can engage and invite 5 folks to the Camp.",
+          "source": "KCTP",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Ashley S.",
+          "full_name_lower": "ashley sadowski",
+          "school": "Hale Cook/ Lincoln Prep",
+          "date": "2026-05-28",
+          "raw_date": "5/28",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Building Parent/Caregiver leadership in KCPS-33",
+          "next_step_text": "",
+          "source": "PFKCK/Fellowship",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Rhodes C.",
+          "full_name_lower": "rhodes conover",
+          "school": "",
+          "date": "2026-05-30",
+          "raw_date": "5/30",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
-        },
+          "inv_status": "Completed"
+        }
+      ],
+      "scheduled": [
         {
-          "name": "Ashley S.",
-          "full_name_lower": "ashley sadowski",
+          "name": "Joy M.",
+          "full_name_lower": "joy mccann",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-05",
+          "raw_date": "6/5",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
@@ -211,6 +331,8 @@
       ],
       "districts": [
         "3",
+        "4",
+        "Kansas",
         "Kcps"
       ],
       "schools": [
@@ -218,28 +340,31 @@
       ],
       "leader_levels": {
         "Volunteer - Support / show up": 1,
-        "Unsure - Need to test/assess": 1
+        "Unsure - Need to test/assess": 1,
+        "Leader - Organize others": 2
       },
       "inv_statuses": {
-        "Completed": 3,
-        "Follow Up Needed": 1,
+        "Completed": 7,
+        "Follow Up Needed": 2,
         "Left Message - Waiting": 2,
-        "Scheduled": 2
+        "Scheduled": 1,
+        "Not Contacted": 1
       },
       "source_buckets": {
-        "Advocacy / org": 1,
+        "Advocacy / org": 2,
         "Event / forum": 2,
-        "Other": 3
+        "Other": 4,
+        "School / PTA": 2
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 2,
-      "ranked_leader_count": 2,
-      "prospect_count": 8,
-      "completed_count": 4,
-      "scheduled_count": 2,
-      "notes_count": 2,
-      "si_count": 4,
+      "leader_count": 4,
+      "ranked_leader_count": 4,
+      "prospect_count": 13,
+      "completed_count": 8,
+      "scheduled_count": 1,
+      "notes_count": 5,
+      "si_count": 7,
       "status": "active"
     },
     "Amber": {
@@ -1209,7 +1334,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Sharon S.",
@@ -1476,6 +1601,19 @@
       ],
       "scheduled": [
         {
+          "name": "Odain",
+          "full_name_lower": "odain",
+          "school": "Garfield Uncle",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
+          "inv_status": "Scheduled"
+        },
+        {
           "name": "Emelie W.",
           "full_name_lower": "emelie wisnieski",
           "school": "",
@@ -1506,8 +1644,8 @@
       "inv_statuses": {
         "Completed": 7,
         "Left Message - Waiting": 2,
-        "Follow Up Needed": 4,
-        "Scheduled": 1,
+        "Follow Up Needed": 3,
+        "Scheduled": 2,
         "Not Contacted": 1
       },
       "source_buckets": {
@@ -1535,7 +1673,7 @@
       "ranked_leader_count": 10,
       "prospect_count": 18,
       "completed_count": 7,
-      "scheduled_count": 1,
+      "scheduled_count": 2,
       "notes_count": 2,
       "si_count": 2,
       "status": "active"
@@ -9029,13 +9167,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 136,
-    "leaders_ranked": 107,
-    "prospects": 406,
-    "completed": 117,
+    "leaders": 138,
+    "leaders_ranked": 109,
+    "prospects": 411,
+    "completed": 121,
     "scheduled": 20,
-    "with_notes": 96,
-    "with_si": 94
+    "with_notes": 99,
+    "with_si": 97
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9045,6 +9183,15 @@
     "faxon": [
       "AJ",
       "Brianna"
+    ],
+    "hale cook/ lincoln prep": [
+      "AJ"
+    ],
+    "sehs": [
+      "AJ"
+    ],
+    "nehs": [
+      "AJ"
     ],
     "lee's summit north high": [
       "Amber"
@@ -9461,11 +9608,11 @@
     ]
   },
   "source_buckets": {
-    "Advocacy / org": 25,
+    "Advocacy / org": 26,
     "Event / forum": 25,
-    "Other": 42,
+    "Other": 43,
+    "School / PTA": 41,
     "Friend / family": 28,
-    "School / PTA": 39,
     "Chain referral": 60,
     "Online": 28,
     "Church / faith": 11,
@@ -9514,10 +9661,10 @@
     },
     {
       "fellow": "AJ",
-      "name": "Dajanae M.",
+      "name": "Damiyahn S.",
       "school": "",
-      "self_interest": "building youth leadership within the KCT space",
-      "next_step": "collabaration between orgs"
+      "self_interest": "Interested in building student led canvass in impacted areas",
+      "next_step": ""
     },
     {
       "fellow": "Ashley S",

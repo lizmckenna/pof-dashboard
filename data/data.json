@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-04",
+  "as_of": "2026-06-05",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -206,6 +206,19 @@
           "next_step_text": "",
           "source": "Rev Ed meeting, teacher wanting to learn more about organizing",
           "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Summer B.",
+          "full_name_lower": "summer becker",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -301,6 +314,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Joy M.",
+          "full_name_lower": "joy mccann",
+          "school": "",
+          "date": "2026-06-05",
+          "raw_date": "6/5",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
           "name": "Rhodes C.",
           "full_name_lower": "rhodes conover",
           "school": "",
@@ -314,21 +340,7 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Joy M.",
-          "full_name_lower": "joy mccann",
-          "school": "",
-          "date": "2026-06-05",
-          "raw_date": "6/5",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "3",
         "4",
@@ -348,7 +360,7 @@
         "Follow Up Needed": 2,
         "Left Message - Waiting": 2,
         "Scheduled": 1,
-        "Not Contacted": 1
+        "Not Contacted": 2
       },
       "source_buckets": {
         "Advocacy / org": 2,
@@ -360,9 +372,9 @@
       "chain_total": 0,
       "leader_count": 4,
       "ranked_leader_count": 4,
-      "prospect_count": 13,
-      "completed_count": 8,
-      "scheduled_count": 1,
+      "prospect_count": 14,
+      "completed_count": 9,
+      "scheduled_count": 0,
       "notes_count": 5,
       "si_count": 7,
       "status": "active"
@@ -5286,6 +5298,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Carolie O.",
+          "full_name_lower": "carolie owens",
+          "school": "",
+          "date": "2026-06-05",
+          "raw_date": "6.5",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Ask to do a House Meeting",
+          "source": "BOE mmber and endorsed cndidate of Fwd; met through Ted House",
+          "inv_status": "Scheduled"
+        },
+        {
           "name": "Harry H.",
           "full_name_lower": "harry harris",
           "school": "",
@@ -5297,6 +5322,19 @@
           "next_step_text": "Talk to Molly re: regional organizing",
           "source": "BOE mtgs/former endorsed candidate of Forward",
           "inv_status": "Completed, Follow Up Needed"
+        },
+        {
+          "name": "Amy L.",
+          "full_name_lower": "amy latta",
+          "school": "",
+          "date": "2026-06-05",
+          "raw_date": "6.5",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Through Karin Robinette",
+          "inv_status": "Scheduled"
         },
         {
           "name": "Don L.",
@@ -5418,19 +5456,6 @@
           "inv_status": "Left Message - Waiting"
         },
         {
-          "name": "Carolie O.",
-          "full_name_lower": "carolie owens",
-          "school": "",
-          "date": "2026-06-05",
-          "raw_date": "6.5",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "Ask to do a House Meeting",
-          "source": "BOE mmber and endorsed cndidate of Fwd; met through Ted House",
-          "inv_status": "Scheduled"
-        },
-        {
           "name": "Tara M.",
           "full_name_lower": "tara murray",
           "school": "",
@@ -5441,19 +5466,6 @@
           "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
           "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
           "source": "Candiate herself and canvasser for Fwd 2023",
-          "inv_status": "Scheduled"
-        },
-        {
-          "name": "Amy L.",
-          "full_name_lower": "amy latta",
-          "school": "",
-          "date": "2026-06-05",
-          "raw_date": "6.5",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Through Karin Robinette",
           "inv_status": "Scheduled"
         },
         {
@@ -5580,9 +5592,9 @@
       "leader_count": 14,
       "ranked_leader_count": 14,
       "prospect_count": 64,
-      "completed_count": 19,
-      "scheduled_count": 6,
-      "notes_count": 19,
+      "completed_count": 21,
+      "scheduled_count": 4,
+      "notes_count": 21,
       "si_count": 18,
       "status": "active"
     },
@@ -7640,21 +7652,6 @@
           "inv_status": "Completed"
         },
         {
-          "name": "Valorie M.",
-          "full_name_lower": "valorie montgomary",
-          "school": "Blue Springs",
-          "date": "2026-05-17",
-          "raw_date": "5-17",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Cares a lot about public education, kids, and protecting funding for the arts.",
-          "next_step_text": "She is working with me on putting together a park play date where we can talk with parents about the\u2026",
-          "source": "BS art commission",
-          "inv_status": "Completed"
-        }
-      ],
-      "scheduled": [
-        {
           "name": "Mike M.",
           "full_name_lower": "mike minter",
           "school": "Raytown",
@@ -7666,6 +7663,19 @@
           "next_step_text": "",
           "source": "Connected through a friend",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Valorie M.",
+          "full_name_lower": "valorie montgomary",
+          "school": "Blue Springs",
+          "date": "2026-05-17",
+          "raw_date": "5-17",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Cares a lot about public education, kids, and protecting funding for the arts.",
+          "next_step_text": "She is working with me on putting together a park play date where we can talk with parents about the\u2026",
+          "source": "BS art commission",
+          "inv_status": "Completed"
         },
         {
           "name": "Katie F.",
@@ -7681,6 +7691,7 @@
           "inv_status": "Scheduled"
         }
       ],
+      "scheduled": [],
       "districts": [
         "BS Dems"
       ],
@@ -7716,9 +7727,9 @@
       "leader_count": 4,
       "ranked_leader_count": 4,
       "prospect_count": 8,
-      "completed_count": 4,
-      "scheduled_count": 2,
-      "notes_count": 4,
+      "completed_count": 6,
+      "scheduled_count": 0,
+      "notes_count": 6,
       "si_count": 4,
       "status": "active"
     },
@@ -9169,10 +9180,10 @@
     "fellows_with_completed": 15,
     "leaders": 138,
     "leaders_ranked": 109,
-    "prospects": 411,
-    "completed": 121,
-    "scheduled": 20,
-    "with_notes": 99,
+    "prospects": 412,
+    "completed": 126,
+    "scheduled": 15,
+    "with_notes": 103,
     "with_si": 97
   },
   "all_completed": [],
