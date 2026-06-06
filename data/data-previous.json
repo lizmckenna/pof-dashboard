@@ -4474,7 +4474,7 @@
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
           "next_step_text": "",
           "source": "BOE meetings-longtime Forward volunteer",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Kathy S.",
@@ -4513,7 +4513,7 @@
           "self_interest_text": "",
           "next_step_text": "Ask to do a House Meeting",
           "source": "BOE mmber and endorsed cndidate of Fwd; met through Ted House",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Harry H.",
@@ -4578,7 +4578,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Through Karin Robinette",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Mike H.",
@@ -4890,7 +4890,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Wife of school board member/ndorsed candidate of FHForward",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Laurie L.",
@@ -5163,7 +5163,20 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Kathy S's sister",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Michelle C.",
+          "full_name_lower": "michelle cooley",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Former classmate; liked. post I put in our cohort group re: power camp",
+          "inv_status": ""
         }
       ],
       "completed": [
@@ -5308,7 +5321,7 @@
           "self_interest_text": "",
           "next_step_text": "Ask to do a House Meeting",
           "source": "BOE mmber and endorsed cndidate of Fwd; met through Ted House",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Harry H.",
@@ -5334,7 +5347,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Through Karin Robinette",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Don L.",
@@ -5453,7 +5466,7 @@
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
           "next_step_text": "",
           "source": "BOE meetings-longtime Forward volunteer",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Tara M.",
@@ -5508,17 +5521,17 @@
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
-        "Completed": 12,
+        "Completed": 14,
         "Completed, Follow Up Needed": 7,
         "Referred/Delegated, Follow Up Needed": 5,
-        "Left Message - Waiting": 6,
-        "Scheduled": 5,
-        "Not Contacted": 27,
+        "Left Message - Waiting": 7,
+        "Scheduled": 4,
+        "Not Contacted": 25,
         "Not Contacted, Left Message - Waiting": 1,
         "Referred/Delegated": 1
       },
       "source_buckets": {
-        "Advocacy / org": 11,
+        "Advocacy / org": 12,
         "Other": 14,
         "Friend / family": 4,
         "Chain referral": 14,
@@ -5591,7 +5604,7 @@
       "chain_total": 14,
       "leader_count": 14,
       "ranked_leader_count": 14,
-      "prospect_count": 64,
+      "prospect_count": 65,
       "completed_count": 21,
       "scheduled_count": 4,
       "notes_count": 21,
@@ -5608,6 +5621,14 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "Her daughter Cordelia",
           "next_step": "Continue to follow up for information on the transition of the program"
+        },
+        {
+          "name": "Michelle S.",
+          "district": "Independence",
+          "school": "Ott Elementary",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -5870,6 +5891,19 @@
           "next_step_text": "Continue to invite to trainings",
           "source": "PTA",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Angie W.",
+          "full_name_lower": "angie warner",
+          "school": "Procter Elementary",
+          "date": "2026-06-06",
+          "raw_date": "6/6/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PTA",
+          "inv_status": "Scheduled"
         }
       ],
       "completed": [
@@ -5926,27 +5960,43 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [],
+      "scheduled": [
+        {
+          "name": "Angie W.",
+          "full_name_lower": "angie warner",
+          "school": "Procter Elementary",
+          "date": "2026-06-06",
+          "raw_date": "6/6/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PTA",
+          "inv_status": "Scheduled"
+        }
+      ],
       "districts": [
         "Independence"
       ],
       "schools": [
+        "Ott Elementary",
         "Van Horn"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 1
+        "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
         "Completed": 4,
         "Follow Up Needed": 7,
         "Left Message - Waiting": 1,
         "Not Contacted": 5,
-        "Declined": 3
+        "Declined": 3,
+        "Scheduled": 1
       },
       "source_buckets": {
         "Online": 10,
         "Chain referral": 2,
-        "School / PTA": 4,
+        "School / PTA": 5,
         "Friend / family": 4
       },
       "chains": [
@@ -5959,11 +6009,11 @@
         ]
       ],
       "chain_total": 2,
-      "leader_count": 1,
-      "ranked_leader_count": 1,
-      "prospect_count": 20,
+      "leader_count": 2,
+      "ranked_leader_count": 2,
+      "prospect_count": 21,
       "completed_count": 4,
-      "scheduled_count": 0,
+      "scheduled_count": 1,
       "notes_count": 2,
       "si_count": 4,
       "status": "active"
@@ -9188,11 +9238,11 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 139,
-    "leaders_ranked": 110,
-    "prospects": 412,
+    "leaders": 140,
+    "leaders_ranked": 111,
+    "prospects": 414,
     "completed": 126,
-    "scheduled": 15,
+    "scheduled": 16,
     "with_notes": 103,
     "with_si": 98
   },
@@ -9448,6 +9498,10 @@
       "Judy",
       "Judy"
     ],
+    "ott elementary": [
+      "Judy",
+      "Judy"
+    ],
     "truman high school": [
       "Judy",
       "Judy",
@@ -9482,7 +9536,7 @@
     "chrisman high school": [
       "Judy"
     ],
-    "ott elementary": [
+    "procter elementary": [
       "Judy"
     ],
     "lincoln college prep / lincoln middle": [
@@ -9630,10 +9684,10 @@
     ]
   },
   "source_buckets": {
-    "Advocacy / org": 26,
+    "Advocacy / org": 27,
     "Event / forum": 25,
     "Other": 43,
-    "School / PTA": 41,
+    "School / PTA": 42,
     "Friend / family": 28,
     "Chain referral": 60,
     "Online": 28,
