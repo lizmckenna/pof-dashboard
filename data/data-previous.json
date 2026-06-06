@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-05",
+  "as_of": "2026-06-06",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -5958,9 +5958,7 @@
           "next_step_text": "Continue to invite to trainings",
           "source": "PTA",
           "inv_status": "Completed"
-        }
-      ],
-      "scheduled": [
+        },
         {
           "name": "Angie W.",
           "full_name_lower": "angie warner",
@@ -5975,6 +5973,7 @@
           "inv_status": "Scheduled"
         }
       ],
+      "scheduled": [],
       "districts": [
         "Independence"
       ],
@@ -6012,8 +6011,8 @@
       "leader_count": 2,
       "ranked_leader_count": 2,
       "prospect_count": 21,
-      "completed_count": 4,
-      "scheduled_count": 1,
+      "completed_count": 5,
+      "scheduled_count": 0,
       "notes_count": 2,
       "si_count": 4,
       "status": "active"
@@ -9241,8 +9240,8 @@
     "leaders": 140,
     "leaders_ranked": 111,
     "prospects": 414,
-    "completed": 126,
-    "scheduled": 16,
+    "completed": 127,
+    "scheduled": 15,
     "with_notes": 103,
     "with_si": 98
   },
