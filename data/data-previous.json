@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-06",
+  "as_of": "2026-06-07",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -7124,6 +7124,19 @@
           "next_step_text": "Re-engage regarding Amendment 5 in July.",
           "source": "Parent of kid's friend",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Sarah L.",
+          "full_name_lower": "sarah luesse",
+          "school": "Nipher",
+          "date": "2026-06-07",
+          "raw_date": "6/7/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Kids sports",
+          "inv_status": "Scheduled"
         }
       ],
       "scheduled": [
@@ -7138,19 +7151,6 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Jamie Martin Contact",
-          "inv_status": "Scheduled"
-        },
-        {
-          "name": "Sarah L.",
-          "full_name_lower": "sarah luesse",
-          "school": "Nipher",
-          "date": "2026-06-07",
-          "raw_date": "6/7/26",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Kids sports",
           "inv_status": "Scheduled"
         }
       ],
@@ -7185,8 +7185,8 @@
       "leader_count": 1,
       "ranked_leader_count": 1,
       "prospect_count": 16,
-      "completed_count": 3,
-      "scheduled_count": 2,
+      "completed_count": 4,
+      "scheduled_count": 1,
       "notes_count": 3,
       "si_count": 3,
       "status": "active"
@@ -8242,8 +8242,8 @@
     "leaders": 141,
     "leaders_ranked": 112,
     "prospects": 355,
-    "completed": 114,
-    "scheduled": 12,
+    "completed": 115,
+    "scheduled": 11,
     "with_notes": 90,
     "with_si": 86
   },
