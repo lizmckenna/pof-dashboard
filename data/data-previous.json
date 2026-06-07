@@ -1392,13 +1392,13 @@
           "full_name_lower": "emelie wisnieski",
           "school": "",
           "date": null,
-          "raw_date": "",
+          "raw_date": "postponed",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "February Garfield Parents meeting",
-          "inv_status": "Scheduled"
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Gina",
@@ -1624,19 +1624,6 @@
           "next_step_text": "",
           "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
           "inv_status": "Scheduled"
-        },
-        {
-          "name": "Emelie W.",
-          "full_name_lower": "emelie wisnieski",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "February Garfield Parents meeting",
-          "inv_status": "Scheduled"
         }
       ],
       "districts": [
@@ -1656,8 +1643,8 @@
       "inv_statuses": {
         "Completed": 7,
         "Left Message - Waiting": 2,
-        "Follow Up Needed": 3,
-        "Scheduled": 2,
+        "Follow Up Needed": 4,
+        "Scheduled": 1,
         "Not Contacted": 1
       },
       "source_buckets": {
@@ -1685,7 +1672,7 @@
       "ranked_leader_count": 10,
       "prospect_count": 18,
       "completed_count": 7,
-      "scheduled_count": 2,
+      "scheduled_count": 1,
       "notes_count": 2,
       "si_count": 2,
       "status": "active"
@@ -7560,6 +7547,14 @@
           "level": "Leader - Organize others",
           "self_interest": "Teaches in Raytown",
           "next_step": "Help him organize his house meeting"
+        },
+        {
+          "name": "Katie F.",
+          "district": "",
+          "school": "Blue Springs",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Has two kids with special needs",
+          "next_step": "Getting her to PPC"
         }
       ],
       "prospects": [
@@ -7657,15 +7652,15 @@
         {
           "name": "Katie F.",
           "full_name_lower": "katie freeman",
-          "school": "",
+          "school": "Blue Springs",
           "date": "2026-06-05",
           "raw_date": "6-5",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "Her kids rely on public education and IDEA protection.",
+          "next_step_text": "I have invited her to PPC and sent the link. I will follow up next week to see if she\u2026",
           "source": "Reach out to me though Amber Simmons",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         }
       ],
       "completed": [
@@ -7737,15 +7732,15 @@
         {
           "name": "Katie F.",
           "full_name_lower": "katie freeman",
-          "school": "",
+          "school": "Blue Springs",
           "date": "2026-06-05",
           "raw_date": "6-5",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "Her kids rely on public education and IDEA protection.",
+          "next_step_text": "I have invited her to PPC and sent the link. I will follow up next week to see if she\u2026",
           "source": "Reach out to me though Amber Simmons",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -7758,14 +7753,13 @@
         "Raytown"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 3,
+        "Volunteer - Support / show up": 4,
         "Unsure - Need to test/assess": 1,
         "Leader - Organize others": 1
       },
       "inv_statuses": {
-        "Completed": 5,
-        "Declined": 2,
-        "Scheduled": 1
+        "Completed": 6,
+        "Declined": 2
       },
       "source_buckets": {
         "Event / forum": 2,
@@ -7783,13 +7777,13 @@
         ]
       ],
       "chain_total": 1,
-      "leader_count": 5,
-      "ranked_leader_count": 5,
+      "leader_count": 6,
+      "ranked_leader_count": 6,
       "prospect_count": 8,
       "completed_count": 6,
       "scheduled_count": 0,
       "notes_count": 6,
-      "si_count": 5,
+      "si_count": 6,
       "status": "active"
     },
     "Sierra": {
@@ -9237,13 +9231,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 140,
-    "leaders_ranked": 111,
+    "leaders": 141,
+    "leaders_ranked": 112,
     "prospects": 414,
     "completed": 127,
-    "scheduled": 15,
+    "scheduled": 14,
     "with_notes": 103,
-    "with_si": 98
+    "with_si": 99
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9617,6 +9611,8 @@
       "Sarah"
     ],
     "blue springs": [
+      "Sarah",
+      "Sarah",
       "Sarah",
       "Sarah",
       "Sarah",
