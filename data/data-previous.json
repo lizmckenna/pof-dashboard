@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-07",
+  "as_of": "2026-06-08",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -4322,7 +4322,55 @@
           "name": "Carolie O.",
           "district": "",
           "school": "",
-          "level": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Buiding progressive power in STC",
+          "next_step": ""
+        },
+        {
+          "name": "Steven B.",
+          "district": "",
+          "school": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Buiding power for public ed in STC",
+          "next_step": ""
+        },
+        {
+          "name": "Ted H.",
+          "district": "",
+          "school": "",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Harry H.",
+          "district": "",
+          "school": "",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Amy L.",
+          "district": "",
+          "school": "",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Tara M.",
+          "district": "",
+          "school": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Pat H.",
+          "district": "",
+          "school": "",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         }
@@ -4574,6 +4622,19 @@
           "next_step_text": "Parent Power Camp",
           "source": "Through Karin Robinette",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Lakenia",
+          "full_name_lower": "lakenia",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Zebrina connected us-parent at Francis Howell",
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Mike H.",
@@ -5011,8 +5072,8 @@
           "date": "2026-05-08",
           "raw_date": "5.8",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "David is building power for his campaign as a candidate",
           "next_step_text": "",
           "source": "Candidate for County Council/Sips",
           "inv_status": "Completed, Follow Up Needed"
@@ -5109,8 +5170,8 @@
           "inv_status": "Not Contacted"
         },
         {
-          "name": "Daughter I.",
-          "full_name_lower": "daughter isom",
+          "name": "Kendall I.",
+          "full_name_lower": "kendall isom",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -5151,8 +5212,8 @@
           "name": "Pat H.",
           "full_name_lower": "pat hogan",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-07",
+          "raw_date": "6.7",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Gerrymandering",
@@ -5171,7 +5232,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Former classmate; liked. post I put in our cohort group re: power camp",
-          "inv_status": ""
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -5442,8 +5503,8 @@
           "date": "2026-05-08",
           "raw_date": "5.8",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "David is building power for his campaign as a candidate",
           "next_step_text": "",
           "source": "Candidate for County Council/Sips",
           "inv_status": "Completed, Follow Up Needed"
@@ -5452,8 +5513,8 @@
           "name": "Pat H.",
           "full_name_lower": "pat hogan",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-07",
+          "raw_date": "6.7",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Gerrymandering",
@@ -5524,24 +5585,25 @@
       ],
       "schools": [],
       "leader_levels": {
-        "Core leader - Organize a team": 8,
+        "Core leader - Organize a team": 11,
         "Leader - Organize others": 5,
-        "Unsure - Need to test/assess": 1
+        "Unsure - Need to test/assess": 1,
+        "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
         "Completed": 15,
         "Completed, Follow Up Needed": 7,
         "Referred/Delegated, Follow Up Needed": 5,
-        "Left Message - Waiting": 7,
+        "Left Message - Waiting": 8,
         "Scheduled": 4,
-        "Not Contacted": 25,
+        "Not Contacted": 26,
         "Referred/Delegated": 1
       },
       "source_buckets": {
         "Advocacy / org": 12,
         "Other": 14,
         "Friend / family": 4,
-        "Chain referral": 14,
+        "Chain referral": 15,
         "Online": 7,
         "Event / forum": 1,
         "Church / faith": 3,
@@ -5552,6 +5614,7 @@
           "Ted H.",
           [
             "Carolie O.",
+            "Lakenia",
             "Chad L.",
             "Retired C.",
             "Aaliyah B.",
@@ -5608,14 +5671,14 @@
           ]
         ]
       ],
-      "chain_total": 14,
-      "leader_count": 15,
-      "ranked_leader_count": 14,
-      "prospect_count": 65,
+      "chain_total": 15,
+      "leader_count": 21,
+      "ranked_leader_count": 21,
+      "prospect_count": 66,
       "completed_count": 22,
       "scheduled_count": 4,
       "notes_count": 22,
-      "si_count": 21,
+      "si_count": 22,
       "status": "active"
     },
     "Judy": {
@@ -7246,6 +7309,22 @@
           "level": "Unsure - Need to test/assess",
           "self_interest": "He seems like a leader and he is open to helping others always but unsure if this is his cup of tea.",
           "next_step": "come to parent cafe"
+        },
+        {
+          "name": "Antoine N.",
+          "district": "NKCD",
+          "school": "Meadowbrook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "make connection in the new area",
+          "next_step": "invited to parent power camp"
+        },
+        {
+          "name": "Leticia c.",
+          "district": "NKCD",
+          "school": "Meadowbrook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "she has twins and would like to make new connections within the school community",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -7384,7 +7463,7 @@
           "full_name_lower": "tanya",
           "school": "meadowbrook",
           "date": null,
-          "raw_date": "",
+          "raw_date": "followed up june 5 left message",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
@@ -7397,13 +7476,65 @@
           "full_name_lower": "jessica williams",
           "school": "meadowbrook",
           "date": null,
-          "raw_date": "",
+          "raw_date": "followed up june 5 left message",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "in person",
           "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Donna s.",
+          "full_name_lower": "donna spight",
+          "school": "Meadowbrook",
+          "date": "2026-06-09",
+          "raw_date": "6/9/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Antoine N.",
+          "full_name_lower": "antoine nelson",
+          "school": "Meadowbrook",
+          "date": "2026-06-11",
+          "raw_date": "6/11/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "James m.",
+          "full_name_lower": "james manning",
+          "school": "Meadowbrook",
+          "date": "2026-06-11",
+          "raw_date": "6/11/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Leticia C.",
+          "full_name_lower": "leticia ceja",
+          "school": "Meadowbrook",
+          "date": "2026-06-06",
+          "raw_date": "6/6/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": ""
         }
       ],
       "completed": [
@@ -7497,40 +7628,95 @@
           "next_step_text": "",
           "source": "in person",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Leticia C.",
+          "full_name_lower": "leticia ceja",
+          "school": "Meadowbrook",
+          "date": "2026-06-06",
+          "raw_date": "6/6/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": ""
         }
       ],
-      "scheduled": [],
+      "scheduled": [
+        {
+          "name": "Donna s.",
+          "full_name_lower": "donna spight",
+          "school": "Meadowbrook",
+          "date": "2026-06-09",
+          "raw_date": "6/9/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Antoine N.",
+          "full_name_lower": "antoine nelson",
+          "school": "Meadowbrook",
+          "date": "2026-06-11",
+          "raw_date": "6/11/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "James m.",
+          "full_name_lower": "james manning",
+          "school": "Meadowbrook",
+          "date": "2026-06-11",
+          "raw_date": "6/11/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Left Message - Waiting"
+        }
+      ],
       "districts": [
         "KCPS",
+        "NKCD",
         "NKCSD",
         "Platte City"
       ],
       "schools": [
         "Antioch Middle",
         "KCPS",
+        "Meadowbrook",
         "Platte City"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 2,
+        "Volunteer - Support / show up": 4,
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
         "Completed": 4,
-        "Left Message - Waiting": 6,
-        "Scheduled": 2
+        "Left Message - Waiting": 8,
+        "Scheduled": 3
       },
       "source_buckets": {
-        "Event / forum": 10,
+        "Event / forum": 14,
         "Online": 2
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 3,
-      "ranked_leader_count": 3,
-      "prospect_count": 12,
-      "completed_count": 7,
-      "scheduled_count": 0,
-      "notes_count": 6,
+      "leader_count": 5,
+      "ranked_leader_count": 5,
+      "prospect_count": 16,
+      "completed_count": 8,
+      "scheduled_count": 3,
+      "notes_count": 7,
       "si_count": 5,
       "status": "active"
     },
@@ -9260,13 +9446,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 143,
-    "leaders_ranked": 113,
-    "prospects": 414,
-    "completed": 129,
-    "scheduled": 13,
-    "with_notes": 104,
-    "with_si": 103
+    "leaders": 151,
+    "leaders_ranked": 122,
+    "prospects": 419,
+    "completed": 130,
+    "scheduled": 16,
+    "with_notes": 105,
+    "with_si": 104
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9628,6 +9814,12 @@
       "Nina",
       "Nina",
       "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
       "Nina"
     ],
     "kauffman school": [
@@ -9710,11 +9902,11 @@
   },
   "source_buckets": {
     "Advocacy / org": 27,
-    "Event / forum": 25,
+    "Event / forum": 29,
     "Other": 43,
     "School / PTA": 42,
     "Friend / family": 28,
-    "Chain referral": 60,
+    "Chain referral": 61,
     "Online": 28,
     "Church / faith": 11,
     "Work": 7
@@ -9741,10 +9933,10 @@
   "voices": [
     {
       "fellow": "Jamie",
-      "name": "Carolie O.",
+      "name": "Pat H.",
       "school": "",
-      "self_interest": "Carolie is a retired music educator and passionate about public schools but also about organizing for caniddates. She wants to build POWER!",
-      "next_step": "Ask to do a House Meeting"
+      "self_interest": "Gerrymandering",
+      "next_step": ""
     },
     {
       "fellow": "Sarah",
