@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-09",
+  "as_of": "2026-06-10",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -4812,11 +4812,11 @@
           "date": null,
           "raw_date": "",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "school funding/equity",
           "next_step_text": "",
           "source": "MOEEP",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Referred/Delegated"
         },
         {
           "name": "Laura B.",
@@ -4829,7 +4829,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Case study research/online engagement Rockwood",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Referred/Delegated"
         },
         {
           "name": "Harry L.",
@@ -4838,11 +4838,11 @@
           "date": "2026-06-09",
           "raw_date": "6.9",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "school funding nd defeat of Amendment 5 +candidates for office",
           "next_step_text": "",
           "source": "Case study research/online engagement Rockwood",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Rachel P.",
@@ -5124,11 +5124,11 @@
           "date": "2026-06-09",
           "raw_date": "6.9",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "County executive race",
+          "next_step_text": "Get connected with DDRB; consider how parks dept might speak to the parent movement. CONVENE leaders of impacted services, urge\u2026",
           "source": "Through Karen Sieve",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Brittani W.",
@@ -5490,11 +5490,11 @@
           "date": "2026-06-09",
           "raw_date": "6.9",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "school funding nd defeat of Amendment 5 +candidates for office",
           "next_step_text": "",
           "source": "Case study research/online engagement Rockwood",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Kim S.",
@@ -5542,11 +5542,11 @@
           "date": "2026-06-09",
           "raw_date": "6.9",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "County executive race",
+          "next_step_text": "Get connected with DDRB; consider how parks dept might speak to the parent movement. CONVENE leaders of impacted services, urge\u2026",
           "source": "Through Karen Sieve",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Pat H.",
@@ -5591,13 +5591,13 @@
         "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
-        "Completed": 15,
-        "Completed, Follow Up Needed": 7,
+        "Completed": 16,
+        "Completed, Follow Up Needed": 8,
         "Referred/Delegated, Follow Up Needed": 5,
-        "Left Message - Waiting": 8,
-        "Scheduled": 4,
+        "Left Message - Waiting": 6,
+        "Scheduled": 2,
         "Not Contacted": 26,
-        "Referred/Delegated": 1
+        "Referred/Delegated": 3
       },
       "source_buckets": {
         "Advocacy / org": 12,
@@ -5678,7 +5678,7 @@
       "completed_count": 25,
       "scheduled_count": 1,
       "notes_count": 25,
-      "si_count": 23,
+      "si_count": 25,
       "status": "active"
     },
     "Judy": {
@@ -9525,7 +9525,7 @@
     "completed": 134,
     "scheduled": 12,
     "with_notes": 109,
-    "with_si": 105
+    "with_si": 107
   },
   "all_completed": [],
   "schools_to_fellows": {
