@@ -8392,19 +8392,90 @@
     },
     "Stephanie": {
       "name": "Stephanie",
-      "leaders": [],
+      "leaders": [
+        {
+          "name": "Mindy D.",
+          "district": "FHSD",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "Well Funded Public Schools",
+          "next_step": "Invite to 6/13 PPC"
+        },
+        {
+          "name": "Karen S.",
+          "district": "FHSD",
+          "school": "FHN",
+          "level": "Leader - Organize others",
+          "self_interest": "Well Funded Public Schools",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        },
+        {
+          "name": "Angie Q.",
+          "district": "FHSD",
+          "school": "Becky David",
+          "level": "Leader - Organize others",
+          "self_interest": "Helping Chris Chapman",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13 (her sons birthday party is that day--she would definitely be interested in attending a different\u2026"
+        },
+        {
+          "name": "Jen T.",
+          "district": "FZSD",
+          "school": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Being able to teach in a school that is fully funded and fully supports teachers and students.",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13 out of town on 6/13"
+        },
+        {
+          "name": "Jarrett P.",
+          "district": "FHSD",
+          "school": "FHN",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Keeping public schools strong",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        },
+        {
+          "name": "Kelly E.",
+          "district": "Lincon County",
+          "school": "Troy/Buchanan HS",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "This one is unclear, but I think the PPC could be good for her to learn about the pitfalls of lone rangering",
+          "next_step": "Invite to 6/13 PPC"
+        },
+        {
+          "name": "Jen P.",
+          "district": "Wentzville",
+          "school": "North Pointe",
+          "level": "Core leader - Organize a team",
+          "self_interest": "As a teacher--being supported by admin and state as a teacher. As a parent, having good public schools for her youngest (high school)",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        }
+      ],
       "prospects": [],
       "completed": [],
       "scheduled": [],
-      "districts": [],
-      "schools": [],
-      "leader_levels": {},
+      "districts": [
+        "FHSD",
+        "FZSD",
+        "Lincon County",
+        "Wentzville"
+      ],
+      "schools": [
+        "Becky David",
+        "FHN",
+        "North Pointe",
+        "Troy/Buchanan HS"
+      ],
+      "leader_levels": {
+        "Leader - Organize others": 3,
+        "Core leader - Organize a team": 3,
+        "Unsure - Need to test/assess": 1
+      },
       "inv_statuses": {},
       "source_buckets": {},
       "chains": [],
       "chain_total": 0,
-      "leader_count": 0,
-      "ranked_leader_count": 0,
+      "leader_count": 7,
+      "ranked_leader_count": 7,
       "prospect_count": 0,
       "completed_count": 0,
       "scheduled_count": 0,
@@ -8415,10 +8486,10 @@
   },
   "totals": {
     "fellows": 16,
-    "fellows_with_data": 15,
+    "fellows_with_data": 16,
     "fellows_with_completed": 14,
-    "leaders": 145,
-    "leaders_ranked": 116,
+    "leaders": 152,
+    "leaders_ranked": 123,
     "prospects": 361,
     "completed": 121,
     "scheduled": 11,
@@ -8837,6 +8908,19 @@
     ],
     "no school yet": [
       "Sierra"
+    ],
+    "fhn": [
+      "Stephanie",
+      "Stephanie"
+    ],
+    "becky david": [
+      "Stephanie"
+    ],
+    "troy/buchanan hs": [
+      "Stephanie"
+    ],
+    "north pointe": [
+      "Stephanie"
     ]
   },
   "source_buckets": {
