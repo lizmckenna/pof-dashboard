@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-11",
+  "as_of": "2026-06-12",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -643,9 +643,7 @@
           "next_step_text": "",
           "source": "Family friend",
           "inv_status": "Declined"
-        }
-      ],
-      "scheduled": [
+        },
         {
           "name": "Adriana P.",
           "full_name_lower": "adriana paez",
@@ -660,6 +658,7 @@
           "inv_status": "Scheduled"
         }
       ],
+      "scheduled": [],
       "districts": [
         "LSR-7"
       ],
@@ -684,8 +683,8 @@
       "leader_count": 3,
       "ranked_leader_count": 3,
       "prospect_count": 14,
-      "completed_count": 4,
-      "scheduled_count": 1,
+      "completed_count": 5,
+      "scheduled_count": 0,
       "notes_count": 3,
       "si_count": 2,
       "status": "active"
@@ -1421,7 +1420,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Sharon S.",
@@ -1608,6 +1607,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Odain",
+          "full_name_lower": "odain",
+          "school": "Garfield Uncle",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Mary C.",
           "full_name_lower": "mary (and nicolette) chargois",
           "school": "Garfield Parents",
@@ -1686,21 +1698,7 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Odain",
-          "full_name_lower": "odain",
-          "school": "Garfield Uncle",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "KCPS",
         "LINC",
@@ -1716,10 +1714,9 @@
         "Core leader - Organize a team": 2
       },
       "inv_statuses": {
-        "Completed": 7,
+        "Completed": 8,
         "Left Message - Waiting": 2,
         "Follow Up Needed": 4,
-        "Scheduled": 1,
         "Not Contacted": 1
       },
       "source_buckets": {
@@ -1746,8 +1743,8 @@
       "leader_count": 10,
       "ranked_leader_count": 10,
       "prospect_count": 18,
-      "completed_count": 7,
-      "scheduled_count": 1,
+      "completed_count": 8,
+      "scheduled_count": 0,
       "notes_count": 2,
       "si_count": 2,
       "status": "active"
@@ -8398,6 +8395,32 @@
           "next_step_text": "",
           "source": "Neighbor",
           "inv_status": "Declined"
+        },
+        {
+          "name": "Baylea A.",
+          "full_name_lower": "baylea allen",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Lesley T.",
+          "full_name_lower": "lesley thalman",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Gym",
+          "inv_status": "Declined"
         }
       ],
       "completed": [
@@ -8496,12 +8519,12 @@
       "inv_statuses": {
         "Completed": 5,
         "Left Message - Waiting": 2,
-        "Declined": 4,
-        "Not Contacted": 5
+        "Declined": 5,
+        "Not Contacted": 6
       },
       "source_buckets": {
         "Work": 2,
-        "Event / forum": 4,
+        "Event / forum": 5,
         "Church / faith": 6,
         "School / PTA": 1,
         "Friend / family": 3
@@ -8510,7 +8533,7 @@
       "chain_total": 0,
       "leader_count": 3,
       "ranked_leader_count": 3,
-      "prospect_count": 16,
+      "prospect_count": 18,
       "completed_count": 6,
       "scheduled_count": 0,
       "notes_count": 6,
@@ -9661,9 +9684,9 @@
     "fellows_with_completed": 15,
     "leaders": 153,
     "leaders_ranked": 124,
-    "prospects": 429,
-    "completed": 139,
-    "scheduled": 12,
+    "prospects": 431,
+    "completed": 141,
+    "scheduled": 10,
     "with_notes": 110,
     "with_si": 108
   },
@@ -10126,7 +10149,7 @@
   },
   "source_buckets": {
     "Advocacy / org": 30,
-    "Event / forum": 29,
+    "Event / forum": 30,
     "Other": 43,
     "School / PTA": 42,
     "Friend / family": 29,
