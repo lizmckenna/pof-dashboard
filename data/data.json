@@ -219,6 +219,19 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Saleem R.",
+          "full_name_lower": "saleem rasheed",
+          "school": "DeLaselle",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
         }
       ],
       "completed": [
@@ -357,7 +370,7 @@
       },
       "inv_statuses": {
         "Completed": 7,
-        "Follow Up Needed": 2,
+        "Follow Up Needed": 3,
         "Left Message - Waiting": 2,
         "Scheduled": 1,
         "Not Contacted": 2
@@ -372,7 +385,7 @@
       "chain_total": 0,
       "leader_count": 4,
       "ranked_leader_count": 4,
-      "prospect_count": 14,
+      "prospect_count": 15,
       "completed_count": 9,
       "scheduled_count": 0,
       "notes_count": 5,
@@ -2063,6 +2076,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Hannah R.",
+          "full_name_lower": "hannah rejali",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "June 12, 2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her four children and their experience of being in a safe and loving educational environment connected to their neighborhood and community. Her own work on the Port KC team and\u2026",
+          "next_step_text": "",
+          "source": "Core Team Member",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Claire M.",
           "full_name_lower": "claire mcclun",
           "school": "Hale Cook",
@@ -2793,6 +2819,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Hannah R.",
+          "full_name_lower": "hannah rejali",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "June 12, 2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her four children and their experience of being in a safe and loving educational environment connected to their neighborhood and community. Her own work on the Port KC team and\u2026",
+          "next_step_text": "",
+          "source": "Core Team Member",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Jill L.",
           "full_name_lower": "jill leach",
           "school": "Hale Cook",
@@ -3095,7 +3134,7 @@
       },
       "inv_statuses": {
         "Scheduled": 2,
-        "Completed": 21,
+        "Completed": 22,
         "Left Message - Waiting": 16,
         "Not Contacted": 15,
         "Declined": 2,
@@ -3103,9 +3142,9 @@
       },
       "source_buckets": {
         "School / PTA": 12,
+        "Other": 4,
         "Chain referral": 30,
-        "Event / forum": 6,
-        "Other": 3
+        "Event / forum": 6
       },
       "chains": [
         [
@@ -3172,11 +3211,11 @@
       "chain_total": 30,
       "leader_count": 27,
       "ranked_leader_count": 27,
-      "prospect_count": 57,
-      "completed_count": 21,
+      "prospect_count": 58,
+      "completed_count": 22,
       "scheduled_count": 2,
-      "notes_count": 21,
-      "si_count": 21,
+      "notes_count": 22,
+      "si_count": 22,
       "status": "active"
     },
     "Ellen S": {
@@ -6781,6 +6820,14 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "504 plan, teacher/admin support",
           "next_step": "Invited to 5/5 forum, Parent Power Camp"
+        },
+        {
+          "name": "D M.",
+          "district": "NKC",
+          "school": "Greeway",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -6808,7 +6855,7 @@
           "self_interest_text": "",
           "next_step_text": "Talk more to spread awareness about HJR 173 and how it could affect school funding. Invite to Power camp",
           "source": "School activity",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Chloe",
@@ -7030,6 +7077,32 @@
           "next_step_text": "",
           "source": "PTA",
           "inv_status": ""
+        },
+        {
+          "name": "Amanda M.",
+          "full_name_lower": "amanda mccoy",
+          "school": "Staley",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Realtor",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Kristin M.",
+          "full_name_lower": "kristin mcginty",
+          "school": "Greenway",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "School Cookout",
+          "inv_status": "Follow Up Needed"
         }
       ],
       "completed": [
@@ -7057,7 +7130,7 @@
           "self_interest_text": "",
           "next_step_text": "Talk more to spread awareness about HJR 173 and how it could affect school funding. Invite to Power camp",
           "source": "School activity",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -7065,23 +7138,25 @@
         "NKC"
       ],
       "schools": [
-        "Greenway"
+        "Greenway",
+        "Greeway"
       ],
       "leader_levels": {
         "Unsure - Need to test/assess": 1,
-        "Volunteer - Support / show up": 1
+        "Volunteer - Support / show up": 1,
+        "Core leader - Organize a team": 1
       },
       "inv_statuses": {
-        "Follow Up Needed": 1,
-        "Scheduled": 1,
+        "Follow Up Needed": 3,
+        "Completed": 1,
         "Not Contacted": 2,
         "Left Message - Waiting": 14
       },
       "source_buckets": {
         "Friend / family": 2,
-        "School / PTA": 5,
+        "School / PTA": 6,
         "Chain referral": 2,
-        "Other": 9
+        "Other": 10
       },
       "chains": [
         [
@@ -7093,9 +7168,9 @@
         ]
       ],
       "chain_total": 2,
-      "leader_count": 2,
-      "ranked_leader_count": 2,
-      "prospect_count": 19,
+      "leader_count": 3,
+      "ranked_leader_count": 3,
+      "prospect_count": 21,
       "completed_count": 2,
       "scheduled_count": 0,
       "notes_count": 1,
@@ -9682,13 +9757,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 153,
-    "leaders_ranked": 124,
-    "prospects": 431,
-    "completed": 141,
+    "leaders": 154,
+    "leaders_ranked": 125,
+    "prospects": 435,
+    "completed": 142,
     "scheduled": 10,
-    "with_notes": 110,
-    "with_si": 108
+    "with_notes": 111,
+    "with_si": 109
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -9706,6 +9781,9 @@
       "AJ"
     ],
     "nehs": [
+      "AJ"
+    ],
+    "delaselle": [
       "AJ"
     ],
     "lee's summit north high": [
@@ -9733,6 +9811,7 @@
     "hale cook": [
       "Ashley S",
       "Ashley S",
+      "David",
       "David",
       "David",
       "David",
@@ -10023,12 +10102,19 @@
       "Latrice",
       "Latrice",
       "Latrice",
+      "Latrice",
+      "Latrice"
+    ],
+    "greeway": [
       "Latrice"
     ],
     "plaza/ park hill high": [
       "Latrice"
     ],
     "liberty": [
+      "Latrice"
+    ],
+    "staley": [
       "Latrice"
     ],
     "robinson": [
@@ -10150,8 +10236,8 @@
   "source_buckets": {
     "Advocacy / org": 30,
     "Event / forum": 30,
-    "Other": 43,
-    "School / PTA": 42,
+    "Other": 45,
+    "School / PTA": 43,
     "Friend / family": 29,
     "Chain referral": 61,
     "Online": 34,
