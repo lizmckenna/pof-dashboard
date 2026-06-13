@@ -35,6 +35,30 @@
           "level": "Leader - Organize others",
           "self_interest": "building thier own leadership",
           "next_step": "Parent Power Camp"
+        },
+        {
+          "name": "Raymond J.",
+          "district": "",
+          "school": "Genesis",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "Supporting His Neice,Learn more about the Ad 4&5 fight",
+          "next_step": "Parent Power Camp"
+        },
+        {
+          "name": "Heather D.",
+          "district": "",
+          "school": "HomeSchool",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Nicole N.",
+          "district": "Kansas",
+          "school": "West Englewood",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "wanna learn more",
+          "next_step": "ParentPowerCamp"
         }
       ],
       "prospects": [
@@ -361,11 +385,14 @@
         "Kcps"
       ],
       "schools": [
-        "Garcia"
+        "Garcia",
+        "Genesis",
+        "HomeSchool",
+        "West Englewood"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 1,
-        "Unsure - Need to test/assess": 1,
+        "Volunteer - Support / show up": 2,
+        "Unsure - Need to test/assess": 3,
         "Leader - Organize others": 2
       },
       "inv_statuses": {
@@ -383,8 +410,8 @@
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 4,
-      "ranked_leader_count": 4,
+      "leader_count": 7,
+      "ranked_leader_count": 7,
       "prospect_count": 15,
       "completed_count": 9,
       "scheduled_count": 0,
@@ -789,7 +816,7 @@
           "name": "Charisse A.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         },
@@ -856,6 +883,70 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "Son entering 6th grade at LM. Daughter at Lincoln High. Kids have learning and health challenges that she is concerned about. Passionate about public schools.\u2026",
           "next_step": "Invite to Parent Power Camp. Ask if she has other parents I should talk to."
+        },
+        {
+          "name": "Roxanne E.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Janelle B.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Paula C.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Angie D.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Frank S.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Julie H.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Margaret K.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Stan E.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
         },
         {
           "name": "Local (.",
@@ -1163,6 +1254,97 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Mandy H.",
+          "full_name_lower": "mandy hembree",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Alison P.",
+          "full_name_lower": "alison pinkowski",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Roxanne E.",
+          "full_name_lower": "roxanne egidy",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Sylvia (DAC Rep)",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Janelle B.",
+          "full_name_lower": "janelle barrett",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Sylvia (DAC Alt. Rep)",
+          "inv_status": ""
+        },
+        {
+          "name": "Paula C.",
+          "full_name_lower": "paula console-soican",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
+        },
+        {
+          "name": "Angie D.",
+          "full_name_lower": "angie dreher-bayman",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
+        },
+        {
+          "name": "Frank S.",
+          "full_name_lower": "frank schloegel",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
         }
       ],
       "completed": [
@@ -1262,23 +1444,33 @@
       ],
       "leader_levels": {
         "Core leader - Organize a team": 4,
-        "Volunteer - Support / show up": 3
+        "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
         "Completed": 5,
-        "Left Message - Waiting": 4,
+        "Left Message - Waiting": 6,
         "Scheduled": 1,
-        "Follow Up Needed": 3
+        "Follow Up Needed": 3,
+        "Not Contacted": 1
       },
       "source_buckets": {
         "Advocacy / org": 1,
-        "Other": 1
+        "Other": 1,
+        "Chain referral": 2
       },
-      "chains": [],
-      "chain_total": 0,
-      "leader_count": 36,
-      "ranked_leader_count": 7,
-      "prospect_count": 13,
+      "chains": [
+        [
+          "Sylvia G.",
+          [
+            "Roxanne E.",
+            "Janelle B."
+          ]
+        ]
+      ],
+      "chain_total": 2,
+      "leader_count": 44,
+      "ranked_leader_count": 8,
+      "prospect_count": 20,
       "completed_count": 5,
       "scheduled_count": 1,
       "notes_count": 3,
@@ -9757,9 +9949,9 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 154,
-    "leaders_ranked": 125,
-    "prospects": 435,
+    "leaders": 165,
+    "leaders_ranked": 129,
+    "prospects": 442,
     "completed": 142,
     "scheduled": 10,
     "with_notes": 111,
@@ -9768,6 +9960,15 @@
   "all_completed": [],
   "schools_to_fellows": {
     "garcia": [
+      "AJ"
+    ],
+    "genesis": [
+      "AJ"
+    ],
+    "homeschool": [
+      "AJ"
+    ],
+    "west englewood": [
       "AJ"
     ],
     "faxon": [
@@ -10239,7 +10440,7 @@
     "Other": 45,
     "School / PTA": 43,
     "Friend / family": 29,
-    "Chain referral": 61,
+    "Chain referral": 63,
     "Online": 34,
     "Church / faith": 11,
     "Work": 7
