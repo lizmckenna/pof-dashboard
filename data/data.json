@@ -8177,7 +8177,7 @@
           "name": "Tori O.",
           "district": "",
           "school": "Grain Valley ",
-          "level": "Volunteer - Support / show up",
+          "level": "Leader - Organize others",
           "self_interest": "Has a son with a 504 and IEP",
           "next_step": "Invited to PPC. 5/16 invited to the house meeting virtual training."
         },
@@ -8418,9 +8418,9 @@
         "Raytown"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 4,
-        "Unsure - Need to test/assess": 1,
-        "Leader - Organize others": 1
+        "Leader - Organize others": 2,
+        "Volunteer - Support / show up": 3,
+        "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
         "Completed": 6,
