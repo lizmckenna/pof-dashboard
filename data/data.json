@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-16",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -1630,21 +1630,21 @@
           "name": "Joshua M.",
           "full_name_lower": "joshua mullins",
           "school": "Garfield parent",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-11",
+          "raw_date": "Had 1:2 w/ Joshua and Odain on 6/11",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Completed"
         },
         {
           "name": "Odain",
           "full_name_lower": "odain",
           "school": "Garfield Uncle",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-11",
+          "raw_date": "Had 1:2 w/ Joshua and Odain on 6/11",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
@@ -1837,11 +1837,24 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Joshua M.",
+          "full_name_lower": "joshua mullins",
+          "school": "Garfield parent",
+          "date": "2026-06-11",
+          "raw_date": "Had 1:2 w/ Joshua and Odain on 6/11",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "On the sidewalk outside the school, then they attended a Garfield Parents meeting.",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Odain",
           "full_name_lower": "odain",
           "school": "Garfield Uncle",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-06-11",
+          "raw_date": "Had 1:2 w/ Joshua and Odain on 6/11",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
@@ -1944,9 +1957,9 @@
         "Core leader - Organize a team": 2
       },
       "inv_statuses": {
-        "Completed": 8,
+        "Completed": 9,
         "Left Message - Waiting": 2,
-        "Follow Up Needed": 4,
+        "Follow Up Needed": 3,
         "Not Contacted": 1
       },
       "source_buckets": {
@@ -1973,7 +1986,7 @@
       "leader_count": 10,
       "ranked_leader_count": 10,
       "prospect_count": 18,
-      "completed_count": 8,
+      "completed_count": 9,
       "scheduled_count": 0,
       "notes_count": 2,
       "si_count": 2,
@@ -10068,7 +10081,7 @@
     "leaders": 165,
     "leaders_ranked": 129,
     "prospects": 446,
-    "completed": 147,
+    "completed": 148,
     "scheduled": 10,
     "with_notes": 114,
     "with_si": 109

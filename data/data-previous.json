@@ -8634,7 +8634,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Former coworker",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Colin F.",
@@ -8653,14 +8653,14 @@
           "name": "Fatima",
           "full_name_lower": "fatima",
           "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
+          "date": "2026-06-12",
+          "raw_date": "6/12/26",
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Gym",
-          "inv_status": "Not Contacted"
+          "inv_status": "Completed"
         },
         {
           "name": "Shelby",
@@ -8694,12 +8694,12 @@
           "school": "",
           "date": null,
           "raw_date": "",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Not Contacted"
+          "inv_status": "Completed"
         },
         {
           "name": "Lesley T.",
@@ -8712,6 +8712,58 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Gym",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "LeeAnn M.",
+          "full_name_lower": "leeann messer",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Mary B.",
+          "full_name_lower": "mary bond",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Janill J.",
+          "full_name_lower": "janill jones",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Cara T.",
+          "full_name_lower": "cara thompson",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
           "inv_status": "Declined"
         }
       ],
@@ -8793,6 +8845,45 @@
           "next_step_text": "Remind to vote when time comes- invite to house meeting",
           "source": "Church",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Fatima",
+          "full_name_lower": "fatima",
+          "school": "",
+          "date": "2026-06-12",
+          "raw_date": "6/12/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Gym",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Baylea A.",
+          "full_name_lower": "baylea allen",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Mary B.",
+          "full_name_lower": "mary bond",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -8809,10 +8900,10 @@
         "Leader - Organize others": 1
       },
       "inv_statuses": {
-        "Completed": 5,
-        "Left Message - Waiting": 2,
-        "Declined": 5,
-        "Not Contacted": 6
+        "Completed": 8,
+        "Left Message - Waiting": 3,
+        "Declined": 8,
+        "Not Contacted": 3
       },
       "source_buckets": {
         "Work": 2,
@@ -8825,10 +8916,10 @@
       "chain_total": 0,
       "leader_count": 3,
       "ranked_leader_count": 3,
-      "prospect_count": 18,
-      "completed_count": 6,
+      "prospect_count": 22,
+      "completed_count": 9,
       "scheduled_count": 0,
-      "notes_count": 6,
+      "notes_count": 9,
       "si_count": 5,
       "status": "active"
     },
@@ -9976,10 +10067,10 @@
     "fellows_with_completed": 15,
     "leaders": 165,
     "leaders_ranked": 129,
-    "prospects": 442,
-    "completed": 144,
+    "prospects": 446,
+    "completed": 147,
     "scheduled": 10,
-    "with_notes": 111,
+    "with_notes": 114,
     "with_si": 109
   },
   "all_completed": [],
