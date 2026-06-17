@@ -167,17 +167,17 @@
           "inv_status": "Completed"
         },
         {
-          "name": "Cambria C.",
-          "full_name_lower": "cambria ( cam)",
+          "name": "Cambria R.",
+          "full_name_lower": "cambria ( cam) robles",
           "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "date": "2026-06-08",
+          "raw_date": "6/8",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "building with margiinalized folks",
+          "next_step_text": "invited to Parent power camp",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Joy M.",
@@ -185,12 +185,12 @@
           "school": "",
           "date": "2026-06-05",
           "raw_date": "6/5",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Rhodes C.",
@@ -219,8 +219,8 @@
           "inv_status": "Follow Up Needed"
         },
         {
-          "name": "Michael",
-          "full_name_lower": "michael",
+          "name": "Michael K.",
+          "full_name_lower": "michael king",
           "school": "NEHS",
           "date": null,
           "raw_date": "",
@@ -229,7 +229,7 @@
           "self_interest_text": "building student/teacher organizing",
           "next_step_text": "",
           "source": "Rev Ed meeting, teacher wanting to learn more about organizing",
-          "inv_status": "Not Contacted"
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Summer B.",
@@ -256,6 +256,45 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Allie W.",
+          "full_name_lower": "allie woods",
+          "school": "FLA",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Elizabeth W.",
+          "full_name_lower": "elizabeth warwick",
+          "school": "Previous Faxon Teacher",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Anabel V.",
+          "full_name_lower": "anabel vargas",
+          "school": "Carver",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -351,17 +390,30 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Cambria R.",
+          "full_name_lower": "cambria ( cam) robles",
+          "school": "",
+          "date": "2026-06-08",
+          "raw_date": "6/8",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "building with margiinalized folks",
+          "next_step_text": "invited to Parent power camp",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Joy M.",
           "full_name_lower": "joy mccann",
           "school": "",
           "date": "2026-06-05",
           "raw_date": "6/5",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Rhodes C.",
@@ -396,11 +448,10 @@
         "Leader - Organize others": 2
       },
       "inv_statuses": {
-        "Completed": 7,
-        "Follow Up Needed": 3,
-        "Left Message - Waiting": 2,
-        "Scheduled": 1,
-        "Not Contacted": 2
+        "Completed": 9,
+        "Follow Up Needed": 4,
+        "Left Message - Waiting": 1,
+        "Not Contacted": 4
       },
       "source_buckets": {
         "Advocacy / org": 2,
@@ -412,11 +463,11 @@
       "chain_total": 0,
       "leader_count": 7,
       "ranked_leader_count": 7,
-      "prospect_count": 15,
-      "completed_count": 9,
+      "prospect_count": 18,
+      "completed_count": 10,
       "scheduled_count": 0,
-      "notes_count": 5,
-      "si_count": 7,
+      "notes_count": 7,
+      "si_count": 8,
       "status": "active"
     },
     "Amber": {
@@ -10088,11 +10139,11 @@
     "fellows_with_completed": 15,
     "leaders": 166,
     "leaders_ranked": 130,
-    "prospects": 446,
-    "completed": 148,
+    "prospects": 449,
+    "completed": 149,
     "scheduled": 10,
-    "with_notes": 114,
-    "with_si": 109
+    "with_notes": 116,
+    "with_si": 110
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -10122,6 +10173,16 @@
       "AJ"
     ],
     "delaselle": [
+      "AJ"
+    ],
+    "fla": [
+      "AJ",
+      "Ashley S"
+    ],
+    "previous faxon teacher": [
+      "AJ"
+    ],
+    "carver": [
       "AJ"
     ],
     "lee's summit north high": [
@@ -10228,9 +10289,6 @@
       "David",
       "David",
       "David"
-    ],
-    "fla": [
-      "Ashley S"
     ],
     "lincoln high": [
       "Ashley S",
@@ -10589,6 +10647,10 @@
       "AJ",
       "Brianna"
     ],
+    "fla": [
+      "AJ",
+      "Ashley S"
+    ],
     "hale cook": [
       "Ashley S",
       "David"
@@ -10611,6 +10673,13 @@
       "next_step": "Invite to parent camp and have curcial convo re: campaign support."
     },
     {
+      "fellow": "AJ",
+      "name": "Cambria R.",
+      "school": "",
+      "self_interest": "building with margiinalized folks",
+      "next_step": "invited to Parent power camp"
+    },
+    {
       "fellow": "Sarah",
       "name": "Mike M.",
       "school": "Raytown",
@@ -10630,13 +10699,6 @@
       "school": "",
       "self_interest": "This was really hard to get to. She kept wanting to talk about actions instead of herself",
       "next_step": "Invited to PPC"
-    },
-    {
-      "fellow": "AJ",
-      "name": "Damiyahn S.",
-      "school": "",
-      "self_interest": "Interested in building student led canvass in impacted areas",
-      "next_step": ""
     }
   ],
   "approaches": {
