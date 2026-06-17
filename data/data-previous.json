@@ -3452,6 +3452,30 @@
       "name": "Ellen S",
       "leaders": [
         {
+          "name": "Kathryn E.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
+          "next_step": "June 2"
+        },
+        {
+          "name": "Alice C.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "She needs this system to work for her family; believes the system should be fair for everyone not just those who can make it work",
+          "next_step": "Organize her own group of organizers"
+        },
+        {
+          "name": "Natalie M.",
+          "district": "KCPS",
+          "school": "Border Star",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Someone has to hold the line; schools are the front lines and MO needs to do better",
+          "next_step": "June 2"
+        },
+        {
           "name": "Billy M.",
           "district": "KCPS",
           "school": "Border Star",
@@ -3514,22 +3538,6 @@
           "level": "Leader - Organize others",
           "self_interest": "",
           "next_step": "June 2, PPC"
-        },
-        {
-          "name": "Kathryn E.",
-          "district": "KCPS",
-          "school": "Border Star",
-          "level": "Core leader - Organize a team",
-          "self_interest": "Every kid deserves a good education; Clara shouldn't see her education as less-than friends in KS/other district",
-          "next_step": "June 2"
-        },
-        {
-          "name": "Natalie M.",
-          "district": "KCPS",
-          "school": "Border Star",
-          "level": "Core leader - Organize a team",
-          "self_interest": "Someone has to hold the line; schools are the front lines and MO needs to do better",
-          "next_step": "June 2"
         },
         {
           "name": "Beeta K.",
@@ -3627,19 +3635,6 @@
           "next_step_text": "book 1:1",
           "source": "",
           "inv_status": ""
-        },
-        {
-          "name": "Courtney L.",
-          "full_name_lower": "courtney lewis",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "BSM > Lincoln Connect",
-          "source": "",
-          "inv_status": "Contacted"
         },
         {
           "name": "Mark W.",
@@ -4214,8 +4209,8 @@
           "inv_status": ""
         },
         {
-          "name": "Stacia D.",
-          "full_name_lower": "stacia deckard/gray",
+          "name": "Kenya G.",
+          "full_name_lower": "kenya givens",
           "school": "Border Star",
           "date": null,
           "raw_date": "",
@@ -4316,6 +4311,19 @@
           "next_step_text": "BSM > Lincoln Connect",
           "source": "",
           "inv_status": ""
+        },
+        {
+          "name": "Courtney L.",
+          "full_name_lower": "courtney lewis",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "BSM > Lincoln Connect",
+          "source": "",
+          "inv_status": "Contacted"
         }
       ],
       "completed": [
@@ -4563,9 +4571,9 @@
         "Border Star"
       ],
       "leader_levels": {
+        "Core leader - Organize a team": 3,
         "Leader - Organize others": 13,
-        "Volunteer - Support / show up": 2,
-        "Core leader - Organize a team": 2
+        "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
         "Contacted": 7,
@@ -4576,8 +4584,8 @@
       "source_buckets": {},
       "chains": [],
       "chain_total": 0,
-      "leader_count": 17,
-      "ranked_leader_count": 17,
+      "leader_count": 18,
+      "ranked_leader_count": 18,
       "prospect_count": 56,
       "completed_count": 14,
       "scheduled_count": 4,
@@ -10078,8 +10086,8 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 165,
-    "leaders_ranked": 129,
+    "leaders": 166,
+    "leaders_ranked": 130,
     "prospects": 446,
     "completed": 148,
     "scheduled": 10,
@@ -10248,6 +10256,7 @@
     ],
     "border star": [
       "Ashley S",
+      "Ellen S",
       "Ellen S",
       "Ellen S",
       "Ellen S",
