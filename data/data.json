@@ -2125,7 +2125,7 @@
           "district": "KCPS ",
           "school": "Hale Cook",
           "level": "Core leader - Organize a team",
-          "self_interest": "",
+          "self_interest": "Her four children and their experience of being in a safe and loving educational environment connected to their neighborhood and community. Her own work on\u2026",
           "next_step": ""
         },
         {
@@ -2141,7 +2141,7 @@
           "district": "KCPS ",
           "school": "Hale Cook",
           "level": "Core leader - Organize a team",
-          "self_interest": "Surrey, Quincy, Layla, and Cyrus, facilities being up to date to provide comfort and security for kids while in school, connection with others",
+          "self_interest": "His four children, Surrey, Quincy, Layla, and Cyrus, to of whom are currently at Hale Cook. His desire for the school and classroom to feel\u2026",
           "next_step": ""
         },
         {
@@ -2308,7 +2308,7 @@
           "name": "Robbin W.",
           "district": "KCPS",
           "school": "Hale Cook",
-          "level": "Leader - Organize others",
+          "level": "Core leader - Organize a team",
           "self_interest": "Robbin is a teacher in the school district as is his mother, a speech pathologist at Paseo High School. His two children also go to\u2026",
           "next_step": ""
         },
@@ -2326,6 +2326,14 @@
           "school": "Hale Cook",
           "level": "Volunteer - Support / show up",
           "self_interest": "Two kids Simon and Ezra at Hale Cook. Desire for them to have a different educational environment than he had in his private catholic school\u2026",
+          "next_step": ""
+        },
+        {
+          "name": "Kaz R.",
+          "district": "KCPS",
+          "school": "Hale Cook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Her son Liam's school experience in a diverse context, including racial, cultural, and socioeconomic diversity. Her desire to support public schools based on her own\u2026",
           "next_step": ""
         }
       ],
@@ -2518,12 +2526,12 @@
           "school": "Hale Cook",
           "date": null,
           "raw_date": "June 18",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her son Liam's school experience in a diverse context, including racial, cultural, and socioeconomic diversity. Her desire to support public schools based on her own experience of public school in\u2026",
           "next_step_text": "",
           "source": "Fellow 2nd grade parent",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Brooke L.",
@@ -2692,7 +2700,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Jill Goodheart",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Melissa K.",
@@ -3083,6 +3091,58 @@
           "next_step_text": "",
           "source": "Birthday Party",
           "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Liz S.",
+          "full_name_lower": "liz spangler",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Summer School Flyering",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Kevin C.",
+          "full_name_lower": "kevin corbin",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Summer School Flyering",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Whitney",
+          "full_name_lower": "whitney",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Swim Lessons",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Lola",
+          "full_name_lower": "lola",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -3162,6 +3222,19 @@
           "self_interest_text": "Her children Roman, Johnny, and Stef. She wants the kids to be in a diverse school, not so they can be exposed to other experiences, but so that they are\u2026",
           "next_step_text": "",
           "source": "Fellow pre-k parent",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Kaz R.",
+          "full_name_lower": "kaz rehill",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "June 18",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her son Liam's school experience in a diverse context, including racial, cultural, and socioeconomic diversity. Her desire to support public schools based on her own experience of public school in\u2026",
+          "next_step_text": "",
+          "source": "Fellow 2nd grade parent",
           "inv_status": "Completed"
         },
         {
@@ -3386,19 +3459,6 @@
           "next_step_text": "",
           "source": "Fellow pre-k parent",
           "inv_status": "Scheduled"
-        },
-        {
-          "name": "Kaz R.",
-          "full_name_lower": "kaz rehill",
-          "school": "Hale Cook",
-          "date": null,
-          "raw_date": "June 18",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Fellow 2nd grade parent",
-          "inv_status": "Scheduled"
         }
       ],
       "districts": [
@@ -3409,22 +3469,22 @@
         "LIncoln Middle/Prep"
       ],
       "leader_levels": {
-        "Core leader - Organize a team": 5,
-        "Volunteer - Support / show up": 12,
-        "Leader - Organize others": 10
+        "Core leader - Organize a team": 6,
+        "Volunteer - Support / show up": 13,
+        "Leader - Organize others": 9
       },
       "inv_statuses": {
-        "Scheduled": 2,
-        "Completed": 22,
-        "Left Message - Waiting": 16,
-        "Not Contacted": 15,
+        "Scheduled": 1,
+        "Completed": 23,
+        "Left Message - Waiting": 15,
+        "Not Contacted": 19,
         "Declined": 2,
-        "Follow Up Needed": 1
+        "Follow Up Needed": 2
       },
       "source_buckets": {
         "School / PTA": 12,
-        "Other": 4,
-        "Chain referral": 30,
+        "Other": 5,
+        "Chain referral": 32,
         "Event / forum": 6
       },
       "chains": [
@@ -3451,7 +3511,9 @@
             "Megan B.",
             "Maddie D.",
             "Anna H.",
-            "Jolie D."
+            "Jolie D.",
+            "Liz S.",
+            "Kevin C."
           ]
         ],
         [
@@ -3489,14 +3551,14 @@
           ]
         ]
       ],
-      "chain_total": 30,
-      "leader_count": 27,
-      "ranked_leader_count": 27,
-      "prospect_count": 58,
-      "completed_count": 22,
-      "scheduled_count": 2,
-      "notes_count": 22,
-      "si_count": 22,
+      "chain_total": 32,
+      "leader_count": 28,
+      "ranked_leader_count": 28,
+      "prospect_count": 62,
+      "completed_count": 23,
+      "scheduled_count": 1,
+      "notes_count": 23,
+      "si_count": 23,
       "status": "active"
     },
     "Ellen S": {
@@ -10137,13 +10199,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 166,
-    "leaders_ranked": 130,
-    "prospects": 449,
-    "completed": 149,
-    "scheduled": 10,
-    "with_notes": 116,
-    "with_si": 110
+    "leaders": 167,
+    "leaders_ranked": 131,
+    "prospects": 453,
+    "completed": 150,
+    "scheduled": 9,
+    "with_notes": 117,
+    "with_si": 111
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -10210,6 +10272,10 @@
     "hale cook": [
       "Ashley S",
       "Ashley S",
+      "David",
+      "David",
+      "David",
+      "David",
       "David",
       "David",
       "David",
@@ -10633,10 +10699,10 @@
   "source_buckets": {
     "Advocacy / org": 30,
     "Event / forum": 30,
-    "Other": 45,
+    "Other": 46,
     "School / PTA": 42,
     "Friend / family": 29,
-    "Chain referral": 63,
+    "Chain referral": 65,
     "Online": 35,
     "Church / faith": 11,
     "Work": 7
