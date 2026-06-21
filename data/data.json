@@ -1597,6 +1597,14 @@
           "next_step": "Follow up on 1:1, send invites to 6/2 and power camp"
         },
         {
+          "name": "Jen L.",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
           "name": "Ann B.",
           "district": "",
           "school": "",
@@ -1795,6 +1803,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Jen L.",
+          "full_name_lower": "jen lacy",
+          "school": "PH Community School",
+          "date": "2026-06-19",
+          "raw_date": "6.19.2026",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PH neighbor",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Garfield S.",
           "full_name_lower": "garfield staff",
           "school": "",
@@ -1953,6 +1974,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Jen L.",
+          "full_name_lower": "jen lacy",
+          "school": "PH Community School",
+          "date": "2026-06-19",
+          "raw_date": "6.19.2026",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PH neighbor",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Lauren A.",
           "full_name_lower": "lauren amicone",
           "school": "Garfield Staff",
@@ -2008,7 +2042,7 @@
         "Core leader - Organize a team": 2
       },
       "inv_statuses": {
-        "Completed": 9,
+        "Completed": 10,
         "Left Message - Waiting": 2,
         "Follow Up Needed": 3,
         "Not Contacted": 1
@@ -2016,7 +2050,8 @@
       "source_buckets": {
         "Chain referral": 8,
         "School / PTA": 2,
-        "Other": 2
+        "Other": 2,
+        "Friend / family": 1
       },
       "chains": [
         [
@@ -2034,12 +2069,12 @@
         ]
       ],
       "chain_total": 8,
-      "leader_count": 10,
+      "leader_count": 11,
       "ranked_leader_count": 10,
-      "prospect_count": 18,
-      "completed_count": 9,
+      "prospect_count": 19,
+      "completed_count": 10,
       "scheduled_count": 0,
-      "notes_count": 2,
+      "notes_count": 3,
       "si_count": 2,
       "status": "active"
     },
@@ -8335,9 +8370,9 @@
           "name": "Amber S.",
           "district": "BS Dems",
           "school": "Blue Springs",
-          "level": "Unsure - Need to test/assess",
+          "level": "Volunteer - Support / show up",
           "self_interest": "Care deeply about equality",
-          "next_step": "Get her to an event and then get her to work with me on an in-person event or project."
+          "next_step": "Commited to hosting her own house party. I need to follow up with her to see what her next step are to make this happen\u2026"
         },
         {
           "name": "Mike M.",
@@ -8460,6 +8495,136 @@
           "next_step_text": "I have invited her to PPC and sent the link. I will follow up next week to see if she\u2026",
           "source": "Reach out to me though Amber Simmons",
           "inv_status": "Completed"
+        },
+        {
+          "name": "James C.",
+          "full_name_lower": "james chamberlain",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Jaulan H.",
+          "full_name_lower": "jaulan hite",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Elly W.",
+          "full_name_lower": "elly welchert",
+          "school": "Blue Springs",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Cheryl C.",
+          "full_name_lower": "cheryl cheek",
+          "school": "Lee Summit",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Craig Z.",
+          "full_name_lower": "craig zwahlen",
+          "school": "BS South High School",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Sarah Z.",
+          "full_name_lower": "sarah zwahlen",
+          "school": "Buckner Elem.",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Kat A.",
+          "full_name_lower": "kat andrew",
+          "school": "MCC?",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Jeff A.",
+          "full_name_lower": "jeff andrew",
+          "school": "Moreland Ridge",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Joy R.",
+          "full_name_lower": "joy rush",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
+        },
+        {
+          "name": "Louisa M.",
+          "full_name_lower": "louisa mckenna",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "parents unhappy hour",
+          "inv_status": ""
         }
       ],
       "completed": [
@@ -8553,8 +8718,7 @@
       ],
       "leader_levels": {
         "Leader - Organize others": 2,
-        "Volunteer - Support / show up": 3,
-        "Unsure - Need to test/assess": 1
+        "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
         "Completed": 6,
@@ -8565,7 +8729,8 @@
         "Online": 1,
         "Other": 3,
         "Friend / family": 1,
-        "Chain referral": 1
+        "Chain referral": 1,
+        "School / PTA": 10
       },
       "chains": [
         [
@@ -8578,7 +8743,7 @@
       "chain_total": 1,
       "leader_count": 6,
       "ranked_leader_count": 6,
-      "prospect_count": 8,
+      "prospect_count": 18,
       "completed_count": 6,
       "scheduled_count": 0,
       "notes_count": 6,
@@ -9059,19 +9224,90 @@
     },
     "Stephanie": {
       "name": "Stephanie",
-      "leaders": [],
+      "leaders": [
+        {
+          "name": "Mindy D.",
+          "district": "FHSD",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "Well Funded Public Schools",
+          "next_step": "Invite to 6/13 PPC"
+        },
+        {
+          "name": "Karen S.",
+          "district": "FHSD",
+          "school": "FHN",
+          "level": "Leader - Organize others",
+          "self_interest": "Well Funded Public Schools",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        },
+        {
+          "name": "Angie Q.",
+          "district": "FHSD",
+          "school": "Becky David",
+          "level": "Leader - Organize others",
+          "self_interest": "Helping Chris Chapman",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13 (her sons birthday party is that day--she would definitely be interested in attending a different\u2026"
+        },
+        {
+          "name": "Jen T.",
+          "district": "FZSD",
+          "school": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Being able to teach in a school that is fully funded and fully supports teachers and students.",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13 out of town on 6/13"
+        },
+        {
+          "name": "Jarrett P.",
+          "district": "FHSD",
+          "school": "FHN",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Keeping public schools strong",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        },
+        {
+          "name": "Kelly E.",
+          "district": "Lincon County",
+          "school": "Troy/Buchanan HS",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "This one is unclear, but I think the PPC could be good for her to learn about the pitfalls of lone rangering",
+          "next_step": "Invite to 6/13 PPC"
+        },
+        {
+          "name": "Jen P.",
+          "district": "Wentzville",
+          "school": "North Pointe",
+          "level": "Core leader - Organize a team",
+          "self_interest": "As a teacher--being supported by admin and state as a teacher. As a parent, having good public schools for her youngest (high school)",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        }
+      ],
       "prospects": [],
       "completed": [],
       "scheduled": [],
-      "districts": [],
-      "schools": [],
-      "leader_levels": {},
+      "districts": [
+        "FHSD",
+        "FZSD",
+        "Lincon County",
+        "Wentzville"
+      ],
+      "schools": [
+        "Becky David",
+        "FHN",
+        "North Pointe",
+        "Troy/Buchanan HS"
+      ],
+      "leader_levels": {
+        "Leader - Organize others": 3,
+        "Core leader - Organize a team": 3,
+        "Unsure - Need to test/assess": 1
+      },
       "inv_statuses": {},
       "source_buckets": {},
       "chains": [],
       "chain_total": 0,
-      "leader_count": 0,
-      "ranked_leader_count": 0,
+      "leader_count": 7,
+      "ranked_leader_count": 7,
       "prospect_count": 0,
       "completed_count": 0,
       "scheduled_count": 0,
@@ -9082,14 +9318,14 @@
   },
   "totals": {
     "fellows": 16,
-    "fellows_with_data": 15,
+    "fellows_with_data": 16,
     "fellows_with_completed": 14,
-    "leaders": 160,
-    "leaders_ranked": 124,
-    "prospects": 390,
-    "completed": 137,
+    "leaders": 168,
+    "leaders_ranked": 131,
+    "prospects": 401,
+    "completed": 138,
     "scheduled": 7,
-    "with_notes": 104,
+    "with_notes": 105,
     "with_si": 98
   },
   "all_completed": [],
@@ -9321,6 +9557,9 @@
     "garfield volunteer": [
       "Benjamin"
     ],
+    "ph community school": [
+      "Benjamin"
+    ],
     "garfield staff": [
       "Benjamin",
       "Benjamin"
@@ -9522,10 +9761,26 @@
       "Sarah",
       "Sarah",
       "Sarah",
+      "Sarah",
       "Sarah"
     ],
     "raytown": [
       "Sarah",
+      "Sarah"
+    ],
+    "lee summit": [
+      "Sarah"
+    ],
+    "bs south high school": [
+      "Sarah"
+    ],
+    "buckner elem.": [
+      "Sarah"
+    ],
+    "mcc?": [
+      "Sarah"
+    ],
+    "moreland ridge": [
       "Sarah"
     ],
     "bell prairie": [
@@ -9545,14 +9800,27 @@
     ],
     "no school yet": [
       "Sierra"
+    ],
+    "fhn": [
+      "Stephanie",
+      "Stephanie"
+    ],
+    "becky david": [
+      "Stephanie"
+    ],
+    "troy/buchanan hs": [
+      "Stephanie"
+    ],
+    "north pointe": [
+      "Stephanie"
     ]
   },
   "source_buckets": {
     "Advocacy / org": 25,
     "Event / forum": 30,
     "Other": 42,
-    "School / PTA": 38,
-    "Friend / family": 23,
+    "School / PTA": 48,
+    "Friend / family": 24,
     "Chain referral": 63,
     "Online": 23,
     "Church / faith": 10,
