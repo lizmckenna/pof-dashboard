@@ -2183,7 +2183,7 @@
           "name": "Tayler V.",
           "district": "KCPS",
           "school": "Hale Cook",
-          "level": "Volunteer - Support / show up",
+          "level": "Leader - Organize others",
           "self_interest": "Willa and Etta, their school experience, husband Cameron who is a teacher in the district",
           "next_step": ""
         },
@@ -2379,12 +2379,12 @@
           "school": "Hale Cook",
           "date": null,
           "raw_date": "June 23",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "He two chldren Etta and Willa and their school expeirence in a public neighborhood school, her lifelong identity",
           "next_step_text": "",
           "source": "Fellow pre-k parent",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Terrence J.",
@@ -3182,6 +3182,19 @@
       ],
       "completed": [
         {
+          "name": "Tayler V.",
+          "full_name_lower": "tayler vance",
+          "school": "Hale Cook",
+          "date": null,
+          "raw_date": "June 23",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "He two chldren Etta and Willa and their school expeirence in a public neighborhood school, her lifelong identity",
+          "next_step_text": "",
+          "source": "Fellow pre-k parent",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Terrence J.",
           "full_name_lower": "terrence jacobs",
           "school": "Hale Cook",
@@ -3481,21 +3494,7 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Tayler V.",
-          "full_name_lower": "tayler vance",
-          "school": "Hale Cook",
-          "date": null,
-          "raw_date": "June 23",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Fellow pre-k parent",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "KCPS"
       ],
@@ -3505,12 +3504,11 @@
       ],
       "leader_levels": {
         "Core leader - Organize a team": 6,
-        "Volunteer - Support / show up": 13,
-        "Leader - Organize others": 9
+        "Leader - Organize others": 10,
+        "Volunteer - Support / show up": 12
       },
       "inv_statuses": {
-        "Scheduled": 1,
-        "Completed": 23,
+        "Completed": 24,
         "Left Message - Waiting": 15,
         "Not Contacted": 19,
         "Declined": 2,
@@ -3590,10 +3588,10 @@
       "leader_count": 28,
       "ranked_leader_count": 28,
       "prospect_count": 62,
-      "completed_count": 23,
-      "scheduled_count": 1,
-      "notes_count": 23,
-      "si_count": 23,
+      "completed_count": 24,
+      "scheduled_count": 0,
+      "notes_count": 24,
+      "si_count": 24,
       "status": "active"
     },
     "Ellen S": {
@@ -10418,10 +10416,10 @@
     "leaders": 168,
     "leaders_ranked": 131,
     "prospects": 467,
-    "completed": 152,
-    "scheduled": 9,
-    "with_notes": 122,
-    "with_si": 114
+    "completed": 153,
+    "scheduled": 8,
+    "with_notes": 123,
+    "with_si": 115
   },
   "all_completed": [],
   "schools_to_fellows": {
