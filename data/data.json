@@ -3169,8 +3169,8 @@
           "inv_status": "Not Contacted"
         },
         {
-          "name": "Whitney",
-          "full_name_lower": "whitney",
+          "name": "Whitney B.",
+          "full_name_lower": "whitney boyd",
           "school": "Hale Cook",
           "date": null,
           "raw_date": "",
@@ -3182,16 +3182,16 @@
           "inv_status": "Not Contacted"
         },
         {
-          "name": "Lola",
-          "full_name_lower": "lola",
-          "school": "",
+          "name": "Lola M.",
+          "full_name_lower": "lola mendiola",
+          "school": "Hale Cook",
           "date": null,
           "raw_date": "",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
+          "source": "Swim Lessons",
           "inv_status": "Not Contacted"
         }
       ],
@@ -3531,7 +3531,7 @@
       },
       "source_buckets": {
         "School / PTA": 12,
-        "Other": 5,
+        "Other": 6,
         "Chain referral": 32,
         "Event / forum": 6
       },
@@ -10583,6 +10583,7 @@
       "David",
       "David",
       "David",
+      "David",
       "David"
     ],
     "lincoln high": [
@@ -10950,7 +10951,7 @@
   "source_buckets": {
     "Advocacy / org": 30,
     "Event / forum": 30,
-    "Other": 46,
+    "Other": 47,
     "School / PTA": 53,
     "Friend / family": 30,
     "Chain referral": 65,
