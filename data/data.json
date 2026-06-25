@@ -2385,6 +2385,14 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "Her son Liam's school experience in a diverse context, including racial, cultural, and socioeconomic diversity. Her desire to support public schools based on her own\u2026",
           "next_step": ""
+        },
+        {
+          "name": "Meg S.",
+          "district": "KCPS",
+          "school": "Hale Cook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -3520,7 +3528,7 @@
       "leader_levels": {
         "Core leader - Organize a team": 6,
         "Leader - Organize others": 10,
-        "Volunteer - Support / show up": 12
+        "Volunteer - Support / show up": 13
       },
       "inv_statuses": {
         "Completed": 24,
@@ -3600,8 +3608,8 @@
         ]
       ],
       "chain_total": 32,
-      "leader_count": 28,
-      "ranked_leader_count": 28,
+      "leader_count": 29,
+      "ranked_leader_count": 29,
       "prospect_count": 62,
       "completed_count": 24,
       "scheduled_count": 0,
@@ -10428,8 +10436,8 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 168,
-    "leaders_ranked": 131,
+    "leaders": 169,
+    "leaders_ranked": 132,
     "prospects": 467,
     "completed": 153,
     "scheduled": 9,
@@ -10501,6 +10509,7 @@
     "hale cook": [
       "Ashley S",
       "Ashley S",
+      "David",
       "David",
       "David",
       "David",
