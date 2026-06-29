@@ -8848,6 +8848,30 @@
           "level": "Leader - Organize others",
           "self_interest": "Kids/ her students",
           "next_step": "Invite to parent power camp"
+        },
+        {
+          "name": "Lisa T.",
+          "district": "NKCSD",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "Kids/ her students",
+          "next_step": "Help host a house meeting"
+        },
+        {
+          "name": "Issac B.",
+          "district": "NKCSD",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "Kids/his students",
+          "next_step": "Help host a house meeting"
+        },
+        {
+          "name": "Baylea A.",
+          "district": "NKCSD",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "Her son",
+          "next_step": "Help host a house meeting"
         }
       ],
       "prospects": [
@@ -8909,12 +8933,12 @@
           "school": "",
           "date": null,
           "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her kids, great school for all, funding",
+          "next_step_text": "Continue to invite her to events",
           "source": "Church",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Stephanie L.",
@@ -8927,7 +8951,7 @@
           "self_interest_text": "",
           "next_step_text": "Follow up when it gets closer to voting.",
           "source": "Neighbor",
-          "inv_status": "Declined"
+          "inv_status": "Completed"
         },
         {
           "name": "Leslie B.",
@@ -8940,7 +8964,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Church",
-          "inv_status": "Not Contacted"
+          "inv_status": "Declined"
         },
         {
           "name": "Anne M.",
@@ -8966,7 +8990,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Church",
-          "inv_status": "Not Contacted"
+          "inv_status": "Declined"
         },
         {
           "name": "Rachael D.",
@@ -8992,7 +9016,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Neighbor",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Declined"
         },
         {
           "name": "Emily J.",
@@ -9136,6 +9160,58 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Declined"
+        },
+        {
+          "name": "Anthony P.",
+          "full_name_lower": "anthony perry",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Kathy P.",
+          "full_name_lower": "kathy perez",
+          "school": "",
+          "date": "2026-06-15",
+          "raw_date": "6/15/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Church",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Issac B.",
+          "full_name_lower": "issac bickmore",
+          "school": "",
+          "date": "2026-06-22",
+          "raw_date": "6/22/26",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "his kids, the students he teaches",
+          "next_step_text": "Help him host a house meeting",
+          "source": "Church",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Baylea A.",
+          "full_name_lower": "baylea allen",
+          "school": "",
+          "date": "2026-06-22",
+          "raw_date": "6/22/26",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her son",
+          "next_step_text": "Invite to another house meeting and get her to commit to doing one herself.",
+          "source": "Church",
+          "inv_status": "Completed"
         }
       ],
       "completed": [
@@ -9192,6 +9268,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Lisa T.",
+          "full_name_lower": "lisa tingey",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her kids, great school for all, funding",
+          "next_step_text": "Continue to invite her to events",
+          "source": "Church",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Stephanie L.",
           "full_name_lower": "stephanie little",
           "school": "",
@@ -9202,7 +9291,7 @@
           "self_interest_text": "",
           "next_step_text": "Follow up when it gets closer to voting.",
           "source": "Neighbor",
-          "inv_status": "Declined"
+          "inv_status": "Completed"
         },
         {
           "name": "Colin F.",
@@ -9255,6 +9344,45 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Kathy P.",
+          "full_name_lower": "kathy perez",
+          "school": "",
+          "date": "2026-06-15",
+          "raw_date": "6/15/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Church",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Issac B.",
+          "full_name_lower": "issac bickmore",
+          "school": "",
+          "date": "2026-06-22",
+          "raw_date": "6/22/26",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "his kids, the students he teaches",
+          "next_step_text": "Help him host a house meeting",
+          "source": "Church",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Baylea A.",
+          "full_name_lower": "baylea allen",
+          "school": "",
+          "date": "2026-06-22",
+          "raw_date": "6/22/26",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her son",
+          "next_step_text": "Invite to another house meeting and get her to commit to doing one herself.",
+          "source": "Church",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -9268,30 +9396,30 @@
       ],
       "leader_levels": {
         "Volunteer - Support / show up": 2,
-        "Leader - Organize others": 1
+        "Leader - Organize others": 4
       },
       "inv_statuses": {
-        "Completed": 8,
-        "Left Message - Waiting": 3,
-        "Declined": 8,
-        "Not Contacted": 3
+        "Completed": 13,
+        "Declined": 10,
+        "Left Message - Waiting": 2,
+        "Not Contacted": 1
       },
       "source_buckets": {
         "Work": 2,
         "Event / forum": 5,
-        "Church / faith": 6,
+        "Church / faith": 9,
         "School / PTA": 1,
         "Friend / family": 3
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 3,
-      "ranked_leader_count": 3,
-      "prospect_count": 22,
-      "completed_count": 9,
+      "leader_count": 6,
+      "ranked_leader_count": 6,
+      "prospect_count": 26,
+      "completed_count": 13,
       "scheduled_count": 0,
-      "notes_count": 9,
-      "si_count": 5,
+      "notes_count": 13,
+      "si_count": 8,
       "status": "active"
     },
     "Stephanie": {
@@ -10436,13 +10564,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 169,
-    "leaders_ranked": 132,
-    "prospects": 467,
-    "completed": 153,
+    "leaders": 172,
+    "leaders_ranked": 135,
+    "prospects": 471,
+    "completed": 157,
     "scheduled": 9,
-    "with_notes": 123,
-    "with_si": 115
+    "with_notes": 127,
+    "with_si": 118
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -10965,7 +11093,7 @@
     "Friend / family": 30,
     "Chain referral": 65,
     "Online": 35,
-    "Church / faith": 11,
+    "Church / faith": 14,
     "Work": 7
   },
   "warnings": [],
@@ -10993,6 +11121,13 @@
   },
   "voices": [
     {
+      "fellow": "Sierra",
+      "name": "Issac B.",
+      "school": "",
+      "self_interest": "his kids, the students he teaches",
+      "next_step": "Help him host a house meeting"
+    },
+    {
       "fellow": "Melissa",
       "name": "Jenna A.",
       "school": "",
@@ -11019,13 +11154,6 @@
       "school": "Raytown",
       "self_interest": "He is a school teacher who cares deeply about education and equality.",
       "next_step": "Help him set up his house meeting"
-    },
-    {
-      "fellow": "Stephanie",
-      "name": "Amanda H.",
-      "school": "",
-      "self_interest": "This was really hard to get to. She kept wanting to talk about actions instead of herself",
-      "next_step": "Invited to PPC"
     }
   ],
   "approaches": {
