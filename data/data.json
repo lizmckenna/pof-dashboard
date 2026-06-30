@@ -268,7 +268,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Elizabeth W.",
@@ -281,7 +281,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Anabel V.",
@@ -294,7 +294,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         }
       ],
       "completed": [
@@ -463,8 +463,8 @@
       "inv_statuses": {
         "Completed": 10,
         "Follow Up Needed": 2,
-        "Left Message - Waiting": 2,
-        "Not Contacted": 4
+        "Left Message - Waiting": 5,
+        "Not Contacted": 1
       },
       "source_buckets": {
         "Advocacy / org": 2,
@@ -5240,7 +5240,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Not Contacted"
+          "inv_status": "Left Message - Waiting"
         },
         {
           "name": "Mike H.",
@@ -6395,9 +6395,9 @@
         "Completed": 17,
         "Completed, Follow Up Needed": 9,
         "Referred/Delegated, Follow Up Needed": 5,
-        "Left Message - Waiting": 6,
+        "Left Message - Waiting": 7,
         "Scheduled": 3,
-        "Not Contacted": 35,
+        "Not Contacted": 34,
         "Referred/Delegated": 3,
         "Not Contacted, Referred/Delegated": 1
       },

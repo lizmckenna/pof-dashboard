@@ -214,9 +214,9 @@
           "has_notes": false,
           "has_si": true,
           "self_interest_text": "building student/teacher organizing",
-          "next_step_text": "",
+          "next_step_text": "Invited to The June 30th on boarding",
           "source": "eldest former teacher, would like to learn more about organizing",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Michael K.",
@@ -427,9 +427,7 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Completed"
-        }
-      ],
-      "scheduled": [
+        },
         {
           "name": "Max F.",
           "full_name_lower": "max franco",
@@ -439,11 +437,12 @@
           "has_notes": false,
           "has_si": true,
           "self_interest_text": "building student/teacher organizing",
-          "next_step_text": "",
+          "next_step_text": "Invited to The June 30th on boarding",
           "source": "eldest former teacher, would like to learn more about organizing",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         }
       ],
+      "scheduled": [],
       "districts": [
         "3",
         "4",
@@ -462,10 +461,9 @@
         "Leader - Organize others": 2
       },
       "inv_statuses": {
-        "Completed": 9,
+        "Completed": 10,
         "Follow Up Needed": 2,
         "Left Message - Waiting": 2,
-        "Scheduled": 1,
         "Not Contacted": 4
       },
       "source_buckets": {
@@ -479,10 +477,10 @@
       "leader_count": 7,
       "ranked_leader_count": 7,
       "prospect_count": 18,
-      "completed_count": 10,
-      "scheduled_count": 1,
+      "completed_count": 11,
+      "scheduled_count": 0,
       "notes_count": 7,
-      "si_count": 8,
+      "si_count": 9,
       "status": "active"
     },
     "Amber": {
@@ -2393,6 +2391,14 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
+        },
+        {
+          "name": "Melissa D.",
+          "district": "Center",
+          "school": "Center High/Middle",
+          "level": "Core leader - Organize a team",
+          "self_interest": "15 plus years in the center school district, her five children that have all gone through elementary, middle, and high school in center. Her desire\u2026",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -3201,6 +3207,19 @@
           "next_step_text": "",
           "source": "Swim Lessons",
           "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Melissa D.",
+          "full_name_lower": "melissa dwyer",
+          "school": "Center",
+          "date": null,
+          "raw_date": "June 28, 2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "15 plus years in the center school district, her five children that have all gone through elementary, middle, and high school in center. Her desire to help other, and support\u2026",
+          "next_step_text": "",
+          "source": "Hallmark Wedding",
+          "inv_status": "Completed"
         }
       ],
       "completed": [
@@ -3515,23 +3534,38 @@
           "next_step_text": "",
           "source": "School Picnic",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Melissa D.",
+          "full_name_lower": "melissa dwyer",
+          "school": "Center",
+          "date": null,
+          "raw_date": "June 28, 2026",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "15 plus years in the center school district, her five children that have all gone through elementary, middle, and high school in center. Her desire to help other, and support\u2026",
+          "next_step_text": "",
+          "source": "Hallmark Wedding",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
       "districts": [
+        "Center",
         "KCPS"
       ],
       "schools": [
+        "Center High/Middle",
         "Hale Cook",
         "LIncoln Middle/Prep"
       ],
       "leader_levels": {
-        "Core leader - Organize a team": 6,
+        "Core leader - Organize a team": 7,
         "Leader - Organize others": 10,
         "Volunteer - Support / show up": 13
       },
       "inv_statuses": {
-        "Completed": 24,
+        "Completed": 25,
         "Left Message - Waiting": 15,
         "Not Contacted": 19,
         "Declined": 2,
@@ -3539,7 +3573,7 @@
       },
       "source_buckets": {
         "School / PTA": 12,
-        "Other": 6,
+        "Other": 7,
         "Chain referral": 32,
         "Event / forum": 6
       },
@@ -3608,13 +3642,13 @@
         ]
       ],
       "chain_total": 32,
-      "leader_count": 29,
-      "ranked_leader_count": 29,
-      "prospect_count": 62,
-      "completed_count": 24,
+      "leader_count": 30,
+      "ranked_leader_count": 30,
+      "prospect_count": 63,
+      "completed_count": 25,
       "scheduled_count": 0,
-      "notes_count": 24,
-      "si_count": 24,
+      "notes_count": 25,
+      "si_count": 25,
       "status": "active"
     },
     "Ellen S": {
@@ -5193,7 +5227,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Zebrina connected us-parent at Francis Howell",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Antoinette L.",
@@ -5365,6 +5399,19 @@
           "inv_status": "Completed"
         },
         {
+          "name": "Trudy",
+          "full_name_lower": "trudy",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
           "name": "Bekah M.",
           "full_name_lower": "bekah messick",
           "school": "",
@@ -5453,7 +5500,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "At a labor event",
-          "inv_status": "Not Contacted"
+          "inv_status": "Not Contacted, Referred/Delegated"
         },
         {
           "name": "Aimee R.",
@@ -5508,6 +5555,19 @@
           "inv_status": "Completed, Follow Up Needed"
         },
         {
+          "name": "Dani",
+          "full_name_lower": "dani",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "former MOEEP dist captain",
+          "inv_status": "Not Contacted"
+        },
+        {
           "name": "Jane M.",
           "full_name_lower": "jane mcguire",
           "school": "",
@@ -5556,7 +5616,98 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "Harry Harris connection",
+          "source": "Harry Harris connection- college and career counselor",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Adam V.",
+          "full_name_lower": "adam vishy",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014FHSD parent/Hazelwood teacher",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Eric W.",
+          "full_name_lower": "eric wandzdel",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014Eric Wandzdel HNEA pres",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Janine G.",
+          "full_name_lower": "janine gragislio",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014relted to FHN German teacher",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Rachel V.",
+          "full_name_lower": "rachel vandernoot",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014\"Involved\" AP in Hazelwood;Mom also \"very involved\" in North County.",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Ni'cole G.",
+          "full_name_lower": "ni'cole gipson",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014active years ago in North County",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Andrew H.",
+          "full_name_lower": "andrew harris",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014City Council candidate (maybe no member?); runs a FB pge to kep ppl informed. Wife, Lindsey, works as clerk in FHSD building",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Margo M.",
+          "full_name_lower": "margo mcniel",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Carrie Z connect\u2014former school  board mmber and Dem Rep n NoCo",
           "inv_status": "Not Contacted"
         },
         {
@@ -5570,7 +5721,7 @@
           "self_interest_text": "Dignity of Black/Brown children, families, and teachers",
           "next_step_text": "",
           "source": "colleague-UMSL",
-          "inv_status": "Completed"
+          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Ken R.",
@@ -5809,6 +5960,32 @@
         {
           "name": "Tiffany P.",
           "full_name_lower": "tiffany patton",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Raul",
+          "full_name_lower": "raul",
+          "school": "",
+          "date": "2026-06-27",
+          "raw_date": "6-27",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Sabra",
+          "full_name_lower": "sabra",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -6105,7 +6282,7 @@
           "self_interest_text": "Dignity of Black/Brown children, families, and teachers",
           "next_step_text": "",
           "source": "colleague-UMSL",
-          "inv_status": "Completed"
+          "inv_status": "Completed, Follow Up Needed"
         },
         {
           "name": "Ellen S.",
@@ -6158,6 +6335,19 @@
           "next_step_text": "",
           "source": "Kathy S's sister",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Raul",
+          "full_name_lower": "raul",
+          "school": "",
+          "date": "2026-06-27",
+          "raw_date": "6-27",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [
@@ -6172,6 +6362,19 @@
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
           "next_step_text": "",
           "source": "BOE meetings-longtime Forward volunteer",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Lakenia",
+          "full_name_lower": "lakenia",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Zebrina connected us-parent at Francis Howell",
           "inv_status": "Scheduled"
         }
       ],
@@ -6190,18 +6393,19 @@
       },
       "inv_statuses": {
         "Completed": 17,
-        "Completed, Follow Up Needed": 8,
+        "Completed, Follow Up Needed": 9,
         "Referred/Delegated, Follow Up Needed": 5,
         "Left Message - Waiting": 6,
-        "Scheduled": 2,
-        "Not Contacted": 27,
-        "Referred/Delegated": 3
+        "Scheduled": 3,
+        "Not Contacted": 35,
+        "Referred/Delegated": 3,
+        "Not Contacted, Referred/Delegated": 1
       },
       "source_buckets": {
-        "Advocacy / org": 12,
+        "Advocacy / org": 13,
         "Other": 14,
         "Friend / family": 4,
-        "Chain referral": 15,
+        "Chain referral": 22,
         "Online": 7,
         "Event / forum": 1,
         "Church / faith": 3,
@@ -6216,7 +6420,19 @@
             "Chad L.",
             "Retired C.",
             "Aaliyah B.",
+            "Janine G.",
             "Lorna F."
+          ]
+        ],
+        [
+          "Carrie Z.",
+          [
+            "Adam V.",
+            "Eric W.",
+            "Rachel V.",
+            "Ni'cole G.",
+            "Andrew H.",
+            "Margo M."
           ]
         ],
         [
@@ -6269,13 +6485,13 @@
           ]
         ]
       ],
-      "chain_total": 15,
+      "chain_total": 22,
       "leader_count": 21,
       "ranked_leader_count": 21,
-      "prospect_count": 68,
-      "completed_count": 26,
-      "scheduled_count": 1,
-      "notes_count": 26,
+      "prospect_count": 79,
+      "completed_count": 27,
+      "scheduled_count": 2,
+      "notes_count": 27,
       "si_count": 26,
       "status": "active"
     },
@@ -10564,13 +10780,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 172,
-    "leaders_ranked": 135,
-    "prospects": 471,
-    "completed": 157,
+    "leaders": 173,
+    "leaders_ranked": 136,
+    "prospects": 483,
+    "completed": 160,
     "scheduled": 9,
-    "with_notes": 127,
-    "with_si": 118
+    "with_notes": 129,
+    "with_si": 120
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -10825,6 +11041,9 @@
     "lincoln middle/prep": [
       "David"
     ],
+    "center high/middle": [
+      "David"
+    ],
     "hale cook (2026)": [
       "David"
     ],
@@ -10838,6 +11057,9 @@
       "David"
     ],
     "showmekc schools": [
+      "David"
+    ],
+    "center": [
       "David"
     ],
     "kingston heights": [
@@ -11086,12 +11308,12 @@
     ]
   },
   "source_buckets": {
-    "Advocacy / org": 30,
+    "Advocacy / org": 31,
     "Event / forum": 30,
-    "Other": 47,
+    "Other": 48,
     "School / PTA": 53,
     "Friend / family": 30,
-    "Chain referral": 65,
+    "Chain referral": 72,
     "Online": 35,
     "Church / faith": 14,
     "Work": 7
