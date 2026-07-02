@@ -4097,7 +4097,7 @@
           "self_interest_text": "",
           "next_step_text": "June 15 meeting",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Kim B.",
@@ -4108,9 +4108,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Andrew B.",
@@ -4121,9 +4121,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Robyn B.",
@@ -4134,9 +4134,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Jacqueline C.",
@@ -4147,9 +4147,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Chris C.",
@@ -4160,9 +4160,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Alex L.",
@@ -4173,9 +4173,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Michelle W.",
@@ -4186,9 +4186,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Colleen W.",
@@ -4199,9 +4199,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Christine W.",
@@ -4212,9 +4212,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Katie W.",
@@ -4225,9 +4225,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
+          "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Rhonda M.",
@@ -4397,6 +4397,19 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Tori H.",
+          "full_name_lower": "tori helber",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "7/9 rally",
+          "source": "",
+          "inv_status": "Contacted"
         },
         {
           "name": "TIER S.",
@@ -4779,7 +4792,7 @@
         "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
-        "Contacted": 7,
+        "Contacted": 19,
         "Scheduled": 4,
         "Leader": 6,
         "1:1 Completed": 11
@@ -4789,7 +4802,7 @@
       "chain_total": 0,
       "leader_count": 18,
       "ranked_leader_count": 18,
-      "prospect_count": 56,
+      "prospect_count": 57,
       "completed_count": 14,
       "scheduled_count": 4,
       "notes_count": 9,
@@ -10782,7 +10795,7 @@
     "fellows_with_completed": 15,
     "leaders": 173,
     "leaders_ranked": 136,
-    "prospects": 483,
+    "prospects": 484,
     "completed": 160,
     "scheduled": 9,
     "with_notes": 129,
