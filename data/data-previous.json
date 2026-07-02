@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-01",
+  "as_of": "2026-07-02",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -6116,6 +6116,19 @@
           "inv_status": "Completed, Follow Up Needed"
         },
         {
+          "name": "Carrie Z.",
+          "full_name_lower": "carrie zilkowski",
+          "school": "",
+          "date": "2026-07-02",
+          "raw_date": "7.2",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "***Ask re: contacts in Hazelwood!",
+          "next_step_text": "",
+          "source": "BOE meetings-longtime Forward volunteer",
+          "inv_status": "Scheduled"
+        },
+        {
           "name": "Kathy S.",
           "full_name_lower": "kathy stroud",
           "school": "",
@@ -6365,19 +6378,6 @@
       ],
       "scheduled": [
         {
-          "name": "Carrie Z.",
-          "full_name_lower": "carrie zilkowski",
-          "school": "",
-          "date": "2026-07-02",
-          "raw_date": "7.2",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "***Ask re: contacts in Hazelwood!",
-          "next_step_text": "",
-          "source": "BOE meetings-longtime Forward volunteer",
-          "inv_status": "Scheduled"
-        },
-        {
           "name": "Lakenia",
           "full_name_lower": "lakenia",
           "school": "",
@@ -6502,10 +6502,10 @@
       "leader_count": 21,
       "ranked_leader_count": 21,
       "prospect_count": 79,
-      "completed_count": 27,
-      "scheduled_count": 2,
-      "notes_count": 27,
-      "si_count": 26,
+      "completed_count": 28,
+      "scheduled_count": 1,
+      "notes_count": 28,
+      "si_count": 27,
       "status": "active"
     },
     "Judy": {
@@ -10796,10 +10796,10 @@
     "leaders": 173,
     "leaders_ranked": 136,
     "prospects": 484,
-    "completed": 160,
-    "scheduled": 9,
-    "with_notes": 129,
-    "with_si": 120
+    "completed": 161,
+    "scheduled": 8,
+    "with_notes": 130,
+    "with_si": 121
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -11356,6 +11356,13 @@
   },
   "voices": [
     {
+      "fellow": "Jamie",
+      "name": "Carrie Z.",
+      "school": "",
+      "self_interest": "***Ask re: contacts in Hazelwood!",
+      "next_step": ""
+    },
+    {
       "fellow": "Sierra",
       "name": "Issac B.",
       "school": "",
@@ -11368,13 +11375,6 @@
       "school": "",
       "self_interest": "Equity",
       "next_step": ""
-    },
-    {
-      "fellow": "Jamie",
-      "name": "Tara M.",
-      "school": "",
-      "self_interest": "Tara's campaign is her self interest. She needs canvassers.",
-      "next_step": "Invite to parent camp and have curcial convo re: campaign support."
     },
     {
       "fellow": "AJ",
