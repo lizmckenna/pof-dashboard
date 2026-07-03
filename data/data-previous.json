@@ -1278,7 +1278,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Jill G.",
@@ -1317,7 +1317,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Mandy H.",
@@ -1409,6 +1409,19 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Courtney L.",
+          "full_name_lower": "courtney lewis",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
         }
       ],
       "completed": [
@@ -1502,12 +1515,38 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Jasmin M.",
+          "full_name_lower": "jasmin moore",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Claire T.",
+          "full_name_lower": "claire terrebonne",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [
         {
-          "name": "Jasmin M.",
-          "full_name_lower": "jasmin moore",
+          "name": "Courtney L.",
+          "full_name_lower": "courtney lewis",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -1537,10 +1576,10 @@
         "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
-        "Completed": 7,
-        "Left Message - Waiting": 11,
-        "Scheduled": 1,
-        "Follow Up Needed": 1
+        "Completed": 9,
+        "Left Message - Waiting": 10,
+        "Follow Up Needed": 1,
+        "Scheduled": 1
       },
       "source_buckets": {
         "Advocacy / org": 1,
@@ -1559,8 +1598,8 @@
       "chain_total": 2,
       "leader_count": 44,
       "ranked_leader_count": 8,
-      "prospect_count": 20,
-      "completed_count": 7,
+      "prospect_count": 21,
+      "completed_count": 9,
       "scheduled_count": 1,
       "notes_count": 3,
       "si_count": 1,
@@ -4181,14 +4220,14 @@
           "name": "Michelle W.",
           "full_name_lower": "michelle warfield",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-07-06",
+          "raw_date": "Scheduling for Mon 7/6",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "7/9 rally",
           "source": "",
-          "inv_status": "Contacted"
+          "inv_status": "Scheduled"
         },
         {
           "name": "Colleen W.",
@@ -4778,6 +4817,19 @@
           "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Michelle W.",
+          "full_name_lower": "michelle warfield",
+          "school": "",
+          "date": "2026-07-06",
+          "raw_date": "Scheduling for Mon 7/6",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "7/9 rally",
+          "source": "",
+          "inv_status": "Scheduled"
         }
       ],
       "districts": [
@@ -4792,8 +4844,8 @@
         "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
-        "Contacted": 19,
-        "Scheduled": 4,
+        "Contacted": 18,
+        "Scheduled": 5,
         "Leader": 6,
         "1:1 Completed": 11
       },
@@ -4804,7 +4856,7 @@
       "ranked_leader_count": 18,
       "prospect_count": 57,
       "completed_count": 14,
-      "scheduled_count": 4,
+      "scheduled_count": 5,
       "notes_count": 9,
       "si_count": 9,
       "status": "active"
@@ -10795,9 +10847,9 @@
     "fellows_with_completed": 15,
     "leaders": 173,
     "leaders_ranked": 136,
-    "prospects": 484,
-    "completed": 161,
-    "scheduled": 8,
+    "prospects": 485,
+    "completed": 163,
+    "scheduled": 9,
     "with_notes": 130,
     "with_si": 121
   },

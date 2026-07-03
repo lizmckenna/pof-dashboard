@@ -797,62 +797,6 @@
       "name": "Ashley S",
       "leaders": [
         {
-          "name": "Fellowship",
-          "district": "",
-          "school": "",
-          "level": "",
-          "self_interest": "",
-          "next_step": ""
-        },
-        {
-          "name": "David T.",
-          "district": "KCPS",
-          "school": "Hale Cook",
-          "level": "Core leader - Organize a team",
-          "self_interest": "Focus on Hale Cook- will be in the school for some time. Interested in the racial dynamics of schools and promoting equity in HC and\u2026",
-          "next_step": ""
-        },
-        {
-          "name": "Ashley J.",
-          "district": "KCPS",
-          "school": "FLA",
-          "level": "Core leader - Organize a team",
-          "self_interest": "",
-          "next_step": ""
-        },
-        {
-          "name": "LaNee B.",
-          "district": "KCPS",
-          "school": "Lincoln High",
-          "level": "Core leader - Organize a team",
-          "self_interest": "",
-          "next_step": ""
-        },
-        {
-          "name": "Amber F.",
-          "district": "Lees Summit",
-          "school": "Lees Summit",
-          "level": "",
-          "self_interest": "",
-          "next_step": ""
-        },
-        {
-          "name": "Sarah L.",
-          "district": "Blue Springs",
-          "school": "",
-          "level": "",
-          "self_interest": "",
-          "next_step": ""
-        },
-        {
-          "name": "Lincoln M.",
-          "district": "",
-          "school": "",
-          "level": "",
-          "self_interest": "",
-          "next_step": ""
-        },
-        {
           "name": "Sylvia G.",
           "district": "KCPS",
           "school": "Lincoln Middle",
@@ -872,7 +816,7 @@
           "name": "Jasmin M.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         },
@@ -880,7 +824,7 @@
           "name": "Charisse A.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "Volunteer - Support / show up",
+          "level": "Unsure - Need to test/assess",
           "self_interest": "",
           "next_step": ""
         },
@@ -888,7 +832,7 @@
           "name": "Jacob S.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         },
@@ -896,7 +840,7 @@
           "name": "Carolyn S.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         },
@@ -904,7 +848,7 @@
           "name": "Jill G.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         },
@@ -928,14 +872,14 @@
           "name": "Mandy H.",
           "district": "KCPS",
           "school": "Lincoln Middle",
-          "level": "",
+          "level": "Unsure - Need to test/assess",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "Asked if she could attend other trainings"
         },
         {
           "name": "Sarah S.",
-          "district": "",
-          "school": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
@@ -950,49 +894,89 @@
         },
         {
           "name": "Roxanne E.",
-          "district": "",
-          "school": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "",
           "self_interest": "",
           "next_step": ""
         },
         {
           "name": "Janelle B.",
-          "district": "",
-          "school": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "",
           "self_interest": "",
           "next_step": ""
         },
         {
           "name": "Paula C.",
-          "district": "",
-          "school": "",
-          "level": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
+          "level": "Unsure - Need to test/assess",
           "self_interest": "",
           "next_step": ""
         },
         {
           "name": "Angie D.",
-          "district": "",
-          "school": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "",
           "self_interest": "",
           "next_step": ""
         },
         {
           "name": "Frank S.",
-          "district": "",
-          "school": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "",
           "self_interest": "",
           "next_step": ""
         },
         {
           "name": "Julie H.",
-          "district": "",
-          "school": "",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
           "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Courtney L.",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Bruce C.",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Bill C.",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Katie H.",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
+          "level": "Leader - Organize others",
+          "self_interest": "Grandparent at LMS",
+          "next_step": ""
+        },
+        {
+          "name": "Ellen S.",
+          "district": "KCPS",
+          "school": "Lincoln Middle",
+          "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
         },
@@ -1145,6 +1129,54 @@
           "district": "KCPS",
           "school": "Border Star",
           "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Fellowship",
+          "district": "",
+          "school": "",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "David T.",
+          "district": "KCPS",
+          "school": "Hale Cook",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Focus on Hale Cook- will be in the school for some time. Interested in the racial dynamics of schools and promoting equity in HC and\u2026",
+          "next_step": ""
+        },
+        {
+          "name": "Ashley J.",
+          "district": "KCPS",
+          "school": "FLA",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "LaNee B.",
+          "district": "KCPS",
+          "school": "Lincoln High",
+          "level": "Core leader - Organize a team",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Amber F.",
+          "district": "Lees Summit",
+          "school": "Lees Summit",
+          "level": "",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Sarah L.",
+          "district": "Blue Springs",
+          "school": "",
+          "level": "",
           "self_interest": "",
           "next_step": ""
         }
@@ -1422,6 +1454,58 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Julie H.",
+          "full_name_lower": "julie holland",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Bruce C.",
+          "full_name_lower": "bruce campbell",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Bill C.",
+          "full_name_lower": "bill cordaro",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Katie H.",
+          "full_name_lower": "katie hoyt",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Follow Up Needed"
         }
       ],
       "completed": [
@@ -1572,13 +1656,15 @@
         "Lincoln Middle"
       ],
       "leader_levels": {
-        "Core leader - Organize a team": 4,
-        "Volunteer - Support / show up": 4
+        "Volunteer - Support / show up": 8,
+        "Unsure - Need to test/assess": 3,
+        "Leader - Organize others": 1,
+        "Core leader - Organize a team": 4
       },
       "inv_statuses": {
         "Completed": 9,
-        "Left Message - Waiting": 10,
-        "Follow Up Needed": 1,
+        "Left Message - Waiting": 11,
+        "Follow Up Needed": 4,
         "Scheduled": 1
       },
       "source_buckets": {
@@ -1596,9 +1682,9 @@
         ]
       ],
       "chain_total": 2,
-      "leader_count": 44,
-      "ranked_leader_count": 8,
-      "prospect_count": 21,
+      "leader_count": 48,
+      "ranked_leader_count": 16,
+      "prospect_count": 25,
       "completed_count": 9,
       "scheduled_count": 1,
       "notes_count": 3,
@@ -10845,9 +10931,9 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 173,
-    "leaders_ranked": 136,
-    "prospects": 485,
+    "leaders": 177,
+    "leaders_ranked": 144,
+    "prospects": 489,
     "completed": 163,
     "scheduled": 9,
     "with_notes": 130,
@@ -10914,6 +11000,69 @@
     ],
     "moved out of lsr-7": [
       "Amber"
+    ],
+    "lincoln middle": [
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Ashley S",
+      "Nina"
+    ],
+    "lincoln high": [
+      "Ashley S",
+      "Ashley S"
+    ],
+    "border star": [
+      "Ashley S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S",
+      "Ellen S"
     ],
     "hale cook": [
       "Ashley S",
@@ -11004,59 +11153,8 @@
       "David",
       "David"
     ],
-    "lincoln high": [
-      "Ashley S",
-      "Ashley S"
-    ],
     "lees summit": [
       "Ashley S"
-    ],
-    "lincoln middle": [
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Ashley S",
-      "Nina"
-    ],
-    "border star": [
-      "Ashley S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S",
-      "Ellen S"
     ],
     "garfield": [
       "Benjamin",
@@ -11393,10 +11491,6 @@
       "AJ",
       "Ashley S"
     ],
-    "hale cook": [
-      "Ashley S",
-      "David"
-    ],
     "lincoln middle": [
       "Ashley S",
       "Nina"
@@ -11404,6 +11498,10 @@
     "border star": [
       "Ashley S",
       "Ellen S"
+    ],
+    "hale cook": [
+      "Ashley S",
+      "David"
     ]
   },
   "voices": [
