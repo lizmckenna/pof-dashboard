@@ -6661,7 +6661,7 @@
           "name": "Michelle S.",
           "district": "Independence",
           "school": "Ott Elementary",
-          "level": "Volunteer - Support / show up",
+          "level": "Core leader - Organize a team",
           "self_interest": "Her grandson",
           "next_step": ""
         },
@@ -6677,6 +6677,14 @@
           "name": "Marsha F.",
           "district": "Independence",
           "school": "Van Horn",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "",
+          "next_step": ""
+        },
+        {
+          "name": "Brandon H.",
+          "district": "Blue Springs",
+          "school": "",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
           "next_step": ""
@@ -6720,7 +6728,7 @@
           "self_interest_text": "",
           "next_step_text": "Need to follow up after school is over on 5/22",
           "source": "Referred by Ronda Scott",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Not Contacted"
         },
         {
           "name": "Clair R.",
@@ -6772,7 +6780,7 @@
           "self_interest_text": "",
           "next_step_text": "Follow up after school year",
           "source": "Friend",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Declined"
         },
         {
           "name": "Adrianne M.",
@@ -6785,7 +6793,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Facebook Group",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Declined"
         },
         {
           "name": "Pam F.",
@@ -6798,7 +6806,7 @@
           "self_interest_text": "Her son Ace who is being forced to move schools",
           "next_step_text": "Working to schedule in person 1:1.",
           "source": "Friend",
-          "inv_status": "Follow Up Needed"
+          "inv_status": "Declined"
         },
         {
           "name": "Rebecca M.",
@@ -6981,6 +6989,19 @@
           "next_step_text": "",
           "source": "Facebook Group",
           "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Dana D.",
+          "full_name_lower": "dana downs",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": ""
         }
       ],
       "completed": [
@@ -7052,6 +7073,7 @@
       ],
       "scheduled": [],
       "districts": [
+        "Blue Springs",
         "Independence"
       ],
       "schools": [
@@ -7061,14 +7083,13 @@
       ],
       "leader_levels": {
         "Volunteer - Support / show up": 3,
-        "Core leader - Organize a team": 1
+        "Core leader - Organize a team": 2
       },
       "inv_statuses": {
         "Completed": 5,
-        "Follow Up Needed": 10,
-        "Left Message - Waiting": 1,
-        "Not Contacted": 4,
-        "Declined": 3
+        "Follow Up Needed": 7,
+        "Not Contacted": 5,
+        "Declined": 6
       },
       "source_buckets": {
         "Online": 13,
@@ -7086,9 +7107,9 @@
         ]
       ],
       "chain_total": 2,
-      "leader_count": 4,
-      "ranked_leader_count": 4,
-      "prospect_count": 23,
+      "leader_count": 5,
+      "ranked_leader_count": 5,
+      "prospect_count": 24,
       "completed_count": 5,
       "scheduled_count": 0,
       "notes_count": 2,
@@ -9804,19 +9825,90 @@
     },
     "Stephanie": {
       "name": "Stephanie",
-      "leaders": [],
+      "leaders": [
+        {
+          "name": "Mindy D.",
+          "district": "FHSD",
+          "school": "",
+          "level": "Leader - Organize others",
+          "self_interest": "Well Funded Public Schools",
+          "next_step": "Invite to 6/13 PPC"
+        },
+        {
+          "name": "Karen S.",
+          "district": "FHSD",
+          "school": "FHN",
+          "level": "Leader - Organize others",
+          "self_interest": "Well Funded Public Schools",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        },
+        {
+          "name": "Angie Q.",
+          "district": "FHSD",
+          "school": "Becky David",
+          "level": "Leader - Organize others",
+          "self_interest": "Helping Chris Chapman",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13 (her sons birthday party is that day--she would definitely be interested in attending a different\u2026"
+        },
+        {
+          "name": "Jen T.",
+          "district": "FZSD",
+          "school": "",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Being able to teach in a school that is fully funded and fully supports teachers and students.",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13 out of town on 6/13"
+        },
+        {
+          "name": "Jarrett P.",
+          "district": "FHSD",
+          "school": "FHN",
+          "level": "Core leader - Organize a team",
+          "self_interest": "Keeping public schools strong",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        },
+        {
+          "name": "Kelly E.",
+          "district": "Lincon County",
+          "school": "Troy/Buchanan HS",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "This one is unclear, but I think the PPC could be good for her to learn about the pitfalls of lone rangering",
+          "next_step": "Invite to 6/13 PPC"
+        },
+        {
+          "name": "Jen P.",
+          "district": "Wentzville",
+          "school": "North Pointe",
+          "level": "Core leader - Organize a team",
+          "self_interest": "As a teacher--being supported by admin and state as a teacher. As a parent, having good public schools for her youngest (high school)",
+          "next_step": "Invite to House Party on 5/16 and PPC on 6/13"
+        }
+      ],
       "prospects": [],
       "completed": [],
       "scheduled": [],
-      "districts": [],
-      "schools": [],
-      "leader_levels": {},
+      "districts": [
+        "FHSD",
+        "FZSD",
+        "Lincon County",
+        "Wentzville"
+      ],
+      "schools": [
+        "Becky David",
+        "FHN",
+        "North Pointe",
+        "Troy/Buchanan HS"
+      ],
+      "leader_levels": {
+        "Leader - Organize others": 3,
+        "Core leader - Organize a team": 3,
+        "Unsure - Need to test/assess": 1
+      },
       "inv_statuses": {},
       "source_buckets": {},
       "chains": [],
       "chain_total": 0,
-      "leader_count": 0,
-      "ranked_leader_count": 0,
+      "leader_count": 7,
+      "ranked_leader_count": 7,
       "prospect_count": 0,
       "completed_count": 0,
       "scheduled_count": 0,
@@ -9827,11 +9919,11 @@
   },
   "totals": {
     "fellows": 16,
-    "fellows_with_data": 15,
+    "fellows_with_data": 16,
     "fellows_with_completed": 14,
-    "leaders": 170,
-    "leaders_ranked": 137,
-    "prospects": 427,
+    "leaders": 178,
+    "leaders_ranked": 145,
+    "prospects": 428,
     "completed": 150,
     "scheduled": 7,
     "with_notes": 117,
@@ -10335,6 +10427,19 @@
     ],
     "no school yet": [
       "Sierra"
+    ],
+    "fhn": [
+      "Stephanie",
+      "Stephanie"
+    ],
+    "becky david": [
+      "Stephanie"
+    ],
+    "troy/buchanan hs": [
+      "Stephanie"
+    ],
+    "north pointe": [
+      "Stephanie"
     ]
   },
   "source_buckets": {
