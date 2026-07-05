@@ -7000,8 +7000,112 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
-          "source": "",
-          "inv_status": ""
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Steve M.",
+          "full_name_lower": "steve mcluckie",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Patricia S.",
+          "full_name_lower": "patricia setari",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Tina T.",
+          "full_name_lower": "tina tasoulas",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Jennifer T.",
+          "full_name_lower": "jennifer thomas",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Essence Y.",
+          "full_name_lower": "essence yancey",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Brandon H.",
+          "full_name_lower": "brandon henderson",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PTA",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Melissa L.",
+          "full_name_lower": "melissa lane",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "PTA",
+          "inv_status": "Not Contacted"
+        },
+        {
+          "name": "Adriana P.",
+          "full_name_lower": "adriana paez",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "EJC Tracker",
+          "inv_status": "Not Contacted"
         }
       ],
       "completed": [
@@ -7088,14 +7192,15 @@
       "inv_statuses": {
         "Completed": 5,
         "Follow Up Needed": 7,
-        "Not Contacted": 5,
+        "Not Contacted": 14,
         "Declined": 6
       },
       "source_buckets": {
         "Online": 13,
         "Chain referral": 2,
-        "School / PTA": 4,
-        "Friend / family": 4
+        "School / PTA": 6,
+        "Friend / family": 4,
+        "Other": 7
       },
       "chains": [
         [
@@ -7109,7 +7214,7 @@
       "chain_total": 2,
       "leader_count": 5,
       "ranked_leader_count": 5,
-      "prospect_count": 24,
+      "prospect_count": 32,
       "completed_count": 5,
       "scheduled_count": 0,
       "notes_count": 2,
@@ -10967,7 +11072,7 @@
     "fellows_with_completed": 15,
     "leaders": 178,
     "leaders_ranked": 145,
-    "prospects": 491,
+    "prospects": 499,
     "completed": 163,
     "scheduled": 9,
     "with_notes": 130,
@@ -11510,8 +11615,8 @@
   "source_buckets": {
     "Advocacy / org": 31,
     "Event / forum": 30,
-    "Other": 49,
-    "School / PTA": 53,
+    "Other": 56,
+    "School / PTA": 55,
     "Friend / family": 30,
     "Chain referral": 72,
     "Online": 35,
