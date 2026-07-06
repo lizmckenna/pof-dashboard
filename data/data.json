@@ -5254,14 +5254,14 @@
           "name": "Carrie Z.",
           "full_name_lower": "carrie zilkowski",
           "school": "",
-          "date": "2026-07-02",
-          "raw_date": "7.2",
+          "date": "2026-07-05",
+          "raw_date": "7.5",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
           "next_step_text": "",
           "source": "BOE meetings-longtime Forward volunteer",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Kathy S.",
@@ -5371,14 +5371,14 @@
           "name": "Lakenia",
           "full_name_lower": "lakenia",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-07-02",
+          "raw_date": "7.2",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "Zebrina connected us-parent at Francis Howell",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Antoinette L.",
@@ -6257,14 +6257,14 @@
           "name": "Carrie Z.",
           "full_name_lower": "carrie zilkowski",
           "school": "",
-          "date": "2026-07-02",
-          "raw_date": "7.2",
+          "date": "2026-07-05",
+          "raw_date": "7.5",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "***Ask re: contacts in Hazelwood!",
           "next_step_text": "",
           "source": "BOE meetings-longtime Forward volunteer",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Kathy S.",
@@ -6342,6 +6342,19 @@
           "self_interest_text": "Amy is highly motivated to ensure a more equitable society; she cares very much about socials justice.",
           "next_step_text": "Parent Power Camp",
           "source": "Through Karin Robinette",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Lakenia",
+          "full_name_lower": "lakenia",
+          "school": "",
+          "date": "2026-07-02",
+          "raw_date": "7.2",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Zebrina connected us-parent at Francis Howell",
           "inv_status": "Completed"
         },
         {
@@ -6514,21 +6527,7 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Lakenia",
-          "full_name_lower": "lakenia",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Zebrina connected us-parent at Francis Howell",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "?",
         "Fox C-6",
@@ -6543,11 +6542,11 @@
         "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
-        "Completed": 17,
+        "Completed": 19,
         "Completed, Follow Up Needed": 9,
         "Referred/Delegated, Follow Up Needed": 5,
         "Left Message - Waiting": 7,
-        "Scheduled": 3,
+        "Scheduled": 1,
         "Not Contacted": 34,
         "Referred/Delegated": 3,
         "Not Contacted, Referred/Delegated": 1
@@ -6640,8 +6639,8 @@
       "leader_count": 21,
       "ranked_leader_count": 21,
       "prospect_count": 79,
-      "completed_count": 28,
-      "scheduled_count": 1,
+      "completed_count": 29,
+      "scheduled_count": 0,
       "notes_count": 28,
       "si_count": 27,
       "status": "active"
@@ -11073,8 +11072,8 @@
     "leaders": 178,
     "leaders_ranked": 145,
     "prospects": 499,
-    "completed": 163,
-    "scheduled": 9,
+    "completed": 164,
+    "scheduled": 8,
     "with_notes": 130,
     "with_si": 121
   },
