@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -8450,6 +8450,46 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "she has twins and would like to make new connections within the school community",
           "next_step": ""
+        },
+        {
+          "name": "Iana N.",
+          "district": "NKCD",
+          "school": "Oak park High school",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "she has two apotive children she also fosters and wants to be more involved",
+          "next_step": ""
+        },
+        {
+          "name": "Kurston W.",
+          "district": "NKCD",
+          "school": "Meadowbrook",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "her daughter is about to start kindergarden and she is intrested in becoming apart of the PTA",
+          "next_step": ""
+        },
+        {
+          "name": "Tracy S.",
+          "district": "NKCSD",
+          "school": "Antioch Middle ",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "Grandmother helps her daughter with transport for the kids she says her daughter is always busy with work but she is trying to connect with\u2026",
+          "next_step": ""
+        },
+        {
+          "name": "Alberta C.",
+          "district": "NKCSD",
+          "school": "Oak park High school",
+          "level": "Unsure - Need to test/assess",
+          "self_interest": "Her son David Carter Mays is a senior and has a daughter that is three currently they are in preschool but will be attending meadowbrook\u2026",
+          "next_step": ""
+        },
+        {
+          "name": "Pamela B.",
+          "district": "NKCSD",
+          "school": "Meadowbrook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "neighbor and intrested in attending a meeting to learn more she was short on time and said call",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -8818,11 +8858,12 @@
         "Antioch Middle",
         "KCPS",
         "Meadowbrook",
+        "Oak park High school",
         "Platte City"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 4,
-        "Unsure - Need to test/assess": 1
+        "Volunteer - Support / show up": 7,
+        "Unsure - Need to test/assess": 3
       },
       "inv_statuses": {
         "Completed": 4,
@@ -8835,8 +8876,8 @@
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 5,
-      "ranked_leader_count": 5,
+      "leader_count": 10,
+      "ranked_leader_count": 10,
       "prospect_count": 16,
       "completed_count": 11,
       "scheduled_count": 0,
@@ -11010,8 +11051,8 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 14,
-    "leaders": 179,
-    "leaders_ranked": 146,
+    "leaders": 184,
+    "leaders_ranked": 151,
     "prospects": 503,
     "completed": 157,
     "scheduled": 6,
@@ -11414,6 +11455,7 @@
       "Melissa"
     ],
     "antioch middle": [
+      "Nina",
       "Nina"
     ],
     "platte city": [
@@ -11436,6 +11478,12 @@
       "Nina",
       "Nina",
       "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina"
+    ],
+    "oak park high school": [
       "Nina",
       "Nina"
     ],

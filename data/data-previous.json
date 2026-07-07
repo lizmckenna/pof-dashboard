@@ -3622,7 +3622,7 @@
           "self_interest_text": "",
           "next_step_text": "Follow-up from June 2",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "1:1 Completed"
         },
         {
           "name": "Gina P.",
@@ -3742,6 +3742,19 @@
           "inv_status": "1:1 Completed"
         },
         {
+          "name": "Michelle W.",
+          "full_name_lower": "michelle warfield",
+          "school": "",
+          "date": null,
+          "raw_date": "Mon Jul 6",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "7/9 rally",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
           "name": "Tiffany R.",
           "full_name_lower": "tiffany roberts",
           "school": "",
@@ -3765,7 +3778,7 @@
           "self_interest_text": "",
           "next_step_text": "June 15 meeting",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "1:1 Completed"
         },
         {
           "name": "Dori B.",
@@ -3856,7 +3869,7 @@
           "self_interest_text": "",
           "next_step_text": "June 15 meeting",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Contacted"
         },
         {
           "name": "Molly L.",
@@ -3874,32 +3887,6 @@
         {
           "name": "Kim B.",
           "full_name_lower": "kim bailes",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "7/9 rally",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Andrew B.",
-          "full_name_lower": "andrew blakemore",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "7/9 rally",
-          "source": "",
-          "inv_status": "Contacted"
-        },
-        {
-          "name": "Robyn B.",
-          "full_name_lower": "robyn blakemore",
           "school": "",
           "date": null,
           "raw_date": "",
@@ -3948,19 +3935,6 @@
           "next_step_text": "7/9 rally",
           "source": "",
           "inv_status": "Contacted"
-        },
-        {
-          "name": "Michelle W.",
-          "full_name_lower": "michelle warfield",
-          "school": "",
-          "date": "2026-07-06",
-          "raw_date": "Scheduling for Mon 7/6",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "7/9 rally",
-          "source": "",
-          "inv_status": "Scheduled"
         },
         {
           "name": "Colleen W.",
@@ -4184,6 +4158,32 @@
           "inv_status": "Contacted"
         },
         {
+          "name": "Andrew B.",
+          "full_name_lower": "andrew blakemore",
+          "school": "",
+          "date": null,
+          "raw_date": "not coming back to BSM",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "7/9 rally",
+          "source": "",
+          "inv_status": "Unclear"
+        },
+        {
+          "name": "Robyn B.",
+          "full_name_lower": "robyn blakemore",
+          "school": "",
+          "date": null,
+          "raw_date": "not coming back to BSM",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "7/9 rally",
+          "source": "",
+          "inv_status": "Unclear"
+        },
+        {
           "name": "TIER S.",
           "full_name_lower": "tier 2 or unrelated to border star",
           "school": "",
@@ -4316,6 +4316,19 @@
       ],
       "completed": [
         {
+          "name": "Mark W.",
+          "full_name_lower": "mark wood",
+          "school": "",
+          "date": null,
+          "raw_date": "Tue Jun 9",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Follow-up from June 2",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
           "name": "Amanda Q.",
           "full_name_lower": "amanda quance",
           "school": "Border Star",
@@ -4338,6 +4351,32 @@
           "has_si": true,
           "self_interest_text": "Building a diverse and supportive community for her kids in a walkable/bikeable neighborhood",
           "next_step_text": "Follow-up specifically next week w/ how she's feeling.",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Michelle W.",
+          "full_name_lower": "michelle warfield",
+          "school": "",
+          "date": null,
+          "raw_date": "Mon Jul 6",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "7/9 rally",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
+          "name": "Alice C.",
+          "full_name_lower": "alice chamberlain",
+          "school": "",
+          "date": null,
+          "raw_date": "Fri Jun 12",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "1:1 Completed"
         },
@@ -4379,19 +4418,6 @@
           "next_step_text": "June 15 Meeting Book follow-up 1:1",
           "source": "",
           "inv_status": ""
-        },
-        {
-          "name": "Michelle W.",
-          "full_name_lower": "michelle warfield",
-          "school": "",
-          "date": "2026-07-06",
-          "raw_date": "Scheduling for Mon 7/6",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "7/9 rally",
-          "source": "",
-          "inv_status": "Scheduled"
         },
         {
           "name": "Ellie C.",
@@ -4513,19 +4539,6 @@
       ],
       "scheduled": [
         {
-          "name": "Mark W.",
-          "full_name_lower": "mark wood",
-          "school": "",
-          "date": null,
-          "raw_date": "Tue Jun 9",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "Follow-up from June 2",
-          "source": "",
-          "inv_status": "Scheduled"
-        },
-        {
           "name": "Jes H.",
           "full_name_lower": "jes herman",
           "school": "",
@@ -4550,19 +4563,6 @@
           "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Scheduled"
-        },
-        {
-          "name": "Alice C.",
-          "full_name_lower": "alice chamberlain",
-          "school": "",
-          "date": null,
-          "raw_date": "Fri Jun 12",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "June 15 meeting",
-          "source": "",
-          "inv_status": "Scheduled"
         }
       ],
       "districts": [
@@ -4577,10 +4577,11 @@
         "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
-        "Contacted": 18,
-        "Scheduled": 5,
+        "Contacted": 17,
+        "1:1 Completed": 14,
         "Leader": 6,
-        "1:1 Completed": 11
+        "Scheduled": 2,
+        "Unclear": 2
       },
       "source_buckets": {},
       "chains": [],
@@ -4588,8 +4589,8 @@
       "leader_count": 18,
       "ranked_leader_count": 18,
       "prospect_count": 57,
-      "completed_count": 15,
-      "scheduled_count": 4,
+      "completed_count": 17,
+      "scheduled_count": 2,
       "notes_count": 9,
       "si_count": 9,
       "status": "active"
@@ -11012,8 +11013,8 @@
     "leaders": 179,
     "leaders_ranked": 146,
     "prospects": 503,
-    "completed": 155,
-    "scheduled": 8,
+    "completed": 157,
+    "scheduled": 6,
     "with_notes": 124,
     "with_si": 112
   },
