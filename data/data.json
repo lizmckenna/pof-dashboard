@@ -3876,13 +3876,13 @@
           "full_name_lower": "molly landes",
           "school": "",
           "date": null,
-          "raw_date": "",
+          "raw_date": "Fri Jul 10",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "June 15 meeting",
           "source": "",
-          "inv_status": "Contacted"
+          "inv_status": "1:1 Completed"
         },
         {
           "name": "Kim B.",
@@ -4420,6 +4420,19 @@
           "inv_status": ""
         },
         {
+          "name": "Molly L.",
+          "full_name_lower": "molly landes",
+          "school": "",
+          "date": null,
+          "raw_date": "Fri Jul 10",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "June 15 meeting",
+          "source": "",
+          "inv_status": "1:1 Completed"
+        },
+        {
           "name": "Ellie C.",
           "full_name_lower": "ellie cooper",
           "school": "",
@@ -4577,8 +4590,8 @@
         "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
-        "Contacted": 17,
-        "1:1 Completed": 14,
+        "Contacted": 16,
+        "1:1 Completed": 15,
         "Leader": 6,
         "Scheduled": 2,
         "Unclear": 2
@@ -4589,7 +4602,7 @@
       "leader_count": 18,
       "ranked_leader_count": 18,
       "prospect_count": 57,
-      "completed_count": 17,
+      "completed_count": 18,
       "scheduled_count": 2,
       "notes_count": 9,
       "si_count": 9,
@@ -4980,14 +4993,14 @@
           "name": "Tara M.",
           "full_name_lower": "tara murray",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-07-10",
+          "raw_date": "7.10",
           "has_notes": true,
           "has_si": true,
           "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
           "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
           "source": "Candiate herself and canvasser for Fwd 2023",
-          "inv_status": "Scheduled"
+          "inv_status": "Scheduled, Completed"
         },
         {
           "name": "Annie H.",
@@ -5370,14 +5383,14 @@
           "name": "Jane M.",
           "full_name_lower": "jane mcguire",
           "school": "",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-07-01",
+          "raw_date": "7.1",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
+          "has_si": true,
+          "self_interest_text": "Jane is a miccdle school AP in Pattonville and a mom of FHSD kids. In both spaces, she advocates for equity/social justice in schools.",
+          "next_step_text": "Organize a team in Pattoncville/invite to our event on 7.15",
           "source": "Wife of school board member/ndorsed candidate of FHForward",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Completed"
         },
         {
           "name": "Laurie L.",
@@ -5967,6 +5980,19 @@
           "inv_status": "Completed, Follow Up Needed"
         },
         {
+          "name": "Tara M.",
+          "full_name_lower": "tara murray",
+          "school": "",
+          "date": "2026-07-10",
+          "raw_date": "7.10",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
+          "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
+          "source": "Candiate herself and canvasser for Fwd 2023",
+          "inv_status": "Scheduled, Completed"
+        },
+        {
           "name": "Amy L.",
           "full_name_lower": "amy latta",
           "school": "",
@@ -6084,6 +6110,19 @@
           "inv_status": "Completed, Follow Up Needed"
         },
         {
+          "name": "Jane M.",
+          "full_name_lower": "jane mcguire",
+          "school": "",
+          "date": "2026-07-01",
+          "raw_date": "7.1",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Jane is a miccdle school AP in Pattonville and a mom of FHSD kids. In both spaces, she advocates for equity/social justice in schools.",
+          "next_step_text": "Organize a team in Pattoncville/invite to our event on 7.15",
+          "source": "Wife of school board member/ndorsed candidate of FHForward",
+          "inv_status": "Completed"
+        },
+        {
           "name": "Christina G.",
           "full_name_lower": "christina grove",
           "school": "",
@@ -6162,21 +6201,7 @@
           "inv_status": "Completed"
         }
       ],
-      "scheduled": [
-        {
-          "name": "Tara M.",
-          "full_name_lower": "tara murray",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Tara's campaign is her self interest. She needs canvassers.",
-          "next_step_text": "Invite to parent camp and have curcial convo re: campaign support.",
-          "source": "Candiate herself and canvasser for Fwd 2023",
-          "inv_status": "Scheduled"
-        }
-      ],
+      "scheduled": [],
       "districts": [
         "?",
         "Fox C-6",
@@ -6191,11 +6216,11 @@
         "Volunteer - Support / show up": 4
       },
       "inv_statuses": {
-        "Completed": 19,
+        "Completed": 20,
         "Completed, Follow Up Needed": 9,
         "Referred/Delegated, Follow Up Needed": 5,
-        "Left Message - Waiting": 7,
-        "Scheduled": 1,
+        "Left Message - Waiting": 6,
+        "Scheduled, Completed": 1,
         "Not Contacted": 34,
         "Referred/Delegated": 3,
         "Not Contacted, Referred/Delegated": 1
@@ -6288,10 +6313,10 @@
       "leader_count": 21,
       "ranked_leader_count": 21,
       "prospect_count": 79,
-      "completed_count": 28,
-      "scheduled_count": 1,
-      "notes_count": 27,
-      "si_count": 26,
+      "completed_count": 30,
+      "scheduled_count": 0,
+      "notes_count": 29,
+      "si_count": 28,
       "status": "active"
     },
     "Judy": {
@@ -11054,10 +11079,10 @@
     "leaders": 184,
     "leaders_ranked": 153,
     "prospects": 503,
-    "completed": 157,
-    "scheduled": 6,
-    "with_notes": 124,
-    "with_si": 112
+    "completed": 160,
+    "scheduled": 5,
+    "with_notes": 126,
+    "with_si": 114
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -11615,10 +11640,10 @@
   "voices": [
     {
       "fellow": "Jamie",
-      "name": "Carrie Z.",
+      "name": "Tara M.",
       "school": "",
-      "self_interest": "***Ask re: contacts in Hazelwood!",
-      "next_step": ""
+      "self_interest": "Tara's campaign is her self interest. She needs canvassers.",
+      "next_step": "Invite to parent camp and have curcial convo re: campaign support."
     },
     {
       "fellow": "Melissa",
