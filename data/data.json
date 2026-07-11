@@ -1074,7 +1074,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Julie H.",
@@ -1101,19 +1101,6 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Left Message - Waiting"
-        },
-        {
-          "name": "Bill C.",
-          "full_name_lower": "bill cordaro",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
-          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Katie H.",
@@ -1246,9 +1233,7 @@
           "next_step_text": "",
           "source": "",
           "inv_status": "Completed"
-        }
-      ],
-      "scheduled": [
+        },
         {
           "name": "Courtney L.",
           "full_name_lower": "courtney lewis",
@@ -1260,9 +1245,10 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         }
       ],
+      "scheduled": [],
       "districts": [
         "Blue Springs",
         "KCPS",
@@ -1283,10 +1269,9 @@
         "Core leader - Organize a team": 4
       },
       "inv_statuses": {
-        "Completed": 9,
+        "Completed": 10,
         "Left Message - Waiting": 11,
-        "Follow Up Needed": 4,
-        "Scheduled": 1
+        "Follow Up Needed": 3
       },
       "source_buckets": {
         "Advocacy / org": 1,
@@ -1305,9 +1290,9 @@
       "chain_total": 2,
       "leader_count": 48,
       "ranked_leader_count": 18,
-      "prospect_count": 25,
-      "completed_count": 9,
-      "scheduled_count": 1,
+      "prospect_count": 24,
+      "completed_count": 10,
+      "scheduled_count": 0,
       "notes_count": 3,
       "si_count": 1,
       "status": "active"
@@ -11078,9 +11063,9 @@
     "fellows_with_completed": 14,
     "leaders": 184,
     "leaders_ranked": 153,
-    "prospects": 503,
-    "completed": 160,
-    "scheduled": 5,
+    "prospects": 502,
+    "completed": 161,
+    "scheduled": 4,
     "with_notes": 126,
     "with_si": 114
   },
