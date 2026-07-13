@@ -580,6 +580,7 @@ body {
   <button class="nav-dot" onclick="document.getElementById('leaders').scrollIntoView({behavior:'smooth'})"></button>
   <button class="nav-dot" onclick="document.getElementById('approaches').scrollIntoView({behavior:'smooth'})"></button>
   <button class="nav-dot" onclick="document.getElementById('network').scrollIntoView({behavior:'smooth'})"></button>
+  <button class="nav-dot" onclick="document.getElementById('per-fellow').scrollIntoView({behavior:'smooth'})"></button>
   <button class="nav-dot" onclick="document.getElementById('reflection').scrollIntoView({behavior:'smooth'})"></button>
 </nav>
 
@@ -1142,6 +1143,60 @@ body {
   <div class="slide-footer">GROUNDWORK &middot; PARENT ORGANIZING FELLOWSHIP</div>
 </div>
 
+
+<!-- ════════════════════════════════════════════════ -->
+<!-- PER-FELLOW GROWTH OVER TIME (for close-out 1-1 prep) -->
+<!-- ════════════════════════════════════════════════ -->
+<div class="slide" id="per-fellow" style="min-height:auto;padding-top:3rem;padding-bottom:3rem;">
+  <div class="slide-inner">
+    <div class="section-badge">Per-fellow view</div>
+    <h2 class="section-title">Each fellow's arc</h2>
+    <p class="section-sub">Cumulative 1-on-1s completed by week, from {{ per_fellow_progress[0].start_date if per_fellow_progress else "Apr 19" }} through {{ per_fellow_progress[0].end_date if per_fellow_progress else "today" }}. Built for closeout conversations — quick per-fellow snapshot of where each of them landed.</p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-top:1.5rem;">
+      {% for fp in per_fellow_progress %}
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1rem 1rem 0.75rem;">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:0.4rem;">
+          <div style="font-weight:800;font-size:1.05rem;">{{ fp.name }}</div>
+          <div style="font-size:0.7rem;color:var(--text-tertiary);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;">
+            {% if fp.status == 'active' %}<span style="color:var(--success);">● active</span>
+            {% else %}<span style="color:var(--text-tertiary);">○ partial</span>{% endif %}
+          </div>
+        </div>
+        <div style="display:flex;gap:0.75rem;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.5rem;flex-wrap:wrap;">
+          <span><strong style="color:var(--success);font-size:1rem;">{{ fp.current_completed }}</strong> completed</span>
+          {% if fp.current_scheduled %}<span><strong style="color:var(--warning);">{{ fp.current_scheduled }}</strong> sched</span>{% endif %}
+          <span>{{ fp.current_prospects }} prospects</span>
+          <span>{{ fp.current_leaders }} leaders</span>
+          {% if fp.current_completed %}<span style="color:var(--text-tertiary);">{{ fp.notes_pct }}% w/ notes</span>{% endif %}
+        </div>
+        <svg viewBox="0 0 {{ fp_chart_meta.w }} {{ fp_chart_meta.h }}" style="width:100%;height:auto;display:block;">
+          <!-- baseline -->
+          <line x1="{{ fp_chart_meta.margin.l }}" y1="{{ fp_chart_meta.h - fp_chart_meta.margin.b }}" x2="{{ fp_chart_meta.w - fp_chart_meta.margin.r }}" y2="{{ fp_chart_meta.h - fp_chart_meta.margin.b }}" stroke="var(--border)" stroke-width="1"/>
+          {% if fp.points|length > 1 and fp.max > 0 %}
+          <!-- filled area -->
+          <path d="M{{ fp.points[0].x }},{{ fp_chart_meta.h - fp_chart_meta.margin.b }} {% for pt in fp.points %}L{{ pt.x }},{{ pt.y }} {% endfor %}L{{ fp.points[-1].x }},{{ fp_chart_meta.h - fp_chart_meta.margin.b }} Z" fill="var(--success)" opacity="0.12"/>
+          <polyline points="{% for pt in fp.points %}{{ pt.x }},{{ pt.y }} {% endfor %}" fill="none" stroke="var(--success)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+          {% endif %}
+          <!-- endpoint dot with current count -->
+          {% if fp.points and fp.max > 0 %}
+          <circle cx="{{ fp.points[-1].x }}" cy="{{ fp.points[-1].y }}" r="3" fill="var(--success)"/>
+          <text x="{{ fp.points[-1].x }}" y="{{ fp.points[-1].y - 6 }}" text-anchor="middle" font-size="9" font-weight="700" fill="var(--success)">{{ fp.current_completed }}</text>
+          {% endif %}
+          <!-- start + end date labels -->
+          <text x="{{ fp_chart_meta.margin.l }}" y="{{ fp_chart_meta.h - 4 }}" font-size="8" fill="var(--text-tertiary)">{{ fp.start_date }}</text>
+          <text x="{{ fp_chart_meta.w - fp_chart_meta.margin.r }}" y="{{ fp_chart_meta.h - 4 }}" text-anchor="end" font-size="8" fill="var(--text-tertiary)">{{ fp.end_date }}</text>
+        </svg>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div style="margin-top:1.5rem;padding:1rem 1.25rem;background:var(--accent-muted);border:1px solid var(--accent-border);border-radius:12px;font-size:0.9rem;color:var(--text-secondary);line-height:1.55;">
+      <strong style="color:var(--text-primary);">How to read this.</strong> Each little chart shows the cumulative count of 1-on-1s that fellow had actually completed by each Sunday. Flat lines mean nothing happened that week. Steep lines mean momentum. Useful for closeout conversations — pull up their card, talk to what you see.
+    </div>
+  </div>
+  <div class="slide-footer">GROUNDWORK &middot; PARENT ORGANIZING FELLOWSHIP</div>
+</div>
 
 <!-- ════════════════════════════════════════════════ -->
 <!-- SLIDE 7: REFLECTION QUESTIONS -->

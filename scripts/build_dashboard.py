@@ -761,6 +761,68 @@ def render(data, deltas, history):
     else:
         network_commentary = {"top_label": "", "top_pct": 0, "top_count": 0, "lead_in": ""}
 
+    # Per-fellow growth over time: cumulative completed 1-on-1s per week.
+    # Ellen asked for this to prep close-out 1-1s with each fellow. We use the
+    # actual date_of_1-1 on each completed entry — no historical snapshots
+    # needed because dates are already recorded.
+    from datetime import timedelta
+    per_fellow_progress = []
+    # Sundays from cohort start through the most recent Sunday on or before today.
+    last_sunday = TODAY - timedelta(days=(TODAY.weekday() + 1) % 7)
+    sundays = []
+    cur = COHORT_START
+    while cur <= last_sunday:
+        sundays.append(cur)
+        cur += timedelta(days=7)
+    # Small SVG for each fellow — sized for the grid.
+    fpw, fph = 260, 90
+    fp_margin_l, fp_margin_r, fp_margin_t, fp_margin_b = 8, 8, 12, 20
+    fp_plot_w = fpw - fp_margin_l - fp_margin_r
+    fp_plot_h = fph - fp_margin_t - fp_margin_b
+    # Order same as main fellow grid so it's easy to scan.
+    for v in fellows_sorted:
+        completed_dates = []
+        for c in v["completed"]:
+            d = c.get("date")
+            if d:
+                try: completed_dates.append(dt.date.fromisoformat(d))
+                except Exception: pass
+        completed_dates.sort()
+        # Cumulative count at each Sunday
+        vals = []
+        for s in sundays:
+            vals.append(sum(1 for cd in completed_dates if cd <= s))
+        # Add today's actual live count as final point (matches headline)
+        vals_with_today = vals + [v["completed_count"]]
+        dates_with_today = sundays + [TODAY]
+        max_v = max(vals_with_today) if vals_with_today else 1
+        if max_v == 0: max_v = 1
+        n = len(vals_with_today)
+        x_step = fp_plot_w / max(1, n - 1) if n > 1 else 0
+        points = []
+        for i, val in enumerate(vals_with_today):
+            x = fp_margin_l + (i * x_step if n > 1 else fp_plot_w / 2)
+            y = fp_margin_t + fp_plot_h - (val / max_v) * fp_plot_h
+            points.append({"x": round(x, 1), "y": round(y, 1), "value": val})
+        per_fellow_progress.append({
+            "name": v["name"],
+            "current_completed": v["completed_count"],
+            "current_scheduled": v["scheduled_count"],
+            "current_prospects": v["prospect_count"],
+            "current_leaders": v["leader_count"],
+            "notes_pct": (round(v["notes_count"] / v["completed_count"] * 100) if v["completed_count"] else 0),
+            "points": points,
+            "max": max_v,
+            "start_date": sundays[0].strftime("%b %-d") if sundays else "",
+            "end_date": TODAY.strftime("%b %-d"),
+            "status": v["status"],
+        })
+    fp_chart_meta = {
+        "w": fpw, "h": fph,
+        "margin": {"l": fp_margin_l, "r": fp_margin_r, "t": fp_margin_t, "b": fp_margin_b},
+        "plot_w": fp_plot_w, "plot_h": fp_plot_h,
+    }
+
     # Reflection questions (dynamic)
     reflection = generate_reflection_questions(data, history, TODAY)
 
@@ -784,6 +846,8 @@ def render(data, deltas, history):
         wow=wow,
         network_commentary=network_commentary,
         reflection=reflection,
+        per_fellow_progress=per_fellow_progress,
+        fp_chart_meta=fp_chart_meta,
     )
 
 # ── MAIN ────────────────────────────────────────────────────────────────────
