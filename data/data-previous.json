@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-12",
+  "as_of": "2026-07-13",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -6780,7 +6780,7 @@
           "name": "Stephanie F.",
           "district": "Independence",
           "school": "Van Horn",
-          "level": "Volunteer - Support / show up",
+          "level": "Core leader - Organize a team",
           "self_interest": "Her daughter Cordelia",
           "next_step": "Continue to follow up for information on the transition of the program"
         },
@@ -7313,8 +7313,8 @@
         "Van Horn"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 3,
-        "Core leader - Organize a team": 2
+        "Core leader - Organize a team": 3,
+        "Volunteer - Support / show up": 2
       },
       "inv_statuses": {
         "Completed": 5,
@@ -8969,6 +8969,38 @@
           "level": "Volunteer - Support / show up",
           "self_interest": "neighbor and intrested in attending a meeting to learn more she was short on time and said call",
           "next_step": ""
+        },
+        {
+          "name": "james n.",
+          "district": "NKSD",
+          "school": "Meadowbrook",
+          "level": "Core leader - Organize a team",
+          "self_interest": "He is a single father of 2 girls and lives in the northland and wants to be involed in the community 8163618141",
+          "next_step": ""
+        },
+        {
+          "name": "Mary T.",
+          "district": "NKSD",
+          "school": "Antioch middle ",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "met her at the skating rink and she has a son her son needs friends and she wants to be involvoed",
+          "next_step": ""
+        },
+        {
+          "name": "Lisa f.",
+          "district": "NKSD",
+          "school": "Meadowbrook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "met at kids birthday party she is now ready to vote no",
+          "next_step": ""
+        },
+        {
+          "name": "stacy H.",
+          "district": "NKSD",
+          "school": "Meadowbrook",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "shes a grandmother met at birthday party she wants to volunteer",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -9041,8 +9073,8 @@
           "name": "connie c.",
           "full_name_lower": "connie corona",
           "school": "meadowbrook",
-          "date": null,
-          "raw_date": "",
+          "date": "2026-05-07",
+          "raw_date": "5/7/26",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
@@ -9135,8 +9167,8 @@
           "date": "2026-06-09",
           "raw_date": "6/9/26",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "IEP and the extra help really go a long way in this family",
           "next_step_text": "",
           "source": "in person",
           "inv_status": "Scheduled"
@@ -9161,8 +9193,8 @@
           "date": "2026-06-11",
           "raw_date": "6/11/26",
           "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "he enjoys the sports for the kids after school doesnt watn that to go away spoke about the threats",
           "next_step_text": "",
           "source": "in person",
           "inv_status": "Left Message - Waiting"
@@ -9174,11 +9206,128 @@
           "date": "2026-06-06",
           "raw_date": "6/6/26",
           "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "making sure the kids have what they need to learn comfortably",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": ""
+        },
+        {
+          "name": "Alberta C.",
+          "full_name_lower": "alberta carter",
+          "school": "Oak park High school",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "gardening and giving back to community volunteers alot",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Pamela B.",
+          "full_name_lower": "pamela benton",
+          "school": "Meadowbrook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "she registered to vote for first time in her life",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "james n.",
+          "full_name_lower": "james neil",
+          "school": "Meadowbrook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "he enjoys spending time for his kids isnt really into politics but this sparked his interets",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Mary T.",
+          "full_name_lower": "mary temple",
+          "school": "Antioch middle",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "she said she is going to vote no and she enjoyed talking with me and would like to follow up",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Lisa f.",
+          "full_name_lower": "lisa frazher",
+          "school": "Meadowbrook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "she agreed to vote no she would like to talk more gave me her number",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "stacy H.",
+          "full_name_lower": "stacy hill",
+          "school": "Meadowbrook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "loves her grandkids would do anything for the betterment for them",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Iana N.",
+          "full_name_lower": "iana newton",
+          "school": "Meadowbrook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "she wants to volunteer for things in the community and hopes to build mom friends",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Kurston W.",
+          "full_name_lower": "kurston wauburn",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "In person",
-          "inv_status": ""
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Tracy S.",
+          "full_name_lower": "tracy samuels",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "she said she is telling everyon to vote no now",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Left Message - Waiting"
         }
       ],
       "completed": [
@@ -9248,6 +9397,19 @@
           "inv_status": "Scheduled"
         },
         {
+          "name": "connie c.",
+          "full_name_lower": "connie corona",
+          "school": "meadowbrook",
+          "date": "2026-05-07",
+          "raw_date": "5/7/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "in person",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
           "name": "Micheal f.",
           "full_name_lower": "micheal fernais",
           "school": "meadowbrook",
@@ -9280,8 +9442,8 @@
           "date": "2026-06-09",
           "raw_date": "6/9/26",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "IEP and the extra help really go a long way in this family",
           "next_step_text": "",
           "source": "in person",
           "inv_status": "Scheduled"
@@ -9306,8 +9468,8 @@
           "date": "2026-06-11",
           "raw_date": "6/11/26",
           "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "he enjoys the sports for the kids after school doesnt watn that to go away spoke about the threats",
           "next_step_text": "",
           "source": "in person",
           "inv_status": "Left Message - Waiting"
@@ -9319,11 +9481,24 @@
           "date": "2026-06-06",
           "raw_date": "6/6/26",
           "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
+          "has_si": true,
+          "self_interest_text": "making sure the kids have what they need to learn comfortably",
           "next_step_text": "",
           "source": "In person",
           "inv_status": ""
+        },
+        {
+          "name": "Lisa f.",
+          "full_name_lower": "lisa frazher",
+          "school": "Meadowbrook",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "she agreed to vote no she would like to talk more gave me her number",
+          "next_step_text": "",
+          "source": "In person",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -9331,37 +9506,42 @@
         "KCPS",
         "NKCD",
         "NKCSD",
+        "NKSD",
         "Platte City"
       ],
       "schools": [
         "Antioch Middle",
+        "Antioch middle",
         "KCPS",
         "Meadowbrook",
         "Oak park High school",
         "Platte City"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 7,
-        "Unsure - Need to test/assess": 3
+        "Volunteer - Support / show up": 10,
+        "Unsure - Need to test/assess": 3,
+        "Core leader - Organize a team": 1
       },
       "inv_statuses": {
-        "Completed": 4,
-        "Left Message - Waiting": 8,
-        "Scheduled": 3
+        "Completed": 5,
+        "Left Message - Waiting": 14,
+        "Scheduled": 3,
+        "Follow Up Needed": 1,
+        "Declined": 1
       },
       "source_buckets": {
-        "Event / forum": 14,
+        "Event / forum": 23,
         "Online": 2
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 10,
-      "ranked_leader_count": 10,
-      "prospect_count": 16,
-      "completed_count": 11,
+      "leader_count": 14,
+      "ranked_leader_count": 14,
+      "prospect_count": 25,
+      "completed_count": 13,
       "scheduled_count": 0,
-      "notes_count": 8,
-      "si_count": 5,
+      "notes_count": 9,
+      "si_count": 9,
       "status": "active"
     },
     "Sarah": {
@@ -11530,13 +11710,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 184,
-    "leaders_ranked": 153,
-    "prospects": 524,
-    "completed": 172,
+    "leaders": 188,
+    "leaders_ranked": 157,
+    "prospects": 533,
+    "completed": 174,
     "scheduled": 6,
-    "with_notes": 133,
-    "with_si": 123
+    "with_notes": 134,
+    "with_si": 127
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -11953,6 +12133,8 @@
     ],
     "antioch middle": [
       "Nina",
+      "Nina",
+      "Nina",
       "Nina"
     ],
     "platte city": [
@@ -11978,9 +12160,18 @@
       "Nina",
       "Nina",
       "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
+      "Nina",
       "Nina"
     ],
     "oak park high school": [
+      "Nina",
       "Nina",
       "Nina"
     ],
@@ -12083,7 +12274,7 @@
   },
   "source_buckets": {
     "Advocacy / org": 31,
-    "Event / forum": 30,
+    "Event / forum": 39,
     "Other": 60,
     "School / PTA": 54,
     "Friend / family": 31,
@@ -12138,18 +12329,18 @@
       "next_step": "Help him host a house meeting"
     },
     {
+      "fellow": "Nina",
+      "name": "Donna s.",
+      "school": "Meadowbrook",
+      "self_interest": "IEP and the extra help really go a long way in this family",
+      "next_step": ""
+    },
+    {
       "fellow": "AJ",
       "name": "Cambria R.",
       "school": "",
       "self_interest": "building with margiinalized folks",
       "next_step": "invited to Parent power camp"
-    },
-    {
-      "fellow": "Sarah",
-      "name": "Mike M.",
-      "school": "Raytown",
-      "self_interest": "He is a school teacher who cares deeply about education and equality.",
-      "next_step": "Help him set up his house meeting"
     }
   ],
   "approaches": {
