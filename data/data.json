@@ -50,7 +50,7 @@
           "school": "HomeSchool",
           "level": "Volunteer - Support / show up",
           "self_interest": "",
-          "next_step": ""
+          "next_step": "July 16 Teach in"
         },
         {
           "name": "Nicole N.",
@@ -4661,7 +4661,7 @@
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
-          "inv_status": ""
+          "inv_status": "Scheduled"
         },
         {
           "name": "Teacher 1.",
@@ -4712,19 +4712,6 @@
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "House Meeting",
-          "source": "",
-          "inv_status": ""
-        },
-        {
-          "name": "Ms. (.",
-          "full_name_lower": "ms. taylor (linc)",
-          "school": "",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
           "source": "",
           "inv_status": ""
         },
@@ -5030,6 +5017,19 @@
           "next_step_text": "June 15 meeting",
           "source": "",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "Kenya G.",
+          "full_name_lower": "kenya givens",
+          "school": "Border Star",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
         }
       ],
       "districts": [
@@ -5047,7 +5047,7 @@
         "Contacted": 16,
         "1:1 Completed": 15,
         "Leader": 6,
-        "Scheduled": 2,
+        "Scheduled": 3,
         "Unclear": 2
       },
       "source_buckets": {},
@@ -5055,9 +5055,9 @@
       "chain_total": 0,
       "leader_count": 18,
       "ranked_leader_count": 18,
-      "prospect_count": 57,
+      "prospect_count": 56,
       "completed_count": 18,
-      "scheduled_count": 2,
+      "scheduled_count": 3,
       "notes_count": 9,
       "si_count": 9,
       "status": "active"
@@ -10358,6 +10358,32 @@
           "next_step_text": "Invite to another house meeting and get her to commit to doing one herself.",
           "source": "Church",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Brittney D.",
+          "full_name_lower": "brittney dorman",
+          "school": "",
+          "date": "2026-07-14",
+          "raw_date": "7/14/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Emily R.",
+          "full_name_lower": "emily robertson",
+          "school": "",
+          "date": "2026-07-14",
+          "raw_date": "7/14/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Declined"
         }
       ],
       "completed": [
@@ -10529,6 +10555,32 @@
           "next_step_text": "Invite to another house meeting and get her to commit to doing one herself.",
           "source": "Church",
           "inv_status": "Completed"
+        },
+        {
+          "name": "Brittney D.",
+          "full_name_lower": "brittney dorman",
+          "school": "",
+          "date": "2026-07-14",
+          "raw_date": "7/14/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Emily R.",
+          "full_name_lower": "emily robertson",
+          "school": "",
+          "date": "2026-07-14",
+          "raw_date": "7/14/26",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Declined"
         }
       ],
       "scheduled": [],
@@ -10546,7 +10598,7 @@
       },
       "inv_statuses": {
         "Completed": 13,
-        "Declined": 10,
+        "Declined": 12,
         "Left Message - Waiting": 2,
         "Not Contacted": 1
       },
@@ -10561,8 +10613,8 @@
       "chain_total": 0,
       "leader_count": 6,
       "ranked_leader_count": 6,
-      "prospect_count": 26,
-      "completed_count": 13,
+      "prospect_count": 28,
+      "completed_count": 15,
       "scheduled_count": 0,
       "notes_count": 13,
       "si_count": 8,
@@ -11712,9 +11764,9 @@
     "fellows_with_completed": 15,
     "leaders": 188,
     "leaders_ranked": 157,
-    "prospects": 533,
-    "completed": 174,
-    "scheduled": 6,
+    "prospects": 534,
+    "completed": 176,
+    "scheduled": 7,
     "with_notes": 134,
     "with_si": 127
   },
