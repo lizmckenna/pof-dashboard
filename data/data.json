@@ -6832,58 +6832,6 @@
           "inv_status": "Completed"
         },
         {
-          "name": "Stephanie L.",
-          "full_name_lower": "stephanie langevin",
-          "school": "Not sure",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Facebook Group",
-          "inv_status": "Follow Up Needed"
-        },
-        {
-          "name": "Amy C.",
-          "full_name_lower": "amy chappell",
-          "school": "Central Office",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "Need to follow up after school is over on 5/22",
-          "source": "Referred by Ronda Scott",
-          "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Clair R.",
-          "full_name_lower": "clair rust",
-          "school": "Little Blue",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Facebook Group",
-          "inv_status": "Follow Up Needed"
-        },
-        {
-          "name": "Ronda S.",
-          "full_name_lower": "ronda scott",
-          "school": "Truman High School",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "Need to follow up after school is over on 5/22",
-          "source": "HS Principal",
-          "inv_status": "Follow Up Needed"
-        },
-        {
           "name": "Leigha Z.",
           "full_name_lower": "leigha zank",
           "school": "Pioneer Middle School",
@@ -6894,6 +6842,45 @@
           "self_interest_text": "Her students in her class",
           "next_step_text": "Need to follow up after school is over on 5/22",
           "source": "School Dance",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Rebecca M.",
+          "full_name_lower": "rebecca mace",
+          "school": "Independence Academy",
+          "date": "2026-05-13",
+          "raw_date": "5/13",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her kids and her students",
+          "next_step_text": "",
+          "source": "Neighbor",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Michelle S.",
+          "full_name_lower": "michelle schock",
+          "school": "Ott elementary",
+          "date": "2026-06-02",
+          "raw_date": "6/2/2026",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her grandson",
+          "next_step_text": "Continue to invite to trainings",
+          "source": "PTA",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Angie W.",
+          "full_name_lower": "angie warner",
+          "school": "Procter Elementary",
+          "date": "2026-06-06",
+          "raw_date": "6/6/26",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her students, her grandkids and all children in Missouri.",
+          "next_step_text": "Continue to invite to trainings",
+          "source": "PTA",
           "inv_status": "Completed"
         },
         {
@@ -6936,17 +6923,147 @@
           "inv_status": "Declined"
         },
         {
-          "name": "Rebecca M.",
-          "full_name_lower": "rebecca mace",
-          "school": "Independence Academy",
-          "date": "2026-05-13",
-          "raw_date": "5/13",
+          "name": "Kara S.",
+          "full_name_lower": "kara schoff",
+          "school": "Central Office",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Referred by Ronda Scott",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Angie H.",
+          "full_name_lower": "angie haworth",
+          "school": "Not sure",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Her kids.",
+          "next_step_text": "Continue to share income tax information",
+          "source": "Facebook Group",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Melissa A.",
+          "full_name_lower": "melissa ameku",
+          "school": "Chrisman High School",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Friend",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Stephanie L.",
+          "full_name_lower": "stephanie langevin",
+          "school": "Not sure",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Clair R.",
+          "full_name_lower": "clair rust",
+          "school": "Little Blue",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Ronda S.",
+          "full_name_lower": "ronda scott",
+          "school": "Truman High School",
+          "date": null,
+          "raw_date": "",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Need to follow up after school is over on 5/22",
+          "source": "HS Principal",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Margaret C.",
+          "full_name_lower": "margaret cook",
+          "school": "Van Horn",
+          "date": null,
+          "raw_date": "",
           "has_notes": false,
           "has_si": true,
-          "self_interest_text": "Her kids and her students",
+          "self_interest_text": "Her grandson",
+          "next_step_text": "Follow up for more info on school switch",
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Marsha F.",
+          "full_name_lower": "marsha fields",
+          "school": "Van Horn",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "Her daughter who is impacted by the move to Van Horn. She is concerned about how her daughter will adjust to the change.",
           "next_step_text": "",
-          "source": "Neighbor",
-          "inv_status": "Completed"
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Destiny W.",
+          "full_name_lower": "destiny wrinkle",
+          "school": "Truman & Sycamore",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Need to schedule & possibly schedlee a joint house meeting",
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Renee M.",
+          "full_name_lower": "renee mcginnis",
+          "school": "Truman",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Facebook Group",
+          "inv_status": "Follow Up Needed"
+        },
+        {
+          "name": "Amy C.",
+          "full_name_lower": "amy chappell",
+          "school": "Central Office",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Need to follow up after school is over on 5/22",
+          "source": "Referred by Ronda Scott",
+          "inv_status": "Not Contacted"
         },
         {
           "name": "Andi H.",
@@ -6999,123 +7116,6 @@
           "next_step_text": "",
           "source": "Facebook Group",
           "inv_status": "Not Contacted"
-        },
-        {
-          "name": "Kara S.",
-          "full_name_lower": "kara schoff",
-          "school": "Central Office",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Referred by Ronda Scott",
-          "inv_status": "Declined"
-        },
-        {
-          "name": "Angie H.",
-          "full_name_lower": "angie haworth",
-          "school": "Not sure",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": true,
-          "self_interest_text": "Her kids.",
-          "next_step_text": "Continue to share income tax information",
-          "source": "Facebook Group",
-          "inv_status": "Declined"
-        },
-        {
-          "name": "Melissa A.",
-          "full_name_lower": "melissa ameku",
-          "school": "Chrisman High School",
-          "date": null,
-          "raw_date": "",
-          "has_notes": true,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Friend",
-          "inv_status": "Declined"
-        },
-        {
-          "name": "Margaret C.",
-          "full_name_lower": "margaret cook",
-          "school": "Van Horn",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Her grandson",
-          "next_step_text": "Follow up for more info on school switch",
-          "source": "Facebook Group",
-          "inv_status": "Follow Up Needed"
-        },
-        {
-          "name": "Michelle S.",
-          "full_name_lower": "michelle schock",
-          "school": "Ott elementary",
-          "date": "2026-06-02",
-          "raw_date": "6/2/2026",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Her grandson",
-          "next_step_text": "Continue to invite to trainings",
-          "source": "PTA",
-          "inv_status": "Completed"
-        },
-        {
-          "name": "Angie W.",
-          "full_name_lower": "angie warner",
-          "school": "Procter Elementary",
-          "date": "2026-06-06",
-          "raw_date": "6/6/26",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Her students, her grandkids and all children in Missouri.",
-          "next_step_text": "Continue to invite to trainings",
-          "source": "PTA",
-          "inv_status": "Completed"
-        },
-        {
-          "name": "Marsha F.",
-          "full_name_lower": "marsha fields",
-          "school": "Van Horn",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": true,
-          "self_interest_text": "Her daughter who is impacted by the move to Van Horn. She is concerned about how her daughter will adjust to the change.",
-          "next_step_text": "",
-          "source": "Facebook Group",
-          "inv_status": "Follow Up Needed"
-        },
-        {
-          "name": "Destiny W.",
-          "full_name_lower": "destiny wrinkle",
-          "school": "Truman & Sycamore",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "Need to schedule & possibly schedlee a joint house meeting",
-          "source": "Facebook Group",
-          "inv_status": "Follow Up Needed"
-        },
-        {
-          "name": "Renee M.",
-          "full_name_lower": "renee mcginnis",
-          "school": "Truman",
-          "date": null,
-          "raw_date": "",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "Facebook Group",
-          "inv_status": "Follow Up Needed"
         },
         {
           "name": "Dana D.",
@@ -7318,23 +7318,23 @@
       },
       "inv_statuses": {
         "Completed": 5,
+        "Declined": 6,
         "Follow Up Needed": 7,
-        "Not Contacted": 14,
-        "Declined": 6
+        "Not Contacted": 14
       },
       "source_buckets": {
         "Online": 13,
-        "Chain referral": 2,
         "School / PTA": 6,
         "Friend / family": 4,
+        "Chain referral": 2,
         "Other": 7
       },
       "chains": [
         [
           "Ronda S.",
           [
-            "Amy C.",
-            "Kara S."
+            "Kara S.",
+            "Amy C."
           ]
         ]
       ],
@@ -12096,6 +12096,12 @@
       "Judy",
       "Judy"
     ],
+    "pioneer middle school": [
+      "Judy"
+    ],
+    "independence academy": [
+      "Judy"
+    ],
     "not sure": [
       "Judy",
       "Judy",
@@ -12106,16 +12112,10 @@
       "Judy",
       "Judy"
     ],
-    "little blue": [
-      "Judy"
-    ],
-    "pioneer middle school": [
-      "Judy"
-    ],
-    "independence academy": [
-      "Judy"
-    ],
     "chrisman high school": [
+      "Judy"
+    ],
+    "little blue": [
       "Judy"
     ],
     "truman & sycamore": [
