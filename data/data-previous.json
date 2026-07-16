@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-15",
+  "as_of": "2026-07-16",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -500,6 +500,19 @@
           "next_step_text": "Invited to The June 30th on boarding",
           "source": "eldest former teacher, would like to learn more about organizing",
           "inv_status": "Completed"
+        },
+        {
+          "name": "David T.",
+          "full_name_lower": "david tremaine",
+          "school": "",
+          "date": "2026-07-16",
+          "raw_date": "7/16",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
         }
       ],
       "scheduled": [
@@ -514,19 +527,6 @@
           "self_interest_text": "building student/teacher organizing",
           "next_step_text": "",
           "source": "Rev Ed meeting, teacher wanting to learn more about organizing",
-          "inv_status": "Scheduled"
-        },
-        {
-          "name": "David T.",
-          "full_name_lower": "david tremaine",
-          "school": "",
-          "date": "2026-07-16",
-          "raw_date": "7/16",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
-          "next_step_text": "",
-          "source": "",
           "inv_status": "Scheduled"
         }
       ],
@@ -567,8 +567,8 @@
       "leader_count": 8,
       "ranked_leader_count": 8,
       "prospect_count": 22,
-      "completed_count": 11,
-      "scheduled_count": 2,
+      "completed_count": 12,
+      "scheduled_count": 1,
       "notes_count": 7,
       "si_count": 9,
       "status": "active"
@@ -11765,8 +11765,8 @@
     "leaders": 188,
     "leaders_ranked": 157,
     "prospects": 534,
-    "completed": 176,
-    "scheduled": 7,
+    "completed": 177,
+    "scheduled": 6,
     "with_notes": 134,
     "with_si": 127
   },
