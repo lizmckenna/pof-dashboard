@@ -67,6 +67,14 @@
           "level": "Leader - Organize others",
           "self_interest": "building thier own leadership, bring in more teacher",
           "next_step": "Send invatations/recuit others for our July 16"
+        },
+        {
+          "name": "Robbin W.",
+          "district": "KCPS-33",
+          "school": "",
+          "level": "Volunteer - Support / show up",
+          "self_interest": "build stronger parent orgs",
+          "next_step": ""
         }
       ],
       "prospects": [
@@ -347,13 +355,26 @@
           "name": "David T.",
           "full_name_lower": "david tremaine",
           "school": "",
-          "date": "2026-07-16",
-          "raw_date": "7/16",
+          "date": null,
+          "raw_date": "reschedeled",
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "",
+          "inv_status": "Scheduled"
+        },
+        {
+          "name": "Robbin W.",
+          "full_name_lower": "robbin williams",
+          "school": "previous East High Teacher",
+          "date": "2026-07-17",
+          "raw_date": "7/17",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "build stronger parent orgs",
+          "next_step_text": "",
+          "source": "Previous D.A.C. work",
           "inv_status": "Scheduled"
         }
       ],
@@ -502,16 +523,16 @@
           "inv_status": "Completed"
         },
         {
-          "name": "David T.",
-          "full_name_lower": "david tremaine",
-          "school": "",
-          "date": "2026-07-16",
-          "raw_date": "7/16",
-          "has_notes": false,
-          "has_si": false,
-          "self_interest_text": "",
+          "name": "Robbin W.",
+          "full_name_lower": "robbin williams",
+          "school": "previous East High Teacher",
+          "date": "2026-07-17",
+          "raw_date": "7/17",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "build stronger parent orgs",
           "next_step_text": "",
-          "source": "",
+          "source": "Previous D.A.C. work",
           "inv_status": "Scheduled"
         }
       ],
@@ -528,12 +549,26 @@
           "next_step_text": "",
           "source": "Rev Ed meeting, teacher wanting to learn more about organizing",
           "inv_status": "Scheduled"
+        },
+        {
+          "name": "David T.",
+          "full_name_lower": "david tremaine",
+          "school": "",
+          "date": null,
+          "raw_date": "reschedeled",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "",
+          "inv_status": "Scheduled"
         }
       ],
       "districts": [
         "3",
         "4",
         "5",
+        "KCPS-33",
         "Kansas",
         "Kcps"
       ],
@@ -545,7 +580,7 @@
         "West Englewood"
       ],
       "leader_levels": {
-        "Volunteer - Support / show up": 2,
+        "Volunteer - Support / show up": 3,
         "Unsure - Need to test/assess": 3,
         "Leader - Organize others": 3
       },
@@ -553,24 +588,24 @@
         "Completed": 10,
         "Follow Up Needed": 1,
         "Left Message - Waiting": 7,
-        "Scheduled": 2,
+        "Scheduled": 3,
         "Not Contacted": 2
       },
       "source_buckets": {
         "Advocacy / org": 2,
         "Event / forum": 2,
-        "Other": 6,
+        "Other": 7,
         "School / PTA": 2
       },
       "chains": [],
       "chain_total": 0,
-      "leader_count": 8,
-      "ranked_leader_count": 8,
-      "prospect_count": 22,
+      "leader_count": 9,
+      "ranked_leader_count": 9,
+      "prospect_count": 23,
       "completed_count": 12,
-      "scheduled_count": 1,
-      "notes_count": 7,
-      "si_count": 9,
+      "scheduled_count": 2,
+      "notes_count": 8,
+      "si_count": 10,
       "status": "active"
     },
     "Amber": {
@@ -738,12 +773,12 @@
           "school": "",
           "date": "2026-06-12",
           "raw_date": "06/12/26",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "activism group",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
         },
         {
           "name": "Cheryl C.",
@@ -754,9 +789,9 @@
           "has_notes": false,
           "has_si": false,
           "self_interest_text": "",
-          "next_step_text": "",
+          "next_step_text": "Cheryl isn't able to be a leader but she is willing to amplify and is involved in several groups. She's\u2026",
           "source": "activism group",
-          "inv_status": "Left Message - Waiting"
+          "inv_status": "Declined"
         },
         {
           "name": "Ella C.",
@@ -783,6 +818,19 @@
           "next_step_text": "",
           "source": "Family friend",
           "inv_status": "Declined"
+        },
+        {
+          "name": "Val S.",
+          "full_name_lower": "val salazar",
+          "school": "Lee's Summit Elementary",
+          "date": "2026-07-13",
+          "raw_date": "07/13/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Introduced to me by Molly",
+          "inv_status": "Completed"
         }
       ],
       "completed": [
@@ -844,12 +892,25 @@
           "school": "",
           "date": "2026-06-12",
           "raw_date": "06/12/26",
-          "has_notes": false,
+          "has_notes": true,
           "has_si": false,
           "self_interest_text": "",
           "next_step_text": "",
           "source": "activism group",
-          "inv_status": "Scheduled"
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Val S.",
+          "full_name_lower": "val salazar",
+          "school": "Lee's Summit Elementary",
+          "date": "2026-07-13",
+          "raw_date": "07/13/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Introduced to me by Molly",
+          "inv_status": "Completed"
         }
       ],
       "scheduled": [],
@@ -862,24 +923,24 @@
         "Unsure - Need to test/assess": 1
       },
       "inv_statuses": {
-        "Completed": 3,
-        "Declined": 5,
-        "Left Message - Waiting": 5,
-        "Scheduled": 1
+        "Completed": 5,
+        "Declined": 6,
+        "Left Message - Waiting": 4
       },
       "source_buckets": {
         "Advocacy / org": 7,
         "Friend / family": 6,
-        "School / PTA": 1
+        "School / PTA": 1,
+        "Other": 1
       },
       "chains": [],
       "chain_total": 0,
       "leader_count": 3,
       "ranked_leader_count": 3,
-      "prospect_count": 14,
-      "completed_count": 5,
+      "prospect_count": 15,
+      "completed_count": 6,
       "scheduled_count": 0,
-      "notes_count": 3,
+      "notes_count": 5,
       "si_count": 2,
       "status": "active"
     },
@@ -11762,13 +11823,13 @@
     "fellows": 16,
     "fellows_with_data": 16,
     "fellows_with_completed": 15,
-    "leaders": 188,
-    "leaders_ranked": 157,
-    "prospects": 534,
-    "completed": 177,
-    "scheduled": 6,
-    "with_notes": 134,
-    "with_si": 127
+    "leaders": 189,
+    "leaders_ranked": 158,
+    "prospects": 536,
+    "completed": 178,
+    "scheduled": 7,
+    "with_notes": 137,
+    "with_si": 128
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -11811,6 +11872,9 @@
     "carver": [
       "AJ"
     ],
+    "previous east high teacher": [
+      "AJ"
+    ],
     "lee's summit north high": [
       "Amber"
     ],
@@ -11831,6 +11895,9 @@
       "Amber"
     ],
     "moved out of lsr-7": [
+      "Amber"
+    ],
+    "lee's summit elementary": [
       "Amber"
     ],
     "lincoln middle": [
@@ -12327,7 +12394,7 @@
   "source_buckets": {
     "Advocacy / org": 31,
     "Event / forum": 39,
-    "Other": 60,
+    "Other": 62,
     "School / PTA": 54,
     "Friend / family": 31,
     "Chain referral": 73,
@@ -12360,6 +12427,13 @@
   },
   "voices": [
     {
+      "fellow": "AJ",
+      "name": "Robbin W.",
+      "school": "previous East High Teacher",
+      "self_interest": "build stronger parent orgs",
+      "next_step": ""
+    },
+    {
       "fellow": "Jamie",
       "name": "Tara M.",
       "school": "",
@@ -12386,13 +12460,6 @@
       "school": "Meadowbrook",
       "self_interest": "IEP and the extra help really go a long way in this family",
       "next_step": ""
-    },
-    {
-      "fellow": "AJ",
-      "name": "Cambria R.",
-      "school": "",
-      "self_interest": "building with margiinalized folks",
-      "next_step": "invited to Parent power camp"
     }
   ],
   "approaches": {
