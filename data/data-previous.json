@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "fellows": {
     "AJ": {
       "name": "AJ",
@@ -636,8 +636,283 @@
           "next_step": "Invited to meeting with the Superintendent and she accepted"
         }
       ],
-      "prospects": [],
-      "completed": [],
+      "prospects": [
+        {
+          "name": "Sarah H.",
+          "full_name_lower": "sarah hawley-zimmerman",
+          "school": "",
+          "date": "2026-04-23",
+          "raw_date": "04/23/26",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Funding for her son's IEP/SPED program. Public ed in general",
+          "next_step_text": "Schedule a meeting with Sarah and other LSR-7 parents to plan for future meeting with Superintendent",
+          "source": "A local school equity group",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Joy H.",
+          "full_name_lower": "joy hillier",
+          "school": "Lee's Summit North High",
+          "date": "2026-05-05",
+          "raw_date": "05/05",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Grandmother of kids in LSR-7",
+          "next_step_text": "",
+          "source": "neighbor",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Madison R.",
+          "full_name_lower": "madison rene",
+          "school": "Lee's Summit North",
+          "date": "2026-05-08",
+          "raw_date": "05/08",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "neighbor",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Christy G.",
+          "full_name_lower": "christy grimes",
+          "school": "Greenwood Elementary",
+          "date": null,
+          "raw_date": "canceled & declined via text",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Activism group",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Rebecca J.",
+          "full_name_lower": "rebecca johnson",
+          "school": "Meadow Lane Elementary",
+          "date": "2026-05-01",
+          "raw_date": "05/01",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Family friend",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Aisha K.",
+          "full_name_lower": "aisha katherine",
+          "school": "Meadow Lane Elementary",
+          "date": null,
+          "raw_date": "didn't want to meet",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Activism group",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Kate B.",
+          "full_name_lower": "kate bower",
+          "school": "",
+          "date": null,
+          "raw_date": "declined to schedule",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "friend",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Katie F.",
+          "full_name_lower": "katie freeman",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Activism group",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Casey L.",
+          "full_name_lower": "casey laforte",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "friends",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Christina T.",
+          "full_name_lower": "christina taylor",
+          "school": "Miller Park",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "SPED teacher",
+          "next_step_text": "",
+          "source": "my son's teacher",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Adriana P.",
+          "full_name_lower": "adriana paez",
+          "school": "",
+          "date": "2026-06-12",
+          "raw_date": "06/12/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "activism group",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Cheryl C.",
+          "full_name_lower": "cheryl cheek",
+          "school": "Son is grown, but wants to amplify messaging",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "Cheryl isn't able to be a leader but she is willing to amplify and is involved in several groups. She's\u2026",
+          "source": "activism group",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Ella C.",
+          "full_name_lower": "ella cummings",
+          "school": "",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "activism group",
+          "inv_status": "Left Message - Waiting"
+        },
+        {
+          "name": "Kathy G.",
+          "full_name_lower": "kathy garcia",
+          "school": "moved out of LSR-7",
+          "date": null,
+          "raw_date": "",
+          "has_notes": false,
+          "has_si": true,
+          "self_interest_text": "talked via phone, I was not aware she moved out of Lee's Summit to Warrensburg.",
+          "next_step_text": "",
+          "source": "Family friend",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Val S.",
+          "full_name_lower": "val salazar",
+          "school": "Lee's Summit Elementary",
+          "date": "2026-07-13",
+          "raw_date": "07/13/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Introduced to me by Molly",
+          "inv_status": "Completed"
+        }
+      ],
+      "completed": [
+        {
+          "name": "Sarah H.",
+          "full_name_lower": "sarah hawley-zimmerman",
+          "school": "",
+          "date": "2026-04-23",
+          "raw_date": "04/23/26",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Funding for her son's IEP/SPED program. Public ed in general",
+          "next_step_text": "Schedule a meeting with Sarah and other LSR-7 parents to plan for future meeting with Superintendent",
+          "source": "A local school equity group",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Joy H.",
+          "full_name_lower": "joy hillier",
+          "school": "Lee's Summit North High",
+          "date": "2026-05-05",
+          "raw_date": "05/05",
+          "has_notes": true,
+          "has_si": true,
+          "self_interest_text": "Grandmother of kids in LSR-7",
+          "next_step_text": "",
+          "source": "neighbor",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Madison R.",
+          "full_name_lower": "madison rene",
+          "school": "Lee's Summit North",
+          "date": "2026-05-08",
+          "raw_date": "05/08",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "neighbor",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Rebecca J.",
+          "full_name_lower": "rebecca johnson",
+          "school": "Meadow Lane Elementary",
+          "date": "2026-05-01",
+          "raw_date": "05/01",
+          "has_notes": false,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Family friend",
+          "inv_status": "Declined"
+        },
+        {
+          "name": "Adriana P.",
+          "full_name_lower": "adriana paez",
+          "school": "",
+          "date": "2026-06-12",
+          "raw_date": "06/12/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "activism group",
+          "inv_status": "Completed"
+        },
+        {
+          "name": "Val S.",
+          "full_name_lower": "val salazar",
+          "school": "Lee's Summit Elementary",
+          "date": "2026-07-13",
+          "raw_date": "07/13/26",
+          "has_notes": true,
+          "has_si": false,
+          "self_interest_text": "",
+          "next_step_text": "",
+          "source": "Introduced to me by Molly",
+          "inv_status": "Completed"
+        }
+      ],
       "scheduled": [],
       "districts": [
         "LSR-7"
@@ -647,18 +922,27 @@
         "Volunteer - Support / show up": 2,
         "Unsure - Need to test/assess": 1
       },
-      "inv_statuses": {},
-      "source_buckets": {},
+      "inv_statuses": {
+        "Completed": 5,
+        "Declined": 6,
+        "Left Message - Waiting": 4
+      },
+      "source_buckets": {
+        "Advocacy / org": 7,
+        "Friend / family": 6,
+        "School / PTA": 1,
+        "Other": 1
+      },
       "chains": [],
       "chain_total": 0,
       "leader_count": 3,
       "ranked_leader_count": 3,
-      "prospect_count": 0,
-      "completed_count": 0,
+      "prospect_count": 15,
+      "completed_count": 6,
       "scheduled_count": 0,
-      "notes_count": 0,
-      "si_count": 0,
-      "status": "partial"
+      "notes_count": 5,
+      "si_count": 2,
+      "status": "active"
     },
     "Ashley S": {
       "name": "Ashley S",
@@ -11538,14 +11822,14 @@
   "totals": {
     "fellows": 16,
     "fellows_with_data": 16,
-    "fellows_with_completed": 14,
+    "fellows_with_completed": 15,
     "leaders": 189,
     "leaders_ranked": 159,
-    "prospects": 521,
-    "completed": 173,
+    "prospects": 536,
+    "completed": 179,
     "scheduled": 6,
-    "with_notes": 138,
-    "with_si": 127
+    "with_notes": 143,
+    "with_si": 129
   },
   "all_completed": [],
   "schools_to_fellows": {
@@ -11590,6 +11874,31 @@
     ],
     "previous east high teacher": [
       "AJ"
+    ],
+    "lee's summit north high": [
+      "Amber"
+    ],
+    "lee's summit north": [
+      "Amber"
+    ],
+    "greenwood elementary": [
+      "Amber"
+    ],
+    "meadow lane elementary": [
+      "Amber",
+      "Amber"
+    ],
+    "miller park": [
+      "Amber"
+    ],
+    "son is grown, but wants to amplify messaging": [
+      "Amber"
+    ],
+    "moved out of lsr-7": [
+      "Amber"
+    ],
+    "lee's summit elementary": [
+      "Amber"
     ],
     "lincoln middle": [
       "Ashley S",
@@ -12083,12 +12392,12 @@
     ]
   },
   "source_buckets": {
-    "Advocacy / org": 24,
+    "Advocacy / org": 31,
     "Event / forum": 39,
-    "Other": 61,
-    "School / PTA": 53,
+    "Other": 62,
+    "School / PTA": 54,
+    "Friend / family": 31,
     "Chain referral": 73,
-    "Friend / family": 25,
     "Online": 35,
     "Church / faith": 14,
     "Work": 7
