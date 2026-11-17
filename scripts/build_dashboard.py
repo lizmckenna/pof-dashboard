@@ -908,7 +908,12 @@ def main():
     curr_path = DATA_DIR / "data.json"
     if curr_path.exists():
         prev_path.write_text(curr_path.read_text())
-    curr_path.write_text(json.dumps(data, indent=2, default=str))
+    # This repo is public and index.html is fully rendered here at build time,
+    # so nothing in a browser ever reads this file. Only the totals get written:
+    # compute_deltas reads prev["totals"] and nothing else. Per-person records,
+    # which carry real parent names, stay in memory and never reach the repo.
+    public = {"as_of": data.get("as_of"), "totals": data["totals"]}
+    curr_path.write_text(json.dumps(public, indent=2, default=str))
     print(f"→ Wrote {curr_path}", file=sys.stderr)
     history = save_history(data)
 
